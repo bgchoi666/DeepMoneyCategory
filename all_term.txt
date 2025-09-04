@@ -1,0 +1,24 @@
+ #train target 汽戚斗 持失
+  train_target_raw = raw_df.values[0: test_start_index - config.step_interval * (config.num_steps-1), config.input_size+1]
+  train_target = []
+  for i in range(len(train_target_raw)-config.predict_term):
+    if config.conversion == 'diff': train_target.append(train_target_raw[i+config.predict_term]-train_target_raw[i])
+    if config.conversion == 'rate': train_target.append((train_target_raw[i+config.predict_term]-train_target_raw[i])/train_target_raw[i]*100)
+    if config.conversion == 'norm': train_target.append((train_target_raw[i+config.predict_term] - 67)/30)
+  #input + target train data 持失
+  train_target = np.reshape(train_target, (-1, 1))
+  train_data = np.concatenate((train_data, train_target), axis=1)
+
+  #test input data 持失
+  test_data = raw_df.values[test_start_index - config.step_interval * (config.num_steps-1): test_end_index + 1, input_target_list]
+
+  #test target data 持失
+  test_target_raw = raw_df.values[test_start_index - config.step_interval * (config.num_steps-1): test_end_index + 1 + config.predict_term, config.input_size+1]
+  test_target = []
+  for i in range(len(test_target_raw)-config.predict_term):
+    if config.conversion == 'diff': test_target.append(test_target_raw[i+config.predict_term]-test_target_raw[i])
+    if config.conversion == 'rate': test_target.append((test_target_raw[i+config.predict_term]-test_target_raw[i])/test_target_raw[i]*100)
+    if config.conversion == 'norm': test_target.append((test_target_raw[i + config.predict_term] - 67) / 30)
+  #input + target test data 持失
+  test_target = np.reshape(test_target, (-1, 1))
+  test_data = np.concatenate((test_data, test_target), axis=1)
