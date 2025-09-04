@@ -1,0 +1,267 @@
+2019-08-27 21: 01: 14 > train term 1:1996-12-20~2019-08-26
+2019-08-27 21: 01: 14 > train term 2:1996-12-20~2019-08-26
+2019-08-27 21: 01: 14 > 2019 08 27 21 01 14
+2019-08-27 21: 01: 14 > ======================no-ensemble predict start ===========================
+2019-08-27 21: 23: 34 > train term 1:1996-12-20~2019-08-26
+2019-08-27 21: 23: 34 > train term 2:1996-12-20~2019-08-26
+2019-08-27 21: 23: 34 > 2019 08 27 21 23 34
+2019-08-27 21: 23: 34 > ====================== ensemble predict start ===========================
+2019-08-27 21: 24: 22 > train term 1:1996-12-20~2019-08-26
+2019-08-27 21: 24: 22 > train term 2:1996-12-20~2019-08-26
+2019-08-27 21: 24: 22 > 2019 08 27 21 24 22
+2019-08-27 21: 24: 22 > ====================== ensemble predict start ===========================
+2019-08-27 21: 24: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001947A3C9F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 24: 22 > mode; created, model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_
+2019-08-27 21: 24: 25 > 2019 08 27 21 24 25
+2019-08-27 21: 24: 25 > ====================== predict start ===========================
+2019-08-27 21: 24: 33 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_, running initialization to predict.
+2019-08-27 21: 24: 33 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 24: 33 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 24: 33 > Calling model_fn.
+2019-08-27 21: 24: 37 > Done calling model_fn.
+2019-08-27 21: 24: 37 > Graph was finalized.
+2019-08-27 21: 24: 37 > Running local_init_op.
+2019-08-27 21: 24: 37 > Done running local_init_op.
+2019-08-27 21: 24: 37 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 24: 38 > 2019 08 27 21 24 38
+2019-08-27 21: 24: 38 > ====================== predict end ===========================
+2019-08-27 21: 37: 10 > train term 1:1996-12-20~2019-08-26
+2019-08-27 21: 37: 10 > train term 2:1996-12-20~2019-08-26
+2019-08-27 21: 37: 10 > 2019 08 27 21 37 10
+2019-08-27 21: 37: 10 > ====================== ensemble predict start ===========================
+2019-08-27 21: 37: 10 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825172755', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000194EAC49F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 37: 10 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825172755
+2019-08-27 21: 37: 10 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825124439', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000194EAC6C908>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 37: 10 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825124439
+2019-08-27 21: 37: 10 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825104610', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000194EAC6CBA8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 37: 10 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825104610
+2019-08-27 21: 37: 10 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190824071612', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000194EAC6CE48>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 37: 10 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190824071612
+2019-08-27 21: 37: 13 > 2019 08 27 21 37 13
+2019-08-27 21: 37: 13 > ====================== predict start ===========================
+2019-08-27 21: 37: 13 > 2019 08 27 21 37 13
+2019-08-27 21: 37: 13 > ====================== predict start ===========================
+2019-08-27 21: 37: 13 > 2019 08 27 21 37 13
+2019-08-27 21: 37: 13 > ====================== predict start ===========================
+2019-08-27 21: 37: 13 > 2019 08 27 21 37 13
+2019-08-27 21: 37: 13 > ====================== predict start ===========================
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > Calling model_fn.
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > Calling model_fn.
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 34 > Calling model_fn.
+2019-08-27 21: 37: 34 > Calling model_fn.
+2019-08-27 21: 37: 41 > Done calling model_fn.
+2019-08-27 21: 37: 41 > Done calling model_fn.
+2019-08-27 21: 37: 41 > Done calling model_fn.
+2019-08-27 21: 37: 41 > Graph was finalized.
+2019-08-27 21: 37: 41 > Done calling model_fn.
+2019-08-27 21: 37: 41 > Graph was finalized.
+2019-08-27 21: 37: 41 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825172755\model.ckpt-11800
+2019-08-27 21: 37: 41 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825124439\model.ckpt-11800
+2019-08-27 21: 37: 41 > Graph was finalized.
+2019-08-27 21: 37: 41 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825104610\model.ckpt-5800
+2019-08-27 21: 37: 41 > Graph was finalized.
+2019-08-27 21: 37: 41 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190824071612\model.ckpt-12400
+2019-08-27 21: 37: 41 > Running local_init_op.
+2019-08-27 21: 37: 41 > Running local_init_op.
+2019-08-27 21: 37: 41 > Done running local_init_op.
+2019-08-27 21: 37: 41 > Running local_init_op.
+2019-08-27 21: 37: 41 > Done running local_init_op.
+2019-08-27 21: 37: 41 > Done running local_init_op.
+2019-08-27 21: 37: 41 > Running local_init_op.
+2019-08-27 21: 37: 41 > Done running local_init_op.
+2019-08-27 21: 37: 41 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 41 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 41 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 41 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 37: 43 > 2019 08 27 21 37 43
+2019-08-27 21: 37: 43 > ====================== predict end ===========================
+2019-08-27 21: 37: 43 > 2019 08 27 21 37 43
+2019-08-27 21: 37: 43 > ====================== predict end ===========================
+2019-08-27 21: 37: 43 > 2019 08 27 21 37 43
+2019-08-27 21: 37: 43 > ====================== predict end ===========================
+2019-08-27 21: 37: 43 > 2019 08 27 21 37 43
+2019-08-27 21: 37: 43 > ====================== predict end ===========================
+2019-08-27 21: 37: 44 > 2019 08 27 21 37 44
+2019-08-27 21: 37: 44 > ====================== ensemble predict end, saving the results ===========================
+2019-08-27 21: 44: 00 > train term 1:1996-12-20~2019-08-26
+2019-08-27 21: 44: 00 > train term 2:1996-12-20~2019-08-26
+2019-08-27 21: 44: 00 > 2019 08 27 21 44 00
+2019-08-27 21: 44: 00 > ====================== ensemble predict start ===========================
+2019-08-27 21: 44: 00 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825172755', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000027AD786AEF0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 44: 00 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825172755
+2019-08-27 21: 44: 00 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825124439', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000027AD788A898>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 44: 00 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825124439
+2019-08-27 21: 44: 00 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825104610', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000027AD788AB38>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 44: 00 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825104610
+2019-08-27 21: 44: 00 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190824071612', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000027AD788ADD8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 21: 44: 00 > mode; created, model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190824071612
+2019-08-27 21: 44: 03 > 2019 08 27 21 44 03
+2019-08-27 21: 44: 03 > ====================== predict start ===========================
+2019-08-27 21: 44: 03 > 2019 08 27 21 44 03
+2019-08-27 21: 44: 03 > ====================== predict start ===========================
+2019-08-27 21: 44: 03 > 2019 08 27 21 44 03
+2019-08-27 21: 44: 03 > ====================== predict start ===========================
+2019-08-27 21: 44: 03 > 2019 08 27 21 44 03
+2019-08-27 21: 44: 03 > ====================== predict start ===========================
+2019-08-27 21: 44: 21 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 21 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 21 > Calling model_fn.
+2019-08-27 21: 44: 22 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 22 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 22 > Calling model_fn.
+2019-08-27 21: 44: 22 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 22 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 22 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 22 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 22 > Calling model_fn.
+2019-08-27 21: 44: 22 > Calling model_fn.
+2019-08-27 21: 44: 26 > Done calling model_fn.
+2019-08-27 21: 44: 26 > Done calling model_fn.
+2019-08-27 21: 44: 26 > Graph was finalized.
+2019-08-27 21: 44: 26 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825124439\model.ckpt-11800
+2019-08-27 21: 44: 26 > Running local_init_op.
+2019-08-27 21: 44: 26 > Graph was finalized.
+2019-08-27 21: 44: 26 > Done running local_init_op.
+2019-08-27 21: 44: 26 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825104610\model.ckpt-5800
+2019-08-27 21: 44: 26 > Running local_init_op.
+2019-08-27 21: 44: 26 > Done calling model_fn.
+2019-08-27 21: 44: 26 > Done running local_init_op.
+2019-08-27 21: 44: 26 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 26 > Done calling model_fn.
+2019-08-27 21: 44: 27 > Graph was finalized.
+2019-08-27 21: 44: 27 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 27 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190825172755\model.ckpt-11800
+2019-08-27 21: 44: 27 > Graph was finalized.
+2019-08-27 21: 44: 27 > Running local_init_op.
+2019-08-27 21: 44: 27 > Done running local_init_op.
+2019-08-27 21: 44: 27 > Restoring parameters from model_dir/v5_0_1_1999_2018/kospi200f_1_1_20_500_20_20190824071612\model.ckpt-12400
+2019-08-27 21: 44: 27 > Running local_init_op.
+2019-08-27 21: 44: 27 > Done running local_init_op.
+2019-08-27 21: 44: 27 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 27 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 21: 44: 27 > 2019 08 27 21 44 27
+2019-08-27 21: 44: 27 > ====================== predict end ===========================
+2019-08-27 21: 44: 28 > 2019 08 27 21 44 28
+2019-08-27 21: 44: 28 > ====================== predict end ===========================
+2019-08-27 21: 44: 28 > 2019 08 27 21 44 28
+2019-08-27 21: 44: 28 > ====================== predict end ===========================
+2019-08-27 21: 44: 29 > 2019 08 27 21 44 29
+2019-08-27 21: 44: 29 > ====================== predict end ===========================
+2019-08-27 21: 44: 29 > 2019 08 27 21 44 29
+2019-08-27 21: 44: 29 > ====================== ensemble predict end, saving the results ===========================

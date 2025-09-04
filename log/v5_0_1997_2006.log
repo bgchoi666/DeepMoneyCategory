@@ -1,0 +1,16 @@
+2019-08-13 09: 02: 47 > train term 1:1991-01-01~2006-12-31
+2019-08-13 09: 02: 47 > train term 2:1991-01-01~1996-12-31
+2019-08-13 09: 02: 47 > 2019 08 13 09 02 47
+2019-08-13 09: 02: 47 > ======================no-ensemble train-predict start ===========================
+2019-08-13 09: 02: 47 > Using config: {'_model_dir': 'model_dir/v5_0_1997_2006/kospi200f_1_1_20_500_20_20190813090247', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001FB158DCF60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-13 09: 02: 47 > model created: model_dir/v5_0_1997_2006/kospi200f_1_1_20_500_20_20190813090247
+2019-08-13 09: 02: 47 > 2019 08 13 09 02 47
+2019-08-13 09: 02: 47 > 2019 08 13 09 02 47
+2019-08-13 09: 02: 47 > ====================== gradual train start #0 ===========================
+2019-08-13 09: 02: 47 > ====================== gradual train start #0 ===========================

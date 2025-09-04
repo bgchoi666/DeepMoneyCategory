@@ -1,0 +1,1842 @@
+2019-08-27 22: 22: 48 > train term 1:1996-12-20~2019-08-26
+2019-08-27 22: 22: 48 > train term 2:1996-12-20~2019-08-26
+2019-08-27 22: 22: 48 > 2019 08 27 22 22 48
+2019-08-27 22: 22: 48 > ======================no-ensemble predict start ===========================
+2019-08-27 22: 23: 30 > train term 1:1996-12-20~2019-08-26
+2019-08-27 22: 23: 30 > train term 2:1996-12-20~2019-08-26
+2019-08-27 22: 23: 30 > 2019 08 27 22 23 30
+2019-08-27 22: 23: 30 > ======================no-ensemble predict start ===========================
+2019-08-27 22: 23: 30 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222330', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000025E231FCEB8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 23: 30 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222330
+2019-08-27 22: 23: 30 > 2019 08 27 22 23 30
+2019-08-27 22: 23: 30 > 2019 08 27 22 23 30
+2019-08-27 22: 23: 30 > ====================== predict start ===========================
+2019-08-27 22: 23: 30 > ====================== predict start ===========================
+2019-08-27 22: 23: 38 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222330, running initialization to predict.
+2019-08-27 22: 23: 38 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222330, running initialization to predict.
+2019-08-27 22: 23: 38 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 23: 38 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 23: 38 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 23: 38 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 23: 38 > Calling model_fn.
+2019-08-27 22: 23: 38 > Calling model_fn.
+2019-08-27 22: 23: 42 > Done calling model_fn.
+2019-08-27 22: 23: 42 > Done calling model_fn.
+2019-08-27 22: 23: 42 > Graph was finalized.
+2019-08-27 22: 23: 42 > Graph was finalized.
+2019-08-27 22: 23: 42 > Running local_init_op.
+2019-08-27 22: 23: 42 > Running local_init_op.
+2019-08-27 22: 23: 42 > Done running local_init_op.
+2019-08-27 22: 23: 42 > Done running local_init_op.
+2019-08-27 22: 23: 42 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 23: 42 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 23: 42 > 2019 08 27 22 23 42
+2019-08-27 22: 23: 42 > 2019 08 27 22 23 42
+2019-08-27 22: 23: 42 > ====================== predict end ===========================
+2019-08-27 22: 23: 42 > ====================== predict end ===========================
+2019-08-27 22: 23: 43 > 2019 08 27 22 23 43
+2019-08-27 22: 23: 43 > 2019 08 27 22 23 43
+2019-08-27 22: 23: 43 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 23: 43 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 25: 34 > train term 1:1996-12-20~2019-08-26
+2019-08-27 22: 25: 34 > train term 2:1996-12-20~2019-08-26
+2019-08-27 22: 25: 34 > 2019 08 27 22 25 34
+2019-08-27 22: 25: 34 > ======================no-ensemble predict start ===========================
+2019-08-27 22: 25: 34 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222534', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000015E000C9EB8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 25: 34 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222534
+2019-08-27 22: 25: 34 > 2019 08 27 22 25 34
+2019-08-27 22: 25: 34 > 2019 08 27 22 25 34
+2019-08-27 22: 25: 34 > ====================== predict start ===========================
+2019-08-27 22: 25: 34 > ====================== predict start ===========================
+2019-08-27 22: 25: 42 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222534, running initialization to predict.
+2019-08-27 22: 25: 42 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827222534, running initialization to predict.
+2019-08-27 22: 25: 42 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 25: 42 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 25: 42 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 25: 42 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 25: 42 > Calling model_fn.
+2019-08-27 22: 25: 42 > Calling model_fn.
+2019-08-27 22: 25: 45 > Done calling model_fn.
+2019-08-27 22: 25: 45 > Done calling model_fn.
+2019-08-27 22: 25: 45 > Graph was finalized.
+2019-08-27 22: 25: 45 > Graph was finalized.
+2019-08-27 22: 25: 45 > Running local_init_op.
+2019-08-27 22: 25: 45 > Running local_init_op.
+2019-08-27 22: 25: 45 > Done running local_init_op.
+2019-08-27 22: 25: 45 > Done running local_init_op.
+2019-08-27 22: 25: 45 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 25: 45 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 25: 46 > 2019 08 27 22 25 46
+2019-08-27 22: 25: 46 > 2019 08 27 22 25 46
+2019-08-27 22: 25: 46 > ====================== predict end ===========================
+2019-08-27 22: 25: 46 > ====================== predict end ===========================
+2019-08-27 22: 25: 46 > 2019 08 27 22 25 46
+2019-08-27 22: 25: 46 > 2019 08 27 22 25 46
+2019-08-27 22: 25: 46 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 25: 46 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 33: 57 > train term 1:1996-12-20~2019-08-26
+2019-08-27 22: 33: 57 > train term 2:1996-12-20~2019-08-26
+2019-08-27 22: 33: 57 > 2019 08 27 22 33 57
+2019-08-27 22: 33: 57 > ======================no-ensemble predict start ===========================
+2019-08-27 22: 33: 57 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827223357', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001F7E9787AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 33: 57 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827223357
+2019-08-27 22: 33: 57 > 2019 08 27 22 33 57
+2019-08-27 22: 33: 57 > 2019 08 27 22 33 57
+2019-08-27 22: 33: 57 > ====================== predict start ===========================
+2019-08-27 22: 33: 57 > ====================== predict start ===========================
+2019-08-27 22: 34: 05 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827223357, running initialization to predict.
+2019-08-27 22: 34: 05 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827223357, running initialization to predict.
+2019-08-27 22: 34: 05 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 34: 05 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 34: 05 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 34: 05 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 34: 05 > Calling model_fn.
+2019-08-27 22: 34: 05 > Calling model_fn.
+2019-08-27 22: 34: 08 > Done calling model_fn.
+2019-08-27 22: 34: 08 > Done calling model_fn.
+2019-08-27 22: 34: 08 > Graph was finalized.
+2019-08-27 22: 34: 08 > Graph was finalized.
+2019-08-27 22: 34: 08 > Running local_init_op.
+2019-08-27 22: 34: 08 > Running local_init_op.
+2019-08-27 22: 34: 08 > Done running local_init_op.
+2019-08-27 22: 34: 08 > Done running local_init_op.
+2019-08-27 22: 34: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 34: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 34: 09 > 2019 08 27 22 34 09
+2019-08-27 22: 34: 09 > 2019 08 27 22 34 09
+2019-08-27 22: 34: 09 > ====================== predict end ===========================
+2019-08-27 22: 34: 09 > ====================== predict end ===========================
+2019-08-27 22: 34: 09 > 2019 08 27 22 34 09
+2019-08-27 22: 34: 09 > 2019 08 27 22 34 09
+2019-08-27 22: 34: 09 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 34: 09 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 56: 12 > train term 1:1996-12-20~2019-08-26
+2019-08-27 22: 56: 12 > train term 2:1996-12-20~2019-08-26
+2019-08-27 22: 56: 12 > 2019 08 27 22 56 12
+2019-08-27 22: 56: 12 > ======================no-ensemble predict start ===========================
+2019-08-27 22: 56: 12 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225612', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BBFD6E8BE0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 12 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225612
+2019-08-27 22: 56: 12 > 2019 08 27 22 56 12
+2019-08-27 22: 56: 12 > 2019 08 27 22 56 12
+2019-08-27 22: 56: 12 > ====================== predict start ===========================
+2019-08-27 22: 56: 12 > ====================== predict start ===========================
+2019-08-27 22: 56: 20 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225612, running initialization to predict.
+2019-08-27 22: 56: 20 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225612, running initialization to predict.
+2019-08-27 22: 56: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 56: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 56: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 56: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 56: 20 > Calling model_fn.
+2019-08-27 22: 56: 20 > Calling model_fn.
+2019-08-27 22: 56: 24 > Done calling model_fn.
+2019-08-27 22: 56: 24 > Done calling model_fn.
+2019-08-27 22: 56: 24 > Graph was finalized.
+2019-08-27 22: 56: 24 > Graph was finalized.
+2019-08-27 22: 56: 24 > Running local_init_op.
+2019-08-27 22: 56: 24 > Running local_init_op.
+2019-08-27 22: 56: 24 > Done running local_init_op.
+2019-08-27 22: 56: 24 > Done running local_init_op.
+2019-08-27 22: 56: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 56: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 22: 56: 25 > 2019 08 27 22 56 25
+2019-08-27 22: 56: 25 > 2019 08 27 22 56 25
+2019-08-27 22: 56: 25 > ====================== predict end ===========================
+2019-08-27 22: 56: 25 > ====================== predict end ===========================
+2019-08-27 22: 56: 25 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225625', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BBB27C20B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 25 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225625', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BBB27C20B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 25 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225625
+2019-08-27 22: 56: 25 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225625
+2019-08-27 22: 56: 25 > 2019 08 27 22 56 25
+2019-08-27 22: 56: 25 > 2019 08 27 22 56 25
+2019-08-27 22: 56: 25 > 2019 08 27 22 56 25
+2019-08-27 22: 56: 25 > ====================== predict start ===========================
+2019-08-27 22: 56: 25 > ====================== predict start ===========================
+2019-08-27 22: 56: 25 > ====================== predict start ===========================
+2019-08-27 22: 56: 33 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225625, running initialization to predict.
+2019-08-27 22: 56: 33 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225625, running initialization to predict.
+2019-08-27 22: 56: 33 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225625, running initialization to predict.
+2019-08-27 22: 56: 33 > Calling model_fn.
+2019-08-27 22: 56: 33 > Calling model_fn.
+2019-08-27 22: 56: 33 > Calling model_fn.
+2019-08-27 22: 56: 33 > Done calling model_fn.
+2019-08-27 22: 56: 33 > Done calling model_fn.
+2019-08-27 22: 56: 33 > Done calling model_fn.
+2019-08-27 22: 56: 33 > Graph was finalized.
+2019-08-27 22: 56: 33 > Graph was finalized.
+2019-08-27 22: 56: 33 > Graph was finalized.
+2019-08-27 22: 56: 33 > Running local_init_op.
+2019-08-27 22: 56: 33 > Running local_init_op.
+2019-08-27 22: 56: 33 > Running local_init_op.
+2019-08-27 22: 56: 33 > Done running local_init_op.
+2019-08-27 22: 56: 33 > Done running local_init_op.
+2019-08-27 22: 56: 33 > Done running local_init_op.
+2019-08-27 22: 56: 34 > 2019 08 27 22 56 34
+2019-08-27 22: 56: 34 > 2019 08 27 22 56 34
+2019-08-27 22: 56: 34 > 2019 08 27 22 56 34
+2019-08-27 22: 56: 34 > ====================== predict end ===========================
+2019-08-27 22: 56: 34 > ====================== predict end ===========================
+2019-08-27 22: 56: 34 > ====================== predict end ===========================
+2019-08-27 22: 56: 34 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BB98766AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 34 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BB98766AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 34 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BB98766AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 34 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634
+2019-08-27 22: 56: 34 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634
+2019-08-27 22: 56: 34 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634
+2019-08-27 22: 56: 34 > 2019 08 27 22 56 34
+2019-08-27 22: 56: 34 > 2019 08 27 22 56 34
+2019-08-27 22: 56: 34 > 2019 08 27 22 56 34
+2019-08-27 22: 56: 34 > 2019 08 27 22 56 34
+2019-08-27 22: 56: 34 > ====================== predict start ===========================
+2019-08-27 22: 56: 34 > ====================== predict start ===========================
+2019-08-27 22: 56: 34 > ====================== predict start ===========================
+2019-08-27 22: 56: 34 > ====================== predict start ===========================
+2019-08-27 22: 56: 42 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634, running initialization to predict.
+2019-08-27 22: 56: 42 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634, running initialization to predict.
+2019-08-27 22: 56: 42 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634, running initialization to predict.
+2019-08-27 22: 56: 42 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225634, running initialization to predict.
+2019-08-27 22: 56: 42 > Calling model_fn.
+2019-08-27 22: 56: 42 > Calling model_fn.
+2019-08-27 22: 56: 42 > Calling model_fn.
+2019-08-27 22: 56: 42 > Calling model_fn.
+2019-08-27 22: 56: 42 > Done calling model_fn.
+2019-08-27 22: 56: 42 > Done calling model_fn.
+2019-08-27 22: 56: 42 > Done calling model_fn.
+2019-08-27 22: 56: 42 > Done calling model_fn.
+2019-08-27 22: 56: 42 > Graph was finalized.
+2019-08-27 22: 56: 42 > Graph was finalized.
+2019-08-27 22: 56: 42 > Graph was finalized.
+2019-08-27 22: 56: 42 > Graph was finalized.
+2019-08-27 22: 56: 42 > Running local_init_op.
+2019-08-27 22: 56: 42 > Running local_init_op.
+2019-08-27 22: 56: 42 > Running local_init_op.
+2019-08-27 22: 56: 42 > Running local_init_op.
+2019-08-27 22: 56: 42 > Done running local_init_op.
+2019-08-27 22: 56: 42 > Done running local_init_op.
+2019-08-27 22: 56: 42 > Done running local_init_op.
+2019-08-27 22: 56: 42 > Done running local_init_op.
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > ====================== predict end ===========================
+2019-08-27 22: 56: 43 > ====================== predict end ===========================
+2019-08-27 22: 56: 43 > ====================== predict end ===========================
+2019-08-27 22: 56: 43 > ====================== predict end ===========================
+2019-08-27 22: 56: 43 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BB8D509F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 43 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BB8D509F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 43 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BB8D509F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 43 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001BB8D509F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 22: 56: 43 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643
+2019-08-27 22: 56: 43 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643
+2019-08-27 22: 56: 43 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643
+2019-08-27 22: 56: 43 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > 2019 08 27 22 56 43
+2019-08-27 22: 56: 43 > ====================== predict start ===========================
+2019-08-27 22: 56: 43 > ====================== predict start ===========================
+2019-08-27 22: 56: 43 > ====================== predict start ===========================
+2019-08-27 22: 56: 43 > ====================== predict start ===========================
+2019-08-27 22: 56: 43 > ====================== predict start ===========================
+2019-08-27 22: 56: 51 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643, running initialization to predict.
+2019-08-27 22: 56: 51 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643, running initialization to predict.
+2019-08-27 22: 56: 51 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643, running initialization to predict.
+2019-08-27 22: 56: 51 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643, running initialization to predict.
+2019-08-27 22: 56: 51 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827225643, running initialization to predict.
+2019-08-27 22: 56: 51 > Calling model_fn.
+2019-08-27 22: 56: 51 > Calling model_fn.
+2019-08-27 22: 56: 51 > Calling model_fn.
+2019-08-27 22: 56: 51 > Calling model_fn.
+2019-08-27 22: 56: 51 > Calling model_fn.
+2019-08-27 22: 56: 51 > Done calling model_fn.
+2019-08-27 22: 56: 51 > Done calling model_fn.
+2019-08-27 22: 56: 51 > Done calling model_fn.
+2019-08-27 22: 56: 51 > Done calling model_fn.
+2019-08-27 22: 56: 51 > Done calling model_fn.
+2019-08-27 22: 56: 51 > Graph was finalized.
+2019-08-27 22: 56: 51 > Graph was finalized.
+2019-08-27 22: 56: 51 > Graph was finalized.
+2019-08-27 22: 56: 51 > Graph was finalized.
+2019-08-27 22: 56: 51 > Graph was finalized.
+2019-08-27 22: 56: 51 > Running local_init_op.
+2019-08-27 22: 56: 51 > Running local_init_op.
+2019-08-27 22: 56: 51 > Running local_init_op.
+2019-08-27 22: 56: 51 > Running local_init_op.
+2019-08-27 22: 56: 51 > Running local_init_op.
+2019-08-27 22: 56: 51 > Done running local_init_op.
+2019-08-27 22: 56: 51 > Done running local_init_op.
+2019-08-27 22: 56: 51 > Done running local_init_op.
+2019-08-27 22: 56: 51 > Done running local_init_op.
+2019-08-27 22: 56: 51 > Done running local_init_op.
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > ====================== predict end ===========================
+2019-08-27 22: 56: 52 > ====================== predict end ===========================
+2019-08-27 22: 56: 52 > ====================== predict end ===========================
+2019-08-27 22: 56: 52 > ====================== predict end ===========================
+2019-08-27 22: 56: 52 > ====================== predict end ===========================
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > 2019 08 27 22 56 52
+2019-08-27 22: 56: 52 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 56: 52 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 56: 52 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 56: 52 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 22: 56: 52 > ======================no-ensemble predict, saving the results ===========================
+2019-08-27 23: 01: 00 > train term 1:1996-12-20~2019-08-26
+2019-08-27 23: 01: 00 > train term 2:1996-12-20~2019-08-26
+2019-08-27 23: 01: 00 > 2019 08 27 23 01 00
+2019-08-27 23: 01: 00 > ======================predict start ===========================
+2019-08-27 23: 01: 00 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230100', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002332BAE9BE0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 01: 00 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230100
+2019-08-27 23: 01: 00 > 2019 08 27 23 01 00
+2019-08-27 23: 01: 00 > 2019 08 27 23 01 00
+2019-08-27 23: 01: 00 > ====================== predict 0 start ===========================
+2019-08-27 23: 01: 00 > ====================== predict 0 start ===========================
+2019-08-27 23: 01: 08 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230100, running initialization to predict.
+2019-08-27 23: 01: 08 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230100, running initialization to predict.
+2019-08-27 23: 01: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 01: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 01: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 01: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 01: 08 > Calling model_fn.
+2019-08-27 23: 01: 08 > Calling model_fn.
+2019-08-27 23: 01: 12 > Done calling model_fn.
+2019-08-27 23: 01: 12 > Done calling model_fn.
+2019-08-27 23: 01: 12 > Graph was finalized.
+2019-08-27 23: 01: 12 > Graph was finalized.
+2019-08-27 23: 01: 12 > Running local_init_op.
+2019-08-27 23: 01: 12 > Running local_init_op.
+2019-08-27 23: 01: 12 > Done running local_init_op.
+2019-08-27 23: 01: 12 > Done running local_init_op.
+2019-08-27 23: 01: 12 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 01: 12 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 01: 12 > 2019 08 27 23 01 12
+2019-08-27 23: 01: 12 > 2019 08 27 23 01 12
+2019-08-27 23: 01: 12 > ====================== predict 0 end ===========================
+2019-08-27 23: 01: 12 > ====================== predict 0 end ===========================
+2019-08-27 23: 01: 13 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230113', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002335F4220B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 01: 13 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230113', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002335F4220B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 01: 13 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230113
+2019-08-27 23: 01: 13 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827230113
+2019-08-27 23: 01: 13 > 2019 08 27 23 01 13
+2019-08-27 23: 01: 13 > 2019 08 27 23 01 13
+2019-08-27 23: 01: 13 > 2019 08 27 23 01 13
+2019-08-27 23: 01: 13 > ====================== predict 1 start ===========================
+2019-08-27 23: 01: 13 > ====================== predict 1 start ===========================
+2019-08-27 23: 01: 13 > ====================== predict 1 start ===========================
+2019-08-27 23: 25: 18 > train term 1:1996-12-20~2019-08-26
+2019-08-27 23: 25: 18 > train term 2:1996-12-20~2019-08-26
+2019-08-27 23: 25: 18 > 2019 08 27 23 25 18
+2019-08-27 23: 25: 18 > ======================predict start ===========================
+2019-08-27 23: 25: 18 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232518', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000029486E8ABE0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 18 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232518
+2019-08-27 23: 25: 18 > 2019 08 27 23 25 18
+2019-08-27 23: 25: 18 > 2019 08 27 23 25 18
+2019-08-27 23: 25: 18 > ====================== predict 0 start ===========================
+2019-08-27 23: 25: 18 > ====================== predict 0 start ===========================
+2019-08-27 23: 25: 26 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232518, running initialization to predict.
+2019-08-27 23: 25: 26 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232518, running initialization to predict.
+2019-08-27 23: 25: 26 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 25: 26 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 25: 26 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 25: 26 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 25: 26 > Calling model_fn.
+2019-08-27 23: 25: 26 > Calling model_fn.
+2019-08-27 23: 25: 29 > Done calling model_fn.
+2019-08-27 23: 25: 29 > Done calling model_fn.
+2019-08-27 23: 25: 29 > Graph was finalized.
+2019-08-27 23: 25: 29 > Graph was finalized.
+2019-08-27 23: 25: 29 > Running local_init_op.
+2019-08-27 23: 25: 29 > Running local_init_op.
+2019-08-27 23: 25: 30 > Done running local_init_op.
+2019-08-27 23: 25: 30 > Done running local_init_op.
+2019-08-27 23: 25: 30 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 25: 30 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-27 23: 25: 30 > 2019 08 27 23 25 30
+2019-08-27 23: 25: 30 > 2019 08 27 23 25 30
+2019-08-27 23: 25: 30 > ====================== predict 0 end ===========================
+2019-08-27 23: 25: 30 > ====================== predict 0 end ===========================
+2019-08-27 23: 25: 30 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232530', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294BA7620B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 30 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232530', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294BA7620B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 30 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232530
+2019-08-27 23: 25: 30 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232530
+2019-08-27 23: 25: 30 > 2019 08 27 23 25 30
+2019-08-27 23: 25: 30 > 2019 08 27 23 25 30
+2019-08-27 23: 25: 30 > 2019 08 27 23 25 30
+2019-08-27 23: 25: 30 > ====================== predict 1 start ===========================
+2019-08-27 23: 25: 30 > ====================== predict 1 start ===========================
+2019-08-27 23: 25: 30 > ====================== predict 1 start ===========================
+2019-08-27 23: 25: 38 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232530, running initialization to predict.
+2019-08-27 23: 25: 38 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232530, running initialization to predict.
+2019-08-27 23: 25: 38 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232530, running initialization to predict.
+2019-08-27 23: 25: 38 > Calling model_fn.
+2019-08-27 23: 25: 38 > Calling model_fn.
+2019-08-27 23: 25: 38 > Calling model_fn.
+2019-08-27 23: 25: 39 > Done calling model_fn.
+2019-08-27 23: 25: 39 > Done calling model_fn.
+2019-08-27 23: 25: 39 > Done calling model_fn.
+2019-08-27 23: 25: 39 > Graph was finalized.
+2019-08-27 23: 25: 39 > Graph was finalized.
+2019-08-27 23: 25: 39 > Graph was finalized.
+2019-08-27 23: 25: 39 > Running local_init_op.
+2019-08-27 23: 25: 39 > Running local_init_op.
+2019-08-27 23: 25: 39 > Running local_init_op.
+2019-08-27 23: 25: 39 > Done running local_init_op.
+2019-08-27 23: 25: 39 > Done running local_init_op.
+2019-08-27 23: 25: 39 > Done running local_init_op.
+2019-08-27 23: 25: 39 > 2019 08 27 23 25 39
+2019-08-27 23: 25: 39 > 2019 08 27 23 25 39
+2019-08-27 23: 25: 39 > 2019 08 27 23 25 39
+2019-08-27 23: 25: 39 > ====================== predict 1 end ===========================
+2019-08-27 23: 25: 39 > ====================== predict 1 end ===========================
+2019-08-27 23: 25: 39 > ====================== predict 1 end ===========================
+2019-08-27 23: 25: 39 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294A0554AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 39 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294A0554AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 39 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294A0554AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 39 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539
+2019-08-27 23: 25: 39 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539
+2019-08-27 23: 25: 39 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539
+2019-08-27 23: 25: 39 > 2019 08 27 23 25 39
+2019-08-27 23: 25: 39 > 2019 08 27 23 25 39
+2019-08-27 23: 25: 39 > 2019 08 27 23 25 39
+2019-08-27 23: 25: 39 > 2019 08 27 23 25 39
+2019-08-27 23: 25: 39 > ====================== predict 2 start ===========================
+2019-08-27 23: 25: 39 > ====================== predict 2 start ===========================
+2019-08-27 23: 25: 39 > ====================== predict 2 start ===========================
+2019-08-27 23: 25: 39 > ====================== predict 2 start ===========================
+2019-08-27 23: 25: 47 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539, running initialization to predict.
+2019-08-27 23: 25: 47 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539, running initialization to predict.
+2019-08-27 23: 25: 47 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539, running initialization to predict.
+2019-08-27 23: 25: 47 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232539, running initialization to predict.
+2019-08-27 23: 25: 47 > Calling model_fn.
+2019-08-27 23: 25: 47 > Calling model_fn.
+2019-08-27 23: 25: 47 > Calling model_fn.
+2019-08-27 23: 25: 47 > Calling model_fn.
+2019-08-27 23: 25: 48 > Done calling model_fn.
+2019-08-27 23: 25: 48 > Done calling model_fn.
+2019-08-27 23: 25: 48 > Done calling model_fn.
+2019-08-27 23: 25: 48 > Done calling model_fn.
+2019-08-27 23: 25: 48 > Graph was finalized.
+2019-08-27 23: 25: 48 > Graph was finalized.
+2019-08-27 23: 25: 48 > Graph was finalized.
+2019-08-27 23: 25: 48 > Graph was finalized.
+2019-08-27 23: 25: 48 > Running local_init_op.
+2019-08-27 23: 25: 48 > Running local_init_op.
+2019-08-27 23: 25: 48 > Running local_init_op.
+2019-08-27 23: 25: 48 > Running local_init_op.
+2019-08-27 23: 25: 48 > Done running local_init_op.
+2019-08-27 23: 25: 48 > Done running local_init_op.
+2019-08-27 23: 25: 48 > Done running local_init_op.
+2019-08-27 23: 25: 48 > Done running local_init_op.
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > ====================== predict 2 end ===========================
+2019-08-27 23: 25: 48 > ====================== predict 2 end ===========================
+2019-08-27 23: 25: 48 > ====================== predict 2 end ===========================
+2019-08-27 23: 25: 48 > ====================== predict 2 end ===========================
+2019-08-27 23: 25: 48 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294A04C9F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 48 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294A04C9F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 48 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294A04C9F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 48 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000294A04C9F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-27 23: 25: 48 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548
+2019-08-27 23: 25: 48 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548
+2019-08-27 23: 25: 48 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548
+2019-08-27 23: 25: 48 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > 2019 08 27 23 25 48
+2019-08-27 23: 25: 48 > ====================== predict 3 start ===========================
+2019-08-27 23: 25: 48 > ====================== predict 3 start ===========================
+2019-08-27 23: 25: 48 > ====================== predict 3 start ===========================
+2019-08-27 23: 25: 48 > ====================== predict 3 start ===========================
+2019-08-27 23: 25: 48 > ====================== predict 3 start ===========================
+2019-08-27 23: 25: 56 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548, running initialization to predict.
+2019-08-27 23: 25: 56 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548, running initialization to predict.
+2019-08-27 23: 25: 56 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548, running initialization to predict.
+2019-08-27 23: 25: 56 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548, running initialization to predict.
+2019-08-27 23: 25: 56 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190827232548, running initialization to predict.
+2019-08-27 23: 25: 56 > Calling model_fn.
+2019-08-27 23: 25: 56 > Calling model_fn.
+2019-08-27 23: 25: 56 > Calling model_fn.
+2019-08-27 23: 25: 56 > Calling model_fn.
+2019-08-27 23: 25: 56 > Calling model_fn.
+2019-08-27 23: 25: 57 > Done calling model_fn.
+2019-08-27 23: 25: 57 > Done calling model_fn.
+2019-08-27 23: 25: 57 > Done calling model_fn.
+2019-08-27 23: 25: 57 > Done calling model_fn.
+2019-08-27 23: 25: 57 > Done calling model_fn.
+2019-08-27 23: 25: 57 > Graph was finalized.
+2019-08-27 23: 25: 57 > Graph was finalized.
+2019-08-27 23: 25: 57 > Graph was finalized.
+2019-08-27 23: 25: 57 > Graph was finalized.
+2019-08-27 23: 25: 57 > Graph was finalized.
+2019-08-27 23: 25: 57 > Running local_init_op.
+2019-08-27 23: 25: 57 > Running local_init_op.
+2019-08-27 23: 25: 57 > Running local_init_op.
+2019-08-27 23: 25: 57 > Running local_init_op.
+2019-08-27 23: 25: 57 > Running local_init_op.
+2019-08-27 23: 25: 57 > Done running local_init_op.
+2019-08-27 23: 25: 57 > Done running local_init_op.
+2019-08-27 23: 25: 57 > Done running local_init_op.
+2019-08-27 23: 25: 57 > Done running local_init_op.
+2019-08-27 23: 25: 57 > Done running local_init_op.
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > ====================== predict 3 end ===========================
+2019-08-27 23: 25: 57 > ====================== predict 3 end ===========================
+2019-08-27 23: 25: 57 > ====================== predict 3 end ===========================
+2019-08-27 23: 25: 57 > ====================== predict 3 end ===========================
+2019-08-27 23: 25: 57 > ====================== predict 3 end ===========================
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > 2019 08 27 23 25 57
+2019-08-27 23: 25: 57 > ======================predict end, saving the results ===========================
+2019-08-27 23: 25: 57 > ======================predict end, saving the results ===========================
+2019-08-27 23: 25: 57 > ======================predict end, saving the results ===========================
+2019-08-27 23: 25: 57 > ======================predict end, saving the results ===========================
+2019-08-27 23: 25: 57 > ======================predict end, saving the results ===========================
+2019-08-28 05: 05: 48 > train term 1:1996-12-20~2019-08-26
+2019-08-28 05: 05: 48 > train term 2:1996-12-20~2019-08-26
+2019-08-28 05: 05: 48 > 2019 08 28 05 05 48
+2019-08-28 05: 05: 48 > ======================predict start ===========================
+2019-08-28 05: 05: 48 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050548', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0A687AC50>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 05: 48 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050548
+2019-08-28 05: 05: 48 > 2019 08 28 05 05 48
+2019-08-28 05: 05: 48 > 2019 08 28 05 05 48
+2019-08-28 05: 05: 48 > ====================== predict 0 start ===========================
+2019-08-28 05: 05: 48 > ====================== predict 0 start ===========================
+2019-08-28 05: 06: 12 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050548, running initialization to predict.
+2019-08-28 05: 06: 12 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050548, running initialization to predict.
+2019-08-28 05: 06: 13 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 06: 13 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 06: 13 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 06: 13 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 06: 13 > Calling model_fn.
+2019-08-28 05: 06: 13 > Calling model_fn.
+2019-08-28 05: 06: 26 > Done calling model_fn.
+2019-08-28 05: 06: 26 > Done calling model_fn.
+2019-08-28 05: 06: 26 > Graph was finalized.
+2019-08-28 05: 06: 26 > Graph was finalized.
+2019-08-28 05: 06: 27 > Running local_init_op.
+2019-08-28 05: 06: 27 > Running local_init_op.
+2019-08-28 05: 06: 27 > Done running local_init_op.
+2019-08-28 05: 06: 27 > Done running local_init_op.
+2019-08-28 05: 06: 27 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 06: 27 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 06: 28 > 2019 08 28 05 06 28
+2019-08-28 05: 06: 28 > 2019 08 28 05 06 28
+2019-08-28 05: 06: 28 > ====================== predict 0 end ===========================
+2019-08-28 05: 06: 28 > ====================== predict 0 end ===========================
+2019-08-28 05: 06: 28 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050628', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0DA152390>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 06: 28 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050628', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0DA152390>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 06: 28 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050628
+2019-08-28 05: 06: 28 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050628
+2019-08-28 05: 06: 28 > 2019 08 28 05 06 28
+2019-08-28 05: 06: 28 > 2019 08 28 05 06 28
+2019-08-28 05: 06: 28 > 2019 08 28 05 06 28
+2019-08-28 05: 06: 28 > ====================== predict 1 start ===========================
+2019-08-28 05: 06: 28 > ====================== predict 1 start ===========================
+2019-08-28 05: 06: 28 > ====================== predict 1 start ===========================
+2019-08-28 05: 06: 52 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050628, running initialization to predict.
+2019-08-28 05: 06: 52 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050628, running initialization to predict.
+2019-08-28 05: 06: 52 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050628, running initialization to predict.
+2019-08-28 05: 06: 52 > Calling model_fn.
+2019-08-28 05: 06: 52 > Calling model_fn.
+2019-08-28 05: 06: 52 > Calling model_fn.
+2019-08-28 05: 06: 53 > Done calling model_fn.
+2019-08-28 05: 06: 53 > Done calling model_fn.
+2019-08-28 05: 06: 53 > Done calling model_fn.
+2019-08-28 05: 06: 53 > Graph was finalized.
+2019-08-28 05: 06: 53 > Graph was finalized.
+2019-08-28 05: 06: 53 > Graph was finalized.
+2019-08-28 05: 06: 53 > Running local_init_op.
+2019-08-28 05: 06: 53 > Running local_init_op.
+2019-08-28 05: 06: 53 > Running local_init_op.
+2019-08-28 05: 06: 53 > Done running local_init_op.
+2019-08-28 05: 06: 53 > Done running local_init_op.
+2019-08-28 05: 06: 53 > Done running local_init_op.
+2019-08-28 05: 06: 54 > 2019 08 28 05 06 54
+2019-08-28 05: 06: 54 > 2019 08 28 05 06 54
+2019-08-28 05: 06: 54 > 2019 08 28 05 06 54
+2019-08-28 05: 06: 54 > ====================== predict 1 end ===========================
+2019-08-28 05: 06: 54 > ====================== predict 1 end ===========================
+2019-08-28 05: 06: 54 > ====================== predict 1 end ===========================
+2019-08-28 05: 06: 55 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0BD628B00>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 06: 55 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0BD628B00>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 06: 55 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0BD628B00>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 06: 55 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655
+2019-08-28 05: 06: 55 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655
+2019-08-28 05: 06: 55 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655
+2019-08-28 05: 06: 55 > 2019 08 28 05 06 55
+2019-08-28 05: 06: 55 > 2019 08 28 05 06 55
+2019-08-28 05: 06: 55 > 2019 08 28 05 06 55
+2019-08-28 05: 06: 55 > 2019 08 28 05 06 55
+2019-08-28 05: 06: 55 > ====================== predict 2 start ===========================
+2019-08-28 05: 06: 55 > ====================== predict 2 start ===========================
+2019-08-28 05: 06: 55 > ====================== predict 2 start ===========================
+2019-08-28 05: 06: 55 > ====================== predict 2 start ===========================
+2019-08-28 05: 07: 19 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655, running initialization to predict.
+2019-08-28 05: 07: 19 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655, running initialization to predict.
+2019-08-28 05: 07: 19 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655, running initialization to predict.
+2019-08-28 05: 07: 19 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050655, running initialization to predict.
+2019-08-28 05: 07: 19 > Calling model_fn.
+2019-08-28 05: 07: 19 > Calling model_fn.
+2019-08-28 05: 07: 19 > Calling model_fn.
+2019-08-28 05: 07: 19 > Calling model_fn.
+2019-08-28 05: 07: 20 > Done calling model_fn.
+2019-08-28 05: 07: 20 > Done calling model_fn.
+2019-08-28 05: 07: 20 > Done calling model_fn.
+2019-08-28 05: 07: 20 > Done calling model_fn.
+2019-08-28 05: 07: 20 > Graph was finalized.
+2019-08-28 05: 07: 20 > Graph was finalized.
+2019-08-28 05: 07: 20 > Graph was finalized.
+2019-08-28 05: 07: 20 > Graph was finalized.
+2019-08-28 05: 07: 20 > Running local_init_op.
+2019-08-28 05: 07: 20 > Running local_init_op.
+2019-08-28 05: 07: 20 > Running local_init_op.
+2019-08-28 05: 07: 20 > Running local_init_op.
+2019-08-28 05: 07: 20 > Done running local_init_op.
+2019-08-28 05: 07: 20 > Done running local_init_op.
+2019-08-28 05: 07: 20 > Done running local_init_op.
+2019-08-28 05: 07: 20 > Done running local_init_op.
+2019-08-28 05: 07: 21 > 2019 08 28 05 07 21
+2019-08-28 05: 07: 21 > 2019 08 28 05 07 21
+2019-08-28 05: 07: 21 > 2019 08 28 05 07 21
+2019-08-28 05: 07: 21 > 2019 08 28 05 07 21
+2019-08-28 05: 07: 21 > ====================== predict 2 end ===========================
+2019-08-28 05: 07: 21 > ====================== predict 2 end ===========================
+2019-08-28 05: 07: 21 > ====================== predict 2 end ===========================
+2019-08-28 05: 07: 21 > ====================== predict 2 end ===========================
+2019-08-28 05: 07: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0BD59AF98>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 07: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0BD59AF98>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 07: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0BD59AF98>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 07: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001D0BD59AF98>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 07: 22 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722
+2019-08-28 05: 07: 22 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722
+2019-08-28 05: 07: 22 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722
+2019-08-28 05: 07: 22 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722
+2019-08-28 05: 07: 22 > 2019 08 28 05 07 22
+2019-08-28 05: 07: 22 > 2019 08 28 05 07 22
+2019-08-28 05: 07: 22 > 2019 08 28 05 07 22
+2019-08-28 05: 07: 22 > 2019 08 28 05 07 22
+2019-08-28 05: 07: 22 > 2019 08 28 05 07 22
+2019-08-28 05: 07: 22 > ====================== predict 3 start ===========================
+2019-08-28 05: 07: 22 > ====================== predict 3 start ===========================
+2019-08-28 05: 07: 22 > ====================== predict 3 start ===========================
+2019-08-28 05: 07: 22 > ====================== predict 3 start ===========================
+2019-08-28 05: 07: 22 > ====================== predict 3 start ===========================
+2019-08-28 05: 07: 46 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722, running initialization to predict.
+2019-08-28 05: 07: 46 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722, running initialization to predict.
+2019-08-28 05: 07: 46 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722, running initialization to predict.
+2019-08-28 05: 07: 46 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722, running initialization to predict.
+2019-08-28 05: 07: 46 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828050722, running initialization to predict.
+2019-08-28 05: 07: 46 > Calling model_fn.
+2019-08-28 05: 07: 46 > Calling model_fn.
+2019-08-28 05: 07: 46 > Calling model_fn.
+2019-08-28 05: 07: 46 > Calling model_fn.
+2019-08-28 05: 07: 46 > Calling model_fn.
+2019-08-28 05: 07: 47 > Done calling model_fn.
+2019-08-28 05: 07: 47 > Done calling model_fn.
+2019-08-28 05: 07: 47 > Done calling model_fn.
+2019-08-28 05: 07: 47 > Done calling model_fn.
+2019-08-28 05: 07: 47 > Done calling model_fn.
+2019-08-28 05: 07: 47 > Graph was finalized.
+2019-08-28 05: 07: 47 > Graph was finalized.
+2019-08-28 05: 07: 47 > Graph was finalized.
+2019-08-28 05: 07: 47 > Graph was finalized.
+2019-08-28 05: 07: 47 > Graph was finalized.
+2019-08-28 05: 07: 48 > Running local_init_op.
+2019-08-28 05: 07: 48 > Running local_init_op.
+2019-08-28 05: 07: 48 > Running local_init_op.
+2019-08-28 05: 07: 48 > Running local_init_op.
+2019-08-28 05: 07: 48 > Running local_init_op.
+2019-08-28 05: 07: 48 > Done running local_init_op.
+2019-08-28 05: 07: 48 > Done running local_init_op.
+2019-08-28 05: 07: 48 > Done running local_init_op.
+2019-08-28 05: 07: 48 > Done running local_init_op.
+2019-08-28 05: 07: 48 > Done running local_init_op.
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > ====================== predict 3 end ===========================
+2019-08-28 05: 07: 49 > ====================== predict 3 end ===========================
+2019-08-28 05: 07: 49 > ====================== predict 3 end ===========================
+2019-08-28 05: 07: 49 > ====================== predict 3 end ===========================
+2019-08-28 05: 07: 49 > ====================== predict 3 end ===========================
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > 2019 08 28 05 07 49
+2019-08-28 05: 07: 49 > ======================predict end, saving the results ===========================
+2019-08-28 05: 07: 49 > ======================predict end, saving the results ===========================
+2019-08-28 05: 07: 49 > ======================predict end, saving the results ===========================
+2019-08-28 05: 07: 49 > ======================predict end, saving the results ===========================
+2019-08-28 05: 07: 49 > ======================predict end, saving the results ===========================
+2019-08-28 05: 13: 44 > train term 1:1996-12-20~2019-08-27
+2019-08-28 05: 13: 44 > train term 2:1996-12-20~2019-08-27
+2019-08-28 05: 13: 44 > 2019 08 28 05 13 44
+2019-08-28 05: 13: 44 > ======================predict start ===========================
+2019-08-28 05: 13: 44 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051344', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF4D6BABE0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 13: 44 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051344
+2019-08-28 05: 13: 44 > 2019 08 28 05 13 44
+2019-08-28 05: 13: 44 > 2019 08 28 05 13 44
+2019-08-28 05: 13: 44 > ====================== predict 0 start ===========================
+2019-08-28 05: 13: 44 > ====================== predict 0 start ===========================
+2019-08-28 05: 13: 53 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051344, running initialization to predict.
+2019-08-28 05: 13: 53 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051344, running initialization to predict.
+2019-08-28 05: 13: 53 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 13: 53 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 13: 53 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 13: 53 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 13: 53 > Calling model_fn.
+2019-08-28 05: 13: 53 > Calling model_fn.
+2019-08-28 05: 13: 56 > Done calling model_fn.
+2019-08-28 05: 13: 56 > Done calling model_fn.
+2019-08-28 05: 13: 56 > Graph was finalized.
+2019-08-28 05: 13: 56 > Graph was finalized.
+2019-08-28 05: 13: 56 > Running local_init_op.
+2019-08-28 05: 13: 56 > Running local_init_op.
+2019-08-28 05: 13: 56 > Done running local_init_op.
+2019-08-28 05: 13: 56 > Done running local_init_op.
+2019-08-28 05: 13: 56 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 13: 56 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 13: 57 > 2019 08 28 05 13 57
+2019-08-28 05: 13: 57 > 2019 08 28 05 13 57
+2019-08-28 05: 13: 57 > ====================== predict 0 end ===========================
+2019-08-28 05: 13: 57 > ====================== predict 0 end ===========================
+2019-08-28 05: 13: 57 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051357', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF00FF20B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 13: 57 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051357', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF00FF20B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 13: 57 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051357
+2019-08-28 05: 13: 57 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051357
+2019-08-28 05: 13: 57 > 2019 08 28 05 13 57
+2019-08-28 05: 13: 57 > 2019 08 28 05 13 57
+2019-08-28 05: 13: 57 > 2019 08 28 05 13 57
+2019-08-28 05: 13: 57 > ====================== predict 1 start ===========================
+2019-08-28 05: 13: 57 > ====================== predict 1 start ===========================
+2019-08-28 05: 13: 57 > ====================== predict 1 start ===========================
+2019-08-28 05: 14: 06 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051357, running initialization to predict.
+2019-08-28 05: 14: 06 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051357, running initialization to predict.
+2019-08-28 05: 14: 06 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051357, running initialization to predict.
+2019-08-28 05: 14: 06 > Calling model_fn.
+2019-08-28 05: 14: 06 > Calling model_fn.
+2019-08-28 05: 14: 06 > Calling model_fn.
+2019-08-28 05: 14: 06 > Done calling model_fn.
+2019-08-28 05: 14: 06 > Done calling model_fn.
+2019-08-28 05: 14: 06 > Done calling model_fn.
+2019-08-28 05: 14: 06 > Graph was finalized.
+2019-08-28 05: 14: 06 > Graph was finalized.
+2019-08-28 05: 14: 06 > Graph was finalized.
+2019-08-28 05: 14: 06 > Running local_init_op.
+2019-08-28 05: 14: 06 > Running local_init_op.
+2019-08-28 05: 14: 06 > Running local_init_op.
+2019-08-28 05: 14: 06 > Done running local_init_op.
+2019-08-28 05: 14: 06 > Done running local_init_op.
+2019-08-28 05: 14: 06 > Done running local_init_op.
+2019-08-28 05: 14: 07 > 2019 08 28 05 14 07
+2019-08-28 05: 14: 07 > 2019 08 28 05 14 07
+2019-08-28 05: 14: 07 > 2019 08 28 05 14 07
+2019-08-28 05: 14: 07 > ====================== predict 1 end ===========================
+2019-08-28 05: 14: 07 > ====================== predict 1 end ===========================
+2019-08-28 05: 14: 07 > ====================== predict 1 end ===========================
+2019-08-28 05: 14: 07 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF19259AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 14: 07 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF19259AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 14: 07 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF19259AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 14: 07 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407
+2019-08-28 05: 14: 07 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407
+2019-08-28 05: 14: 07 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407
+2019-08-28 05: 14: 07 > 2019 08 28 05 14 07
+2019-08-28 05: 14: 07 > 2019 08 28 05 14 07
+2019-08-28 05: 14: 07 > 2019 08 28 05 14 07
+2019-08-28 05: 14: 07 > 2019 08 28 05 14 07
+2019-08-28 05: 14: 07 > ====================== predict 2 start ===========================
+2019-08-28 05: 14: 07 > ====================== predict 2 start ===========================
+2019-08-28 05: 14: 07 > ====================== predict 2 start ===========================
+2019-08-28 05: 14: 07 > ====================== predict 2 start ===========================
+2019-08-28 05: 14: 15 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407, running initialization to predict.
+2019-08-28 05: 14: 15 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407, running initialization to predict.
+2019-08-28 05: 14: 15 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407, running initialization to predict.
+2019-08-28 05: 14: 15 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051407, running initialization to predict.
+2019-08-28 05: 14: 15 > Calling model_fn.
+2019-08-28 05: 14: 15 > Calling model_fn.
+2019-08-28 05: 14: 15 > Calling model_fn.
+2019-08-28 05: 14: 15 > Calling model_fn.
+2019-08-28 05: 14: 15 > Done calling model_fn.
+2019-08-28 05: 14: 15 > Done calling model_fn.
+2019-08-28 05: 14: 15 > Done calling model_fn.
+2019-08-28 05: 14: 15 > Done calling model_fn.
+2019-08-28 05: 14: 15 > Graph was finalized.
+2019-08-28 05: 14: 15 > Graph was finalized.
+2019-08-28 05: 14: 15 > Graph was finalized.
+2019-08-28 05: 14: 15 > Graph was finalized.
+2019-08-28 05: 14: 15 > Running local_init_op.
+2019-08-28 05: 14: 15 > Running local_init_op.
+2019-08-28 05: 14: 15 > Running local_init_op.
+2019-08-28 05: 14: 15 > Running local_init_op.
+2019-08-28 05: 14: 15 > Done running local_init_op.
+2019-08-28 05: 14: 15 > Done running local_init_op.
+2019-08-28 05: 14: 15 > Done running local_init_op.
+2019-08-28 05: 14: 15 > Done running local_init_op.
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > ====================== predict 2 end ===========================
+2019-08-28 05: 14: 16 > ====================== predict 2 end ===========================
+2019-08-28 05: 14: 16 > ====================== predict 2 end ===========================
+2019-08-28 05: 14: 16 > ====================== predict 2 end ===========================
+2019-08-28 05: 14: 16 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF169DAF60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 14: 16 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF169DAF60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 14: 16 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF169DAF60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 14: 16 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001EF169DAF60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 14: 16 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416
+2019-08-28 05: 14: 16 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416
+2019-08-28 05: 14: 16 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416
+2019-08-28 05: 14: 16 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > 2019 08 28 05 14 16
+2019-08-28 05: 14: 16 > ====================== predict 3 start ===========================
+2019-08-28 05: 14: 16 > ====================== predict 3 start ===========================
+2019-08-28 05: 14: 16 > ====================== predict 3 start ===========================
+2019-08-28 05: 14: 16 > ====================== predict 3 start ===========================
+2019-08-28 05: 14: 16 > ====================== predict 3 start ===========================
+2019-08-28 05: 14: 24 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416, running initialization to predict.
+2019-08-28 05: 14: 24 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416, running initialization to predict.
+2019-08-28 05: 14: 24 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416, running initialization to predict.
+2019-08-28 05: 14: 24 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416, running initialization to predict.
+2019-08-28 05: 14: 24 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828051416, running initialization to predict.
+2019-08-28 05: 14: 24 > Calling model_fn.
+2019-08-28 05: 14: 24 > Calling model_fn.
+2019-08-28 05: 14: 24 > Calling model_fn.
+2019-08-28 05: 14: 24 > Calling model_fn.
+2019-08-28 05: 14: 24 > Calling model_fn.
+2019-08-28 05: 14: 24 > Done calling model_fn.
+2019-08-28 05: 14: 24 > Done calling model_fn.
+2019-08-28 05: 14: 24 > Done calling model_fn.
+2019-08-28 05: 14: 24 > Done calling model_fn.
+2019-08-28 05: 14: 24 > Done calling model_fn.
+2019-08-28 05: 14: 24 > Graph was finalized.
+2019-08-28 05: 14: 24 > Graph was finalized.
+2019-08-28 05: 14: 24 > Graph was finalized.
+2019-08-28 05: 14: 24 > Graph was finalized.
+2019-08-28 05: 14: 24 > Graph was finalized.
+2019-08-28 05: 14: 24 > Running local_init_op.
+2019-08-28 05: 14: 24 > Running local_init_op.
+2019-08-28 05: 14: 24 > Running local_init_op.
+2019-08-28 05: 14: 24 > Running local_init_op.
+2019-08-28 05: 14: 24 > Running local_init_op.
+2019-08-28 05: 14: 24 > Done running local_init_op.
+2019-08-28 05: 14: 24 > Done running local_init_op.
+2019-08-28 05: 14: 24 > Done running local_init_op.
+2019-08-28 05: 14: 24 > Done running local_init_op.
+2019-08-28 05: 14: 24 > Done running local_init_op.
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > ====================== predict 3 end ===========================
+2019-08-28 05: 14: 25 > ====================== predict 3 end ===========================
+2019-08-28 05: 14: 25 > ====================== predict 3 end ===========================
+2019-08-28 05: 14: 25 > ====================== predict 3 end ===========================
+2019-08-28 05: 14: 25 > ====================== predict 3 end ===========================
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > 2019 08 28 05 14 25
+2019-08-28 05: 14: 25 > ======================predict end, saving the results ===========================
+2019-08-28 05: 14: 25 > ======================predict end, saving the results ===========================
+2019-08-28 05: 14: 25 > ======================predict end, saving the results ===========================
+2019-08-28 05: 14: 25 > ======================predict end, saving the results ===========================
+2019-08-28 05: 14: 25 > ======================predict end, saving the results ===========================
+2019-08-28 05: 21: 00 > train term 1:1996-12-20~2019-08-27
+2019-08-28 05: 21: 00 > train term 2:1996-12-20~2019-08-27
+2019-08-28 05: 21: 00 > 2019 08 28 05 21 00
+2019-08-28 05: 21: 00 > ======================predict start ===========================
+2019-08-28 05: 21: 00 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052100', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000166E70DABE0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 00 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052100
+2019-08-28 05: 21: 00 > 2019 08 28 05 21 00
+2019-08-28 05: 21: 00 > 2019 08 28 05 21 00
+2019-08-28 05: 21: 00 > ====================== predict 0 start ===========================
+2019-08-28 05: 21: 00 > ====================== predict 0 start ===========================
+2019-08-28 05: 21: 08 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052100, running initialization to predict.
+2019-08-28 05: 21: 08 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052100, running initialization to predict.
+2019-08-28 05: 21: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 21: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 21: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 21: 08 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 21: 08 > Calling model_fn.
+2019-08-28 05: 21: 08 > Calling model_fn.
+2019-08-28 05: 21: 12 > Done calling model_fn.
+2019-08-28 05: 21: 12 > Done calling model_fn.
+2019-08-28 05: 21: 12 > Graph was finalized.
+2019-08-28 05: 21: 12 > Graph was finalized.
+2019-08-28 05: 21: 12 > Running local_init_op.
+2019-08-28 05: 21: 12 > Running local_init_op.
+2019-08-28 05: 21: 12 > Done running local_init_op.
+2019-08-28 05: 21: 12 > Done running local_init_op.
+2019-08-28 05: 21: 12 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 21: 12 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 21: 12 > 2019 08 28 05 21 12
+2019-08-28 05: 21: 12 > 2019 08 28 05 21 12
+2019-08-28 05: 21: 12 > ====================== predict 0 end ===========================
+2019-08-28 05: 21: 12 > ====================== predict 0 end ===========================
+2019-08-28 05: 21: 13 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052113', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001669D4A20B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 13 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052113', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001669D4A20B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 13 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052113
+2019-08-28 05: 21: 13 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052113
+2019-08-28 05: 21: 13 > 2019 08 28 05 21 13
+2019-08-28 05: 21: 13 > 2019 08 28 05 21 13
+2019-08-28 05: 21: 13 > 2019 08 28 05 21 13
+2019-08-28 05: 21: 13 > ====================== predict 1 start ===========================
+2019-08-28 05: 21: 13 > ====================== predict 1 start ===========================
+2019-08-28 05: 21: 13 > ====================== predict 1 start ===========================
+2019-08-28 05: 21: 21 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052113, running initialization to predict.
+2019-08-28 05: 21: 21 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052113, running initialization to predict.
+2019-08-28 05: 21: 21 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052113, running initialization to predict.
+2019-08-28 05: 21: 21 > Calling model_fn.
+2019-08-28 05: 21: 21 > Calling model_fn.
+2019-08-28 05: 21: 21 > Calling model_fn.
+2019-08-28 05: 21: 21 > Done calling model_fn.
+2019-08-28 05: 21: 21 > Done calling model_fn.
+2019-08-28 05: 21: 21 > Done calling model_fn.
+2019-08-28 05: 21: 21 > Graph was finalized.
+2019-08-28 05: 21: 21 > Graph was finalized.
+2019-08-28 05: 21: 21 > Graph was finalized.
+2019-08-28 05: 21: 21 > Running local_init_op.
+2019-08-28 05: 21: 21 > Running local_init_op.
+2019-08-28 05: 21: 21 > Running local_init_op.
+2019-08-28 05: 21: 21 > Done running local_init_op.
+2019-08-28 05: 21: 21 > Done running local_init_op.
+2019-08-28 05: 21: 21 > Done running local_init_op.
+2019-08-28 05: 21: 22 > 2019 08 28 05 21 22
+2019-08-28 05: 21: 22 > 2019 08 28 05 21 22
+2019-08-28 05: 21: 22 > 2019 08 28 05 21 22
+2019-08-28 05: 21: 22 > ====================== predict 1 end ===========================
+2019-08-28 05: 21: 22 > ====================== predict 1 end ===========================
+2019-08-28 05: 21: 22 > ====================== predict 1 end ===========================
+2019-08-28 05: 21: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001669AE84AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001669AE84AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001669AE84AC8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 22 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122
+2019-08-28 05: 21: 22 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122
+2019-08-28 05: 21: 22 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122
+2019-08-28 05: 21: 22 > 2019 08 28 05 21 22
+2019-08-28 05: 21: 22 > 2019 08 28 05 21 22
+2019-08-28 05: 21: 22 > 2019 08 28 05 21 22
+2019-08-28 05: 21: 22 > 2019 08 28 05 21 22
+2019-08-28 05: 21: 22 > ====================== predict 2 start ===========================
+2019-08-28 05: 21: 22 > ====================== predict 2 start ===========================
+2019-08-28 05: 21: 22 > ====================== predict 2 start ===========================
+2019-08-28 05: 21: 22 > ====================== predict 2 start ===========================
+2019-08-28 05: 21: 30 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122, running initialization to predict.
+2019-08-28 05: 21: 30 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122, running initialization to predict.
+2019-08-28 05: 21: 30 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122, running initialization to predict.
+2019-08-28 05: 21: 30 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052122, running initialization to predict.
+2019-08-28 05: 21: 30 > Calling model_fn.
+2019-08-28 05: 21: 30 > Calling model_fn.
+2019-08-28 05: 21: 30 > Calling model_fn.
+2019-08-28 05: 21: 30 > Calling model_fn.
+2019-08-28 05: 21: 31 > Done calling model_fn.
+2019-08-28 05: 21: 31 > Done calling model_fn.
+2019-08-28 05: 21: 31 > Done calling model_fn.
+2019-08-28 05: 21: 31 > Done calling model_fn.
+2019-08-28 05: 21: 31 > Graph was finalized.
+2019-08-28 05: 21: 31 > Graph was finalized.
+2019-08-28 05: 21: 31 > Graph was finalized.
+2019-08-28 05: 21: 31 > Graph was finalized.
+2019-08-28 05: 21: 31 > Running local_init_op.
+2019-08-28 05: 21: 31 > Running local_init_op.
+2019-08-28 05: 21: 31 > Running local_init_op.
+2019-08-28 05: 21: 31 > Running local_init_op.
+2019-08-28 05: 21: 31 > Done running local_init_op.
+2019-08-28 05: 21: 31 > Done running local_init_op.
+2019-08-28 05: 21: 31 > Done running local_init_op.
+2019-08-28 05: 21: 31 > Done running local_init_op.
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > ====================== predict 2 end ===========================
+2019-08-28 05: 21: 31 > ====================== predict 2 end ===========================
+2019-08-28 05: 21: 31 > ====================== predict 2 end ===========================
+2019-08-28 05: 21: 31 > ====================== predict 2 end ===========================
+2019-08-28 05: 21: 31 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001668A669F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 31 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001668A669F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 31 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001668A669F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 31 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001668A669F60>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 21: 31 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131
+2019-08-28 05: 21: 31 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131
+2019-08-28 05: 21: 31 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131
+2019-08-28 05: 21: 31 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > 2019 08 28 05 21 31
+2019-08-28 05: 21: 31 > ====================== predict 3 start ===========================
+2019-08-28 05: 21: 31 > ====================== predict 3 start ===========================
+2019-08-28 05: 21: 31 > ====================== predict 3 start ===========================
+2019-08-28 05: 21: 31 > ====================== predict 3 start ===========================
+2019-08-28 05: 21: 31 > ====================== predict 3 start ===========================
+2019-08-28 05: 21: 40 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131, running initialization to predict.
+2019-08-28 05: 21: 40 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131, running initialization to predict.
+2019-08-28 05: 21: 40 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131, running initialization to predict.
+2019-08-28 05: 21: 40 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131, running initialization to predict.
+2019-08-28 05: 21: 40 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828052131, running initialization to predict.
+2019-08-28 05: 21: 40 > Calling model_fn.
+2019-08-28 05: 21: 40 > Calling model_fn.
+2019-08-28 05: 21: 40 > Calling model_fn.
+2019-08-28 05: 21: 40 > Calling model_fn.
+2019-08-28 05: 21: 40 > Calling model_fn.
+2019-08-28 05: 21: 40 > Done calling model_fn.
+2019-08-28 05: 21: 40 > Done calling model_fn.
+2019-08-28 05: 21: 40 > Done calling model_fn.
+2019-08-28 05: 21: 40 > Done calling model_fn.
+2019-08-28 05: 21: 40 > Done calling model_fn.
+2019-08-28 05: 21: 40 > Graph was finalized.
+2019-08-28 05: 21: 40 > Graph was finalized.
+2019-08-28 05: 21: 40 > Graph was finalized.
+2019-08-28 05: 21: 40 > Graph was finalized.
+2019-08-28 05: 21: 40 > Graph was finalized.
+2019-08-28 05: 21: 40 > Running local_init_op.
+2019-08-28 05: 21: 40 > Running local_init_op.
+2019-08-28 05: 21: 40 > Running local_init_op.
+2019-08-28 05: 21: 40 > Running local_init_op.
+2019-08-28 05: 21: 40 > Running local_init_op.
+2019-08-28 05: 21: 40 > Done running local_init_op.
+2019-08-28 05: 21: 40 > Done running local_init_op.
+2019-08-28 05: 21: 40 > Done running local_init_op.
+2019-08-28 05: 21: 40 > Done running local_init_op.
+2019-08-28 05: 21: 40 > Done running local_init_op.
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > ====================== predict 3 end ===========================
+2019-08-28 05: 21: 41 > ====================== predict 3 end ===========================
+2019-08-28 05: 21: 41 > ====================== predict 3 end ===========================
+2019-08-28 05: 21: 41 > ====================== predict 3 end ===========================
+2019-08-28 05: 21: 41 > ====================== predict 3 end ===========================
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > 2019 08 28 05 21 41
+2019-08-28 05: 21: 41 > ======================predict end, saving the results ===========================
+2019-08-28 05: 21: 41 > ======================predict end, saving the results ===========================
+2019-08-28 05: 21: 41 > ======================predict end, saving the results ===========================
+2019-08-28 05: 21: 41 > ======================predict end, saving the results ===========================
+2019-08-28 05: 21: 41 > ======================predict end, saving the results ===========================
+2019-08-28 05: 34: 16 > train term 1:1996-12-20~2019-08-27
+2019-08-28 05: 34: 16 > train term 2:1996-12-20~2019-08-27
+2019-08-28 05: 34: 16 > 2019 08 28 05 34 16
+2019-08-28 05: 34: 16 > ======================predict start ===========================
+2019-08-28 05: 34: 16 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053416', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000228ABE7CC50>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 34: 16 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053416
+2019-08-28 05: 34: 16 > 2019 08 28 05 34 16
+2019-08-28 05: 34: 16 > 2019 08 28 05 34 16
+2019-08-28 05: 34: 16 > ====================== predict 0 start ===========================
+2019-08-28 05: 34: 16 > ====================== predict 0 start ===========================
+2019-08-28 05: 34: 24 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053416, running initialization to predict.
+2019-08-28 05: 34: 24 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053416, running initialization to predict.
+2019-08-28 05: 34: 25 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 34: 25 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 34: 25 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 34: 25 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 34: 25 > Calling model_fn.
+2019-08-28 05: 34: 25 > Calling model_fn.
+2019-08-28 05: 34: 28 > Done calling model_fn.
+2019-08-28 05: 34: 28 > Done calling model_fn.
+2019-08-28 05: 34: 29 > Graph was finalized.
+2019-08-28 05: 34: 29 > Graph was finalized.
+2019-08-28 05: 34: 29 > Running local_init_op.
+2019-08-28 05: 34: 29 > Running local_init_op.
+2019-08-28 05: 34: 29 > Done running local_init_op.
+2019-08-28 05: 34: 29 > Done running local_init_op.
+2019-08-28 05: 34: 29 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 34: 29 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 37: 12 > train term 1:1996-12-20~2019-08-27
+2019-08-28 05: 37: 12 > train term 2:1996-12-20~2019-08-27
+2019-08-28 05: 37: 12 > 2019 08 28 05 37 12
+2019-08-28 05: 37: 12 > ======================predict start ===========================
+2019-08-28 05: 37: 12 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053712', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x00000232128EACF8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 37: 12 > model created: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053712
+2019-08-28 05: 37: 12 > 2019 08 28 05 37 12
+2019-08-28 05: 37: 12 > 2019 08 28 05 37 12
+2019-08-28 05: 37: 12 > ====================== predict 0 start ===========================
+2019-08-28 05: 37: 12 > ====================== predict 0 start ===========================
+2019-08-28 05: 37: 20 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053712, running initialization to predict.
+2019-08-28 05: 37: 20 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_201907/kospi200f_1_1_20_500_20_20190828053712, running initialization to predict.
+2019-08-28 05: 37: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 37: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 37: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 37: 20 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 37: 20 > Calling model_fn.
+2019-08-28 05: 37: 20 > Calling model_fn.
+2019-08-28 05: 37: 24 > Done calling model_fn.
+2019-08-28 05: 37: 24 > Done calling model_fn.
+2019-08-28 05: 37: 24 > Graph was finalized.
+2019-08-28 05: 37: 24 > Graph was finalized.
+2019-08-28 05: 37: 24 > Running local_init_op.
+2019-08-28 05: 37: 24 > Running local_init_op.
+2019-08-28 05: 37: 24 > Done running local_init_op.
+2019-08-28 05: 37: 24 > Done running local_init_op.
+2019-08-28 05: 37: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 37: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 38: 24 > train term 1:1996-12-20~2019-08-27
+2019-08-28 05: 38: 24 > train term 2:1996-12-20~2019-08-27
+2019-08-28 05: 38: 24 > 2019 08 28 05 38 24
+2019-08-28 05: 38: 24 > ======================predict start ===========================
+2019-08-28 05: 38: 24 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053824', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002816056BA58>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 24 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053824
+2019-08-28 05: 38: 24 > 2019 08 28 05 38 24
+2019-08-28 05: 38: 24 > 2019 08 28 05 38 24
+2019-08-28 05: 38: 24 > ====================== predict 0 start ===========================
+2019-08-28 05: 38: 24 > ====================== predict 0 start ===========================
+2019-08-28 05: 38: 32 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053824, running initialization to predict.
+2019-08-28 05: 38: 32 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053824, running initialization to predict.
+2019-08-28 05: 38: 32 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 38: 32 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 38: 32 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 38: 32 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 38: 32 > Calling model_fn.
+2019-08-28 05: 38: 32 > Calling model_fn.
+2019-08-28 05: 38: 35 > Done calling model_fn.
+2019-08-28 05: 38: 35 > Done calling model_fn.
+2019-08-28 05: 38: 36 > Graph was finalized.
+2019-08-28 05: 38: 36 > Graph was finalized.
+2019-08-28 05: 38: 36 > Running local_init_op.
+2019-08-28 05: 38: 36 > Running local_init_op.
+2019-08-28 05: 38: 36 > Done running local_init_op.
+2019-08-28 05: 38: 36 > Done running local_init_op.
+2019-08-28 05: 38: 36 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 38: 36 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-08-28 05: 38: 36 > 2019 08 28 05 38 36
+2019-08-28 05: 38: 36 > 2019 08 28 05 38 36
+2019-08-28 05: 38: 36 > ====================== predict 0 end ===========================
+2019-08-28 05: 38: 36 > ====================== predict 0 end ===========================
+2019-08-28 05: 38: 36 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053836', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000028100220198>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 36 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053836', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000028100220198>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 36 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053836
+2019-08-28 05: 38: 36 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053836
+2019-08-28 05: 38: 36 > 2019 08 28 05 38 36
+2019-08-28 05: 38: 36 > 2019 08 28 05 38 36
+2019-08-28 05: 38: 36 > 2019 08 28 05 38 36
+2019-08-28 05: 38: 36 > ====================== predict 1 start ===========================
+2019-08-28 05: 38: 36 > ====================== predict 1 start ===========================
+2019-08-28 05: 38: 36 > ====================== predict 1 start ===========================
+2019-08-28 05: 38: 45 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053836, running initialization to predict.
+2019-08-28 05: 38: 45 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053836, running initialization to predict.
+2019-08-28 05: 38: 45 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053836, running initialization to predict.
+2019-08-28 05: 38: 45 > Calling model_fn.
+2019-08-28 05: 38: 45 > Calling model_fn.
+2019-08-28 05: 38: 45 > Calling model_fn.
+2019-08-28 05: 38: 45 > Done calling model_fn.
+2019-08-28 05: 38: 45 > Done calling model_fn.
+2019-08-28 05: 38: 45 > Done calling model_fn.
+2019-08-28 05: 38: 45 > Graph was finalized.
+2019-08-28 05: 38: 45 > Graph was finalized.
+2019-08-28 05: 38: 45 > Graph was finalized.
+2019-08-28 05: 38: 45 > Running local_init_op.
+2019-08-28 05: 38: 45 > Running local_init_op.
+2019-08-28 05: 38: 45 > Running local_init_op.
+2019-08-28 05: 38: 45 > Done running local_init_op.
+2019-08-28 05: 38: 45 > Done running local_init_op.
+2019-08-28 05: 38: 45 > Done running local_init_op.
+2019-08-28 05: 38: 45 > 2019 08 28 05 38 45
+2019-08-28 05: 38: 45 > 2019 08 28 05 38 45
+2019-08-28 05: 38: 45 > 2019 08 28 05 38 45
+2019-08-28 05: 38: 45 > ====================== predict 1 end ===========================
+2019-08-28 05: 38: 45 > ====================== predict 1 end ===========================
+2019-08-28 05: 38: 45 > ====================== predict 1 end ===========================
+2019-08-28 05: 38: 46 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002811AF29978>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 46 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002811AF29978>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 46 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002811AF29978>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 46 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846
+2019-08-28 05: 38: 46 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846
+2019-08-28 05: 38: 46 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846
+2019-08-28 05: 38: 46 > 2019 08 28 05 38 46
+2019-08-28 05: 38: 46 > 2019 08 28 05 38 46
+2019-08-28 05: 38: 46 > 2019 08 28 05 38 46
+2019-08-28 05: 38: 46 > 2019 08 28 05 38 46
+2019-08-28 05: 38: 46 > ====================== predict 2 start ===========================
+2019-08-28 05: 38: 46 > ====================== predict 2 start ===========================
+2019-08-28 05: 38: 46 > ====================== predict 2 start ===========================
+2019-08-28 05: 38: 46 > ====================== predict 2 start ===========================
+2019-08-28 05: 38: 54 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846, running initialization to predict.
+2019-08-28 05: 38: 54 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846, running initialization to predict.
+2019-08-28 05: 38: 54 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846, running initialization to predict.
+2019-08-28 05: 38: 54 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053846, running initialization to predict.
+2019-08-28 05: 38: 54 > Calling model_fn.
+2019-08-28 05: 38: 54 > Calling model_fn.
+2019-08-28 05: 38: 54 > Calling model_fn.
+2019-08-28 05: 38: 54 > Calling model_fn.
+2019-08-28 05: 38: 54 > Done calling model_fn.
+2019-08-28 05: 38: 54 > Done calling model_fn.
+2019-08-28 05: 38: 54 > Done calling model_fn.
+2019-08-28 05: 38: 54 > Done calling model_fn.
+2019-08-28 05: 38: 54 > Graph was finalized.
+2019-08-28 05: 38: 54 > Graph was finalized.
+2019-08-28 05: 38: 54 > Graph was finalized.
+2019-08-28 05: 38: 54 > Graph was finalized.
+2019-08-28 05: 38: 55 > Running local_init_op.
+2019-08-28 05: 38: 55 > Running local_init_op.
+2019-08-28 05: 38: 55 > Running local_init_op.
+2019-08-28 05: 38: 55 > Running local_init_op.
+2019-08-28 05: 38: 55 > Done running local_init_op.
+2019-08-28 05: 38: 55 > Done running local_init_op.
+2019-08-28 05: 38: 55 > Done running local_init_op.
+2019-08-28 05: 38: 55 > Done running local_init_op.
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > ====================== predict 2 end ===========================
+2019-08-28 05: 38: 55 > ====================== predict 2 end ===========================
+2019-08-28 05: 38: 55 > ====================== predict 2 end ===========================
+2019-08-28 05: 38: 55 > ====================== predict 2 end ===========================
+2019-08-28 05: 38: 55 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000028115A494E0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 55 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000028115A494E0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 55 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000028115A494E0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 55 > Using config: {'_model_dir': 'model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000028115A494E0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-08-28 05: 38: 55 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855
+2019-08-28 05: 38: 55 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855
+2019-08-28 05: 38: 55 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855
+2019-08-28 05: 38: 55 > model created: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > 2019 08 28 05 38 55
+2019-08-28 05: 38: 55 > ====================== predict 3 start ===========================
+2019-08-28 05: 38: 55 > ====================== predict 3 start ===========================
+2019-08-28 05: 38: 55 > ====================== predict 3 start ===========================
+2019-08-28 05: 38: 55 > ====================== predict 3 start ===========================
+2019-08-28 05: 38: 55 > ====================== predict 3 start ===========================
+2019-08-28 05: 39: 04 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855, running initialization to predict.
+2019-08-28 05: 39: 04 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855, running initialization to predict.
+2019-08-28 05: 39: 04 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855, running initialization to predict.
+2019-08-28 05: 39: 04 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855, running initialization to predict.
+2019-08-28 05: 39: 04 > Could not find trained model in model_dir: model_dir/v5_0_1_1999_20190831/kospi200f_1_1_20_500_20_20190828053855, running initialization to predict.
+2019-08-28 05: 39: 04 > Calling model_fn.
+2019-08-28 05: 39: 04 > Calling model_fn.
+2019-08-28 05: 39: 04 > Calling model_fn.
+2019-08-28 05: 39: 04 > Calling model_fn.
+2019-08-28 05: 39: 04 > Calling model_fn.
+2019-08-28 05: 39: 04 > Done calling model_fn.
+2019-08-28 05: 39: 04 > Done calling model_fn.
+2019-08-28 05: 39: 04 > Done calling model_fn.
+2019-08-28 05: 39: 04 > Done calling model_fn.
+2019-08-28 05: 39: 04 > Done calling model_fn.
+2019-08-28 05: 39: 04 > Graph was finalized.
+2019-08-28 05: 39: 04 > Graph was finalized.
+2019-08-28 05: 39: 04 > Graph was finalized.
+2019-08-28 05: 39: 04 > Graph was finalized.
+2019-08-28 05: 39: 04 > Graph was finalized.
+2019-08-28 05: 39: 04 > Running local_init_op.
+2019-08-28 05: 39: 04 > Running local_init_op.
+2019-08-28 05: 39: 04 > Running local_init_op.
+2019-08-28 05: 39: 04 > Running local_init_op.
+2019-08-28 05: 39: 04 > Running local_init_op.
+2019-08-28 05: 39: 04 > Done running local_init_op.
+2019-08-28 05: 39: 04 > Done running local_init_op.
+2019-08-28 05: 39: 04 > Done running local_init_op.
+2019-08-28 05: 39: 04 > Done running local_init_op.
+2019-08-28 05: 39: 04 > Done running local_init_op.
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > ====================== predict 3 end ===========================
+2019-08-28 05: 39: 05 > ====================== predict 3 end ===========================
+2019-08-28 05: 39: 05 > ====================== predict 3 end ===========================
+2019-08-28 05: 39: 05 > ====================== predict 3 end ===========================
+2019-08-28 05: 39: 05 > ====================== predict 3 end ===========================
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > 2019 08 28 05 39 05
+2019-08-28 05: 39: 05 > ======================predict end, saving the results ===========================
+2019-08-28 05: 39: 05 > ======================predict end, saving the results ===========================
+2019-08-28 05: 39: 05 > ======================predict end, saving the results ===========================
+2019-08-28 05: 39: 05 > ======================predict end, saving the results ===========================
+2019-08-28 05: 39: 05 > ======================predict end, saving the results ===========================

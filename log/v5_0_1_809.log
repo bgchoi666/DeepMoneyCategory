@@ -1,0 +1,1216 @@
+2019-09-16 22: 44: 40 > train term 1:2000-01-01~2019-09-30
+2019-09-16 22: 44: 40 > train term 2:2000-01-01~2019-08-31
+2019-09-16 22: 44: 40 > 2019 09 16 22 44 40
+2019-09-16 22: 44: 40 > ======================no-ensemble train-predict start ===========================
+2019-09-16 22: 44: 40 > Using config: {'_model_dir': 'model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001A5BB1AC128>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-09-16 22: 44: 40 > model created: model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440
+2019-09-16 22: 44: 40 > 2019 09 16 22 44 40
+2019-09-16 22: 44: 40 > 2019 09 16 22 44 40
+2019-09-16 22: 44: 40 > ====================== gradual train start #0 ===========================
+2019-09-16 22: 44: 40 > ====================== gradual train start #0 ===========================
+2019-09-16 22: 44: 42 > train: 2000-01-01~2019-08-29
+2019-09-16 22: 44: 42 > train: 2000-01-01~2019-08-29
+2019-09-16 22: 44: 42 > test: 2019-08-29~2019-09-16
+2019-09-16 22: 44: 42 > test: 2019-08-29~2019-09-16
+2019-09-16 22: 44: 47 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-16 22: 44: 47 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-16 22: 44: 47 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-16 22: 44: 47 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-16 22: 44: 47 > Calling model_fn.
+2019-09-16 22: 44: 47 > Calling model_fn.
+2019-09-16 22: 45: 28 > Done calling model_fn.
+2019-09-16 22: 45: 28 > Done calling model_fn.
+2019-09-16 22: 45: 28 > Create CheckpointSaverHook.
+2019-09-16 22: 45: 28 > Create CheckpointSaverHook.
+2019-09-16 22: 45: 36 > Graph was finalized.
+2019-09-16 22: 45: 36 > Graph was finalized.
+2019-09-16 22: 45: 39 > Running local_init_op.
+2019-09-16 22: 45: 39 > Running local_init_op.
+2019-09-16 22: 45: 39 > Done running local_init_op.
+2019-09-16 22: 45: 39 > Done running local_init_op.
+2019-09-16 22: 45: 40 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-16 22: 45: 40 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-16 22: 46: 02 > Saving checkpoints for 0 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440\model.ckpt.
+2019-09-16 22: 46: 02 > Saving checkpoints for 0 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440\model.ckpt.
+2019-09-16 22: 46: 57 > loss = 11.974762, step = 1
+2019-09-16 22: 46: 57 > loss = 11.974762, step = 1
+2019-09-16 22: 48: 35 > global_step/sec: 1.01563
+2019-09-16 22: 48: 35 > global_step/sec: 1.01563
+2019-09-16 22: 48: 35 > loss = 22.2358, step = 101 (98.461 sec)
+2019-09-16 22: 48: 35 > loss = 22.2358, step = 101 (98.461 sec)
+2019-09-16 22: 49: 20 > global_step/sec: 2.21629
+2019-09-16 22: 49: 20 > global_step/sec: 2.21629
+2019-09-16 22: 49: 20 > loss = 4.2530675, step = 201 (45.121 sec)
+2019-09-16 22: 49: 20 > loss = 4.2530675, step = 201 (45.121 sec)
+2019-09-16 22: 50: 05 > global_step/sec: 2.25022
+2019-09-16 22: 50: 05 > global_step/sec: 2.25022
+2019-09-16 22: 50: 05 > loss = 0.7096081, step = 301 (44.440 sec)
+2019-09-16 22: 50: 05 > loss = 0.7096081, step = 301 (44.440 sec)
+2019-09-16 22: 50: 51 > global_step/sec: 2.1725
+2019-09-16 22: 50: 51 > global_step/sec: 2.1725
+2019-09-16 22: 50: 51 > loss = 9.138655, step = 401 (46.030 sec)
+2019-09-16 22: 50: 51 > loss = 9.138655, step = 401 (46.030 sec)
+2019-09-16 22: 51: 35 > Saving checkpoints for 500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440\model.ckpt.
+2019-09-16 22: 51: 35 > Saving checkpoints for 500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440\model.ckpt.
+2019-09-16 22: 51: 41 > Loss for final step: 3.958247.
+2019-09-16 22: 51: 41 > Loss for final step: 3.958247.
+2019-09-16 22: 51: 45 > Calling model_fn.
+2019-09-16 22: 51: 45 > Calling model_fn.
+2019-09-16 22: 51: 45 > Done calling model_fn.
+2019-09-16 22: 51: 45 > Done calling model_fn.
+2019-09-16 22: 51: 45 > Graph was finalized.
+2019-09-16 22: 51: 45 > Graph was finalized.
+2019-09-16 22: 51: 45 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440\model.ckpt-500
+2019-09-16 22: 51: 45 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190916224440\model.ckpt-500
+2019-09-16 22: 51: 45 > Running local_init_op.
+2019-09-16 22: 51: 45 > Running local_init_op.
+2019-09-16 22: 51: 45 > Done running local_init_op.
+2019-09-16 22: 51: 45 > Done running local_init_op.
+2019-09-16 22: 51: 45 > accuracy: 0.3076923076923077, down accuracy: 0.0, acc with interval: 0.07692307692307693
+
+2019-09-16 22: 51: 45 > accuracy: 0.3076923076923077, down accuracy: 0.0, acc with interval: 0.07692307692307693
+
+2019-09-16 22: 51: 45 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.0500076293945142,-1.5062465667724467,1.2500122070312045,-4.049981689453091
+2019-09-16 22: 51: 45 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.0500076293945142,-1.5062465667724467,1.2500122070312045,-4.049981689453091
+2019-09-16 22: 51: 45 > 2019 09 16 22 51 45
+2019-09-16 22: 51: 45 > 2019 09 16 22 51 45
+2019-09-16 22: 51: 45 > ====================== gradual train end #0 ===========================
+2019-09-16 22: 51: 45 > ====================== gradual train end #0 ===========================
+2019-09-16 22: 51: 45 > 2019 09 16 22 51 45
+2019-09-16 22: 51: 45 > 2019 09 16 22 51 45
+2019-09-16 22: 51: 45 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-09-16 22: 51: 45 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-09-18 21: 35: 22 > train term 1:2000-01-01~2019-08-31
+2019-09-18 21: 35: 22 > train term 2:2000-01-01~2000-12-31
+2019-09-18 21: 35: 22 > 2019 09 18 21 35 22
+2019-09-18 21: 35: 22 > ======================no-ensemble train-predict start ===========================
+2019-09-18 21: 35: 22 > Using config: {'_model_dir': 'model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001C84F27C0B8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-09-18 21: 35: 22 > model created: model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522
+2019-09-18 21: 35: 22 > 2019 09 18 21 35 22
+2019-09-18 21: 35: 22 > 2019 09 18 21 35 22
+2019-09-18 21: 35: 22 > ====================== gradual train start #0 ===========================
+2019-09-18 21: 35: 22 > ====================== gradual train start #0 ===========================
+2019-09-18 21: 35: 24 > train: 2000-01-01~2000-12-28
+2019-09-18 21: 35: 24 > train: 2000-01-01~2000-12-28
+2019-09-18 21: 35: 24 > test: 2000-12-29~2001-12-28
+2019-09-18 21: 35: 24 > test: 2000-12-29~2001-12-28
+2019-09-18 21: 35: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-18 21: 35: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-18 21: 35: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-18 21: 35: 24 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-18 21: 35: 24 > Calling model_fn.
+2019-09-18 21: 35: 24 > Calling model_fn.
+2019-09-18 21: 36: 05 > Done calling model_fn.
+2019-09-18 21: 36: 05 > Done calling model_fn.
+2019-09-18 21: 36: 05 > Create CheckpointSaverHook.
+2019-09-18 21: 36: 05 > Create CheckpointSaverHook.
+2019-09-18 21: 36: 14 > Graph was finalized.
+2019-09-18 21: 36: 14 > Graph was finalized.
+2019-09-18 21: 36: 16 > Running local_init_op.
+2019-09-18 21: 36: 16 > Running local_init_op.
+2019-09-18 21: 36: 17 > Done running local_init_op.
+2019-09-18 21: 36: 17 > Done running local_init_op.
+2019-09-18 21: 36: 17 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-18 21: 36: 17 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-09-18 21: 36: 39 > Saving checkpoints for 0 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 36: 39 > Saving checkpoints for 0 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 37: 37 > loss = 11.751225, step = 1
+2019-09-18 21: 37: 37 > loss = 11.751225, step = 1
+2019-09-18 21: 39: 11 > global_step/sec: 1.05873
+2019-09-18 21: 39: 11 > global_step/sec: 1.05873
+2019-09-18 21: 39: 11 > loss = -1.5712153, step = 101 (94.469 sec)
+2019-09-18 21: 39: 11 > loss = -1.5712153, step = 101 (94.469 sec)
+2019-09-18 21: 39: 56 > global_step/sec: 2.23933
+2019-09-18 21: 39: 56 > global_step/sec: 2.23933
+2019-09-18 21: 39: 56 > loss = -8.293695, step = 201 (44.641 sec)
+2019-09-18 21: 39: 56 > loss = -8.293695, step = 201 (44.641 sec)
+2019-09-18 21: 40: 40 > global_step/sec: 2.23386
+2019-09-18 21: 40: 40 > global_step/sec: 2.23386
+2019-09-18 21: 40: 40 > loss = -8.181992, step = 301 (44.766 sec)
+2019-09-18 21: 40: 40 > loss = -8.181992, step = 301 (44.766 sec)
+2019-09-18 21: 41: 25 > global_step/sec: 2.24877
+2019-09-18 21: 41: 25 > global_step/sec: 2.24877
+2019-09-18 21: 41: 25 > loss = -9.651483, step = 401 (44.469 sec)
+2019-09-18 21: 41: 25 > loss = -9.651483, step = 401 (44.469 sec)
+2019-09-18 21: 42: 09 > Saving checkpoints for 500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 42: 09 > Saving checkpoints for 500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 42: 15 > Loss for final step: -9.828476.
+2019-09-18 21: 42: 15 > Loss for final step: -9.828476.
+2019-09-18 21: 42: 51 > Calling model_fn.
+2019-09-18 21: 42: 51 > Calling model_fn.
+2019-09-18 21: 42: 51 > Done calling model_fn.
+2019-09-18 21: 42: 51 > Done calling model_fn.
+2019-09-18 21: 42: 51 > Graph was finalized.
+2019-09-18 21: 42: 51 > Graph was finalized.
+2019-09-18 21: 42: 51 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-500
+2019-09-18 21: 42: 51 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-500
+2019-09-18 21: 42: 51 > Running local_init_op.
+2019-09-18 21: 42: 51 > Running local_init_op.
+2019-09-18 21: 42: 51 > Done running local_init_op.
+2019-09-18 21: 42: 51 > Done running local_init_op.
+2019-09-18 21: 42: 57 > accuracy: 0.4980694980694981, down accuracy: 0.5739130434782609, acc with interval: 0.2702702702702703
+
+2019-09-18 21: 42: 57 > accuracy: 0.4980694980694981, down accuracy: 0.5739130434782609, acc with interval: 0.2702702702702703
+
+2019-09-18 21: 42: 57 > 
+ avg_profit, avg_loss, max_profit, max_loss
+0.9511627552121183,-0.9742307340181798,4.699995422363287,-4.800004577636727
+2019-09-18 21: 42: 57 > 
+ avg_profit, avg_loss, max_profit, max_loss
+0.9511627552121183,-0.9742307340181798,4.699995422363287,-4.800004577636727
+2019-09-18 21: 42: 58 > train: 2000-01-01~2001-12-28
+2019-09-18 21: 42: 58 > train: 2000-01-01~2001-12-28
+2019-09-18 21: 42: 58 > test: 2001-12-31~2002-12-30
+2019-09-18 21: 42: 58 > test: 2001-12-31~2002-12-30
+2019-09-18 21: 42: 58 > Calling model_fn.
+2019-09-18 21: 42: 58 > Calling model_fn.
+2019-09-18 21: 43: 36 > Done calling model_fn.
+2019-09-18 21: 43: 36 > Done calling model_fn.
+2019-09-18 21: 43: 36 > Create CheckpointSaverHook.
+2019-09-18 21: 43: 36 > Create CheckpointSaverHook.
+2019-09-18 21: 43: 36 > Graph was finalized.
+2019-09-18 21: 43: 36 > Graph was finalized.
+2019-09-18 21: 43: 36 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-500
+2019-09-18 21: 43: 36 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-500
+2019-09-18 21: 43: 38 > Running local_init_op.
+2019-09-18 21: 43: 38 > Running local_init_op.
+2019-09-18 21: 43: 38 > Done running local_init_op.
+2019-09-18 21: 43: 38 > Done running local_init_op.
+2019-09-18 21: 44: 01 > Saving checkpoints for 500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 44: 01 > Saving checkpoints for 500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 44: 59 > loss = -9.877626, step = 501
+2019-09-18 21: 44: 59 > loss = -9.877626, step = 501
+2019-09-18 21: 46: 35 > global_step/sec: 1.03526
+2019-09-18 21: 46: 35 > global_step/sec: 1.03526
+2019-09-18 21: 46: 35 > loss = -1.5378422, step = 601 (96.609 sec)
+2019-09-18 21: 46: 35 > loss = -1.5378422, step = 601 (96.609 sec)
+2019-09-18 21: 47: 20 > global_step/sec: 2.22145
+2019-09-18 21: 47: 20 > global_step/sec: 2.22145
+2019-09-18 21: 47: 20 > loss = -5.8890896, step = 701 (45.000 sec)
+2019-09-18 21: 47: 20 > loss = -5.8890896, step = 701 (45.000 sec)
+2019-09-18 21: 48: 05 > Saving checkpoints for 800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 48: 05 > Saving checkpoints for 800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 48: 11 > Loss for final step: -9.534286.
+2019-09-18 21: 48: 11 > Loss for final step: -9.534286.
+2019-09-18 21: 48: 48 > Calling model_fn.
+2019-09-18 21: 48: 48 > Calling model_fn.
+2019-09-18 21: 48: 48 > Done calling model_fn.
+2019-09-18 21: 48: 48 > Done calling model_fn.
+2019-09-18 21: 48: 48 > Graph was finalized.
+2019-09-18 21: 48: 48 > Graph was finalized.
+2019-09-18 21: 48: 48 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-800
+2019-09-18 21: 48: 48 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-800
+2019-09-18 21: 48: 48 > Running local_init_op.
+2019-09-18 21: 48: 48 > Running local_init_op.
+2019-09-18 21: 48: 48 > Done running local_init_op.
+2019-09-18 21: 48: 48 > Done running local_init_op.
+2019-09-18 21: 48: 54 > accuracy: 0.5144508670520231, down accuracy: 0.5967078189300411, acc with interval: 0.28901734104046245
+
+2019-09-18 21: 48: 54 > accuracy: 0.5144508670520231, down accuracy: 0.5967078189300411, acc with interval: 0.28901734104046245
+
+2019-09-18 21: 48: 54 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.1960676271817205,-1.1785712045336532,5.0,-4.800004577636726
+2019-09-18 21: 48: 54 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.1960676271817205,-1.1785712045336532,5.0,-4.800004577636726
+2019-09-18 21: 48: 55 > train: 2000-01-01~2002-12-30
+2019-09-18 21: 48: 55 > train: 2000-01-01~2002-12-30
+2019-09-18 21: 48: 55 > test: 2002-12-31~2003-12-30
+2019-09-18 21: 48: 55 > test: 2002-12-31~2003-12-30
+2019-09-18 21: 48: 55 > Calling model_fn.
+2019-09-18 21: 48: 55 > Calling model_fn.
+2019-09-18 21: 49: 33 > Done calling model_fn.
+2019-09-18 21: 49: 33 > Done calling model_fn.
+2019-09-18 21: 49: 33 > Create CheckpointSaverHook.
+2019-09-18 21: 49: 33 > Create CheckpointSaverHook.
+2019-09-18 21: 49: 33 > Graph was finalized.
+2019-09-18 21: 49: 33 > Graph was finalized.
+2019-09-18 21: 49: 33 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-800
+2019-09-18 21: 49: 33 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-800
+2019-09-18 21: 49: 35 > Running local_init_op.
+2019-09-18 21: 49: 35 > Running local_init_op.
+2019-09-18 21: 49: 35 > Done running local_init_op.
+2019-09-18 21: 49: 35 > Done running local_init_op.
+2019-09-18 21: 49: 59 > Saving checkpoints for 800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 49: 59 > Saving checkpoints for 800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 50: 56 > loss = -9.940121, step = 801
+2019-09-18 21: 50: 56 > loss = -9.940121, step = 801
+2019-09-18 21: 52: 33 > global_step/sec: 1.02384
+2019-09-18 21: 52: 33 > global_step/sec: 1.02384
+2019-09-18 21: 52: 33 > loss = 0.17972347, step = 901 (97.672 sec)
+2019-09-18 21: 52: 33 > loss = 0.17972347, step = 901 (97.672 sec)
+2019-09-18 21: 53: 18 > global_step/sec: 2.21837
+2019-09-18 21: 53: 18 > global_step/sec: 2.21837
+2019-09-18 21: 53: 18 > loss = -1.7069107, step = 1001 (45.078 sec)
+2019-09-18 21: 53: 18 > loss = -1.7069107, step = 1001 (45.078 sec)
+2019-09-18 21: 54: 03 > Saving checkpoints for 1100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 54: 03 > Saving checkpoints for 1100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 54: 10 > Loss for final step: -4.301644.
+2019-09-18 21: 54: 10 > Loss for final step: -4.301644.
+2019-09-18 21: 54: 47 > Calling model_fn.
+2019-09-18 21: 54: 47 > Calling model_fn.
+2019-09-18 21: 54: 47 > Done calling model_fn.
+2019-09-18 21: 54: 47 > Done calling model_fn.
+2019-09-18 21: 54: 47 > Graph was finalized.
+2019-09-18 21: 54: 47 > Graph was finalized.
+2019-09-18 21: 54: 47 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1100
+2019-09-18 21: 54: 47 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1100
+2019-09-18 21: 54: 47 > Running local_init_op.
+2019-09-18 21: 54: 47 > Running local_init_op.
+2019-09-18 21: 54: 47 > Done running local_init_op.
+2019-09-18 21: 54: 47 > Done running local_init_op.
+2019-09-18 21: 54: 53 > accuracy: 0.5276705276705277, down accuracy: 0.5444743935309974, acc with interval: 0.2947232947232947
+
+2019-09-18 21: 54: 53 > accuracy: 0.5276705276705277, down accuracy: 0.5444743935309974, acc with interval: 0.2947232947232947
+
+2019-09-18 21: 54: 53 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.1036587040598795,-1.1252043056228183,5.0,-4.800004577636726
+2019-09-18 21: 54: 53 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.1036587040598795,-1.1252043056228183,5.0,-4.800004577636726
+2019-09-18 21: 54: 54 > train: 2000-01-01~2003-12-30
+2019-09-18 21: 54: 54 > train: 2000-01-01~2003-12-30
+2019-09-18 21: 54: 54 > test: 2003-12-31~2004-12-29
+2019-09-18 21: 54: 54 > test: 2003-12-31~2004-12-29
+2019-09-18 21: 54: 55 > Calling model_fn.
+2019-09-18 21: 54: 55 > Calling model_fn.
+2019-09-18 21: 55: 32 > Done calling model_fn.
+2019-09-18 21: 55: 32 > Done calling model_fn.
+2019-09-18 21: 55: 32 > Create CheckpointSaverHook.
+2019-09-18 21: 55: 32 > Create CheckpointSaverHook.
+2019-09-18 21: 55: 32 > Graph was finalized.
+2019-09-18 21: 55: 32 > Graph was finalized.
+2019-09-18 21: 55: 32 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1100
+2019-09-18 21: 55: 32 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1100
+2019-09-18 21: 55: 35 > Running local_init_op.
+2019-09-18 21: 55: 35 > Running local_init_op.
+2019-09-18 21: 55: 35 > Done running local_init_op.
+2019-09-18 21: 55: 35 > Done running local_init_op.
+2019-09-18 21: 55: 59 > Saving checkpoints for 1100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 55: 59 > Saving checkpoints for 1100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 21: 56: 56 > loss = -7.7629986, step = 1101
+2019-09-18 21: 56: 56 > loss = -7.7629986, step = 1101
+2019-09-18 21: 58: 32 > global_step/sec: 1.03409
+2019-09-18 21: 58: 32 > global_step/sec: 1.03409
+2019-09-18 21: 58: 32 > loss = -2.1276555, step = 1201 (96.703 sec)
+2019-09-18 21: 58: 32 > loss = -2.1276555, step = 1201 (96.703 sec)
+2019-09-18 21: 59: 18 > global_step/sec: 2.21224
+2019-09-18 21: 59: 18 > global_step/sec: 2.21224
+2019-09-18 21: 59: 18 > loss = -3.2662308, step = 1301 (45.203 sec)
+2019-09-18 21: 59: 18 > loss = -3.2662308, step = 1301 (45.203 sec)
+2019-09-18 22: 00: 02 > Saving checkpoints for 1400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 00: 02 > Saving checkpoints for 1400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 00: 09 > Loss for final step: -2.3660603.
+2019-09-18 22: 00: 09 > Loss for final step: -2.3660603.
+2019-09-18 22: 00: 47 > Calling model_fn.
+2019-09-18 22: 00: 47 > Calling model_fn.
+2019-09-18 22: 00: 47 > Done calling model_fn.
+2019-09-18 22: 00: 47 > Done calling model_fn.
+2019-09-18 22: 00: 47 > Graph was finalized.
+2019-09-18 22: 00: 47 > Graph was finalized.
+2019-09-18 22: 00: 47 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1400
+2019-09-18 22: 00: 47 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1400
+2019-09-18 22: 00: 47 > Running local_init_op.
+2019-09-18 22: 00: 47 > Running local_init_op.
+2019-09-18 22: 00: 47 > Done running local_init_op.
+2019-09-18 22: 00: 47 > Done running local_init_op.
+2019-09-18 22: 00: 53 > accuracy: 0.537270087124879, down accuracy: 0.5525773195876289, acc with interval: 0.31461761858664083
+
+2019-09-18 22: 00: 53 > accuracy: 0.537270087124879, down accuracy: 0.5525773195876289, acc with interval: 0.31461761858664083
+
+2019-09-18 22: 00: 53 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.0915317597260346,-1.1220710977849604,5.549998474121082,-5.650001525878906
+2019-09-18 22: 00: 53 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.0915317597260346,-1.1220710977849604,5.549998474121082,-5.650001525878906
+2019-09-18 22: 00: 54 > train: 2000-01-01~2004-12-29
+2019-09-18 22: 00: 54 > train: 2000-01-01~2004-12-29
+2019-09-18 22: 00: 54 > test: 2004-12-30~2005-12-29
+2019-09-18 22: 00: 54 > test: 2004-12-30~2005-12-29
+2019-09-18 22: 00: 55 > Calling model_fn.
+2019-09-18 22: 00: 55 > Calling model_fn.
+2019-09-18 22: 01: 33 > Done calling model_fn.
+2019-09-18 22: 01: 33 > Done calling model_fn.
+2019-09-18 22: 01: 33 > Create CheckpointSaverHook.
+2019-09-18 22: 01: 33 > Create CheckpointSaverHook.
+2019-09-18 22: 01: 33 > Graph was finalized.
+2019-09-18 22: 01: 33 > Graph was finalized.
+2019-09-18 22: 01: 33 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1400
+2019-09-18 22: 01: 33 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1400
+2019-09-18 22: 01: 35 > Running local_init_op.
+2019-09-18 22: 01: 35 > Running local_init_op.
+2019-09-18 22: 01: 36 > Done running local_init_op.
+2019-09-18 22: 01: 36 > Done running local_init_op.
+2019-09-18 22: 01: 59 > Saving checkpoints for 1400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 01: 59 > Saving checkpoints for 1400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 02: 57 > loss = -7.293323, step = 1401
+2019-09-18 22: 02: 57 > loss = -7.293323, step = 1401
+2019-09-18 22: 04: 35 > global_step/sec: 1.02285
+2019-09-18 22: 04: 35 > global_step/sec: 1.02285
+2019-09-18 22: 04: 35 > loss = -3.5209227, step = 1501 (97.766 sec)
+2019-09-18 22: 04: 35 > loss = -3.5209227, step = 1501 (97.766 sec)
+2019-09-18 22: 05: 20 > global_step/sec: 2.20994
+2019-09-18 22: 05: 20 > global_step/sec: 2.20994
+2019-09-18 22: 05: 20 > loss = -8.492283, step = 1601 (45.266 sec)
+2019-09-18 22: 05: 20 > loss = -8.492283, step = 1601 (45.266 sec)
+2019-09-18 22: 06: 05 > Saving checkpoints for 1700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 06: 05 > Saving checkpoints for 1700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 06: 12 > Loss for final step: -2.2259693.
+2019-09-18 22: 06: 12 > Loss for final step: -2.2259693.
+2019-09-18 22: 06: 51 > Calling model_fn.
+2019-09-18 22: 06: 51 > Calling model_fn.
+2019-09-18 22: 06: 51 > Done calling model_fn.
+2019-09-18 22: 06: 51 > Done calling model_fn.
+2019-09-18 22: 06: 51 > Graph was finalized.
+2019-09-18 22: 06: 51 > Graph was finalized.
+2019-09-18 22: 06: 51 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1700
+2019-09-18 22: 06: 51 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1700
+2019-09-18 22: 06: 51 > Running local_init_op.
+2019-09-18 22: 06: 51 > Running local_init_op.
+2019-09-18 22: 06: 51 > Done running local_init_op.
+2019-09-18 22: 06: 51 > Done running local_init_op.
+2019-09-18 22: 06: 57 > accuracy: 0.5290023201856149, down accuracy: 0.565, acc with interval: 0.31245166279969067
+
+2019-09-18 22: 06: 57 > accuracy: 0.5290023201856149, down accuracy: 0.565, acc with interval: 0.31245166279969067
+
+2019-09-18 22: 06: 57 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.077778016475209,-1.1244663557982801,5.5499984741210815,-5.650001525878906
+2019-09-18 22: 06: 57 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.077778016475209,-1.1244663557982801,5.5499984741210815,-5.650001525878906
+2019-09-18 22: 06: 58 > train: 2000-01-01~2005-12-29
+2019-09-18 22: 06: 58 > train: 2000-01-01~2005-12-29
+2019-09-18 22: 06: 58 > test: 2005-12-30~2006-12-29
+2019-09-18 22: 06: 58 > test: 2005-12-30~2006-12-29
+2019-09-18 22: 06: 59 > Calling model_fn.
+2019-09-18 22: 06: 59 > Calling model_fn.
+2019-09-18 22: 07: 37 > Done calling model_fn.
+2019-09-18 22: 07: 37 > Done calling model_fn.
+2019-09-18 22: 07: 37 > Create CheckpointSaverHook.
+2019-09-18 22: 07: 37 > Create CheckpointSaverHook.
+2019-09-18 22: 07: 37 > Graph was finalized.
+2019-09-18 22: 07: 37 > Graph was finalized.
+2019-09-18 22: 07: 37 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1700
+2019-09-18 22: 07: 37 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-1700
+2019-09-18 22: 07: 39 > Running local_init_op.
+2019-09-18 22: 07: 39 > Running local_init_op.
+2019-09-18 22: 07: 40 > Done running local_init_op.
+2019-09-18 22: 07: 40 > Done running local_init_op.
+2019-09-18 22: 08: 03 > Saving checkpoints for 1700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 08: 03 > Saving checkpoints for 1700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 09: 01 > loss = -8.105151, step = 1701
+2019-09-18 22: 09: 01 > loss = -8.105151, step = 1701
+2019-09-18 22: 10: 39 > global_step/sec: 1.02285
+2019-09-18 22: 10: 39 > global_step/sec: 1.02285
+2019-09-18 22: 10: 39 > loss = -3.9535205, step = 1801 (97.766 sec)
+2019-09-18 22: 10: 39 > loss = -3.9535205, step = 1801 (97.766 sec)
+2019-09-18 22: 11: 24 > global_step/sec: 2.19629
+2019-09-18 22: 11: 24 > global_step/sec: 2.19629
+2019-09-18 22: 11: 24 > loss = -2.5794015, step = 1901 (45.531 sec)
+2019-09-18 22: 11: 24 > loss = -2.5794015, step = 1901 (45.531 sec)
+2019-09-18 22: 12: 09 > Saving checkpoints for 2000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 12: 09 > Saving checkpoints for 2000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 12: 17 > Loss for final step: -0.5975833.
+2019-09-18 22: 12: 17 > Loss for final step: -0.5975833.
+2019-09-18 22: 12: 56 > Calling model_fn.
+2019-09-18 22: 12: 56 > Calling model_fn.
+2019-09-18 22: 12: 56 > Done calling model_fn.
+2019-09-18 22: 12: 56 > Done calling model_fn.
+2019-09-18 22: 12: 56 > Graph was finalized.
+2019-09-18 22: 12: 56 > Graph was finalized.
+2019-09-18 22: 12: 56 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2000
+2019-09-18 22: 12: 56 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2000
+2019-09-18 22: 12: 56 > Running local_init_op.
+2019-09-18 22: 12: 56 > Running local_init_op.
+2019-09-18 22: 12: 56 > Done running local_init_op.
+2019-09-18 22: 12: 56 > Done running local_init_op.
+2019-09-18 22: 13: 02 > accuracy: 0.5202833226014166, down accuracy: 0.537292817679558, acc with interval: 0.3142305215711526
+
+2019-09-18 22: 13: 02 > accuracy: 0.5202833226014166, down accuracy: 0.537292817679558, acc with interval: 0.3142305215711526
+
+2019-09-18 22: 13: 02 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.1128714967482158,-1.1718790164409867,5.5499984741210815,-6.0999908447265625
+2019-09-18 22: 13: 02 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.1128714967482158,-1.1718790164409867,5.5499984741210815,-6.0999908447265625
+2019-09-18 22: 13: 03 > train: 2000-01-01~2006-12-29
+2019-09-18 22: 13: 03 > train: 2000-01-01~2006-12-29
+2019-09-18 22: 13: 03 > test: 2007-01-01~2007-12-31
+2019-09-18 22: 13: 03 > test: 2007-01-01~2007-12-31
+2019-09-18 22: 13: 05 > Calling model_fn.
+2019-09-18 22: 13: 05 > Calling model_fn.
+2019-09-18 22: 13: 42 > Done calling model_fn.
+2019-09-18 22: 13: 42 > Done calling model_fn.
+2019-09-18 22: 13: 42 > Create CheckpointSaverHook.
+2019-09-18 22: 13: 42 > Create CheckpointSaverHook.
+2019-09-18 22: 13: 42 > Graph was finalized.
+2019-09-18 22: 13: 42 > Graph was finalized.
+2019-09-18 22: 13: 42 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2000
+2019-09-18 22: 13: 42 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2000
+2019-09-18 22: 13: 45 > Running local_init_op.
+2019-09-18 22: 13: 45 > Running local_init_op.
+2019-09-18 22: 13: 45 > Done running local_init_op.
+2019-09-18 22: 13: 45 > Done running local_init_op.
+2019-09-18 22: 14: 09 > Saving checkpoints for 2000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 14: 09 > Saving checkpoints for 2000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 15: 07 > loss = -5.3541512, step = 2001
+2019-09-18 22: 15: 07 > loss = -5.3541512, step = 2001
+2019-09-18 22: 16: 46 > global_step/sec: 1.0141
+2019-09-18 22: 16: 46 > global_step/sec: 1.0141
+2019-09-18 22: 16: 46 > loss = -3.2798195, step = 2101 (98.609 sec)
+2019-09-18 22: 16: 46 > loss = -3.2798195, step = 2101 (98.609 sec)
+2019-09-18 22: 17: 31 > global_step/sec: 2.21453
+2019-09-18 22: 17: 31 > global_step/sec: 2.21453
+2019-09-18 22: 17: 31 > loss = -2.6202152, step = 2201 (45.156 sec)
+2019-09-18 22: 17: 31 > loss = -2.6202152, step = 2201 (45.156 sec)
+2019-09-18 22: 18: 16 > Saving checkpoints for 2300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 18: 16 > Saving checkpoints for 2300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 18: 23 > Loss for final step: -4.4859457.
+2019-09-18 22: 18: 23 > Loss for final step: -4.4859457.
+2019-09-18 22: 19: 03 > Calling model_fn.
+2019-09-18 22: 19: 03 > Calling model_fn.
+2019-09-18 22: 19: 03 > Done calling model_fn.
+2019-09-18 22: 19: 03 > Done calling model_fn.
+2019-09-18 22: 19: 03 > Graph was finalized.
+2019-09-18 22: 19: 03 > Graph was finalized.
+2019-09-18 22: 19: 03 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2300
+2019-09-18 22: 19: 03 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2300
+2019-09-18 22: 19: 03 > Running local_init_op.
+2019-09-18 22: 19: 03 > Running local_init_op.
+2019-09-18 22: 19: 03 > Done running local_init_op.
+2019-09-18 22: 19: 03 > Done running local_init_op.
+2019-09-18 22: 19: 09 > accuracy: 0.5220507166482911, down accuracy: 0.5441696113074205, acc with interval: 0.3197353914002205
+
+2019-09-18 22: 19: 09 > accuracy: 0.5220507166482911, down accuracy: 0.5441696113074205, acc with interval: 0.3197353914002205
+
+2019-09-18 22: 19: 09 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.2400212337248175,-1.2919261663980273,8.199990844726585,-10.750003051757801
+2019-09-18 22: 19: 09 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.2400212337248175,-1.2919261663980273,8.199990844726585,-10.750003051757801
+2019-09-18 22: 19: 10 > train: 2000-01-01~2007-12-31
+2019-09-18 22: 19: 10 > train: 2000-01-01~2007-12-31
+2019-09-18 22: 19: 10 > test: 2008-01-01~2008-12-30
+2019-09-18 22: 19: 10 > test: 2008-01-01~2008-12-30
+2019-09-18 22: 19: 12 > Calling model_fn.
+2019-09-18 22: 19: 12 > Calling model_fn.
+2019-09-18 22: 19: 50 > Done calling model_fn.
+2019-09-18 22: 19: 50 > Done calling model_fn.
+2019-09-18 22: 19: 50 > Create CheckpointSaverHook.
+2019-09-18 22: 19: 50 > Create CheckpointSaverHook.
+2019-09-18 22: 19: 50 > Graph was finalized.
+2019-09-18 22: 19: 50 > Graph was finalized.
+2019-09-18 22: 19: 50 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2300
+2019-09-18 22: 19: 50 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2300
+2019-09-18 22: 19: 52 > Running local_init_op.
+2019-09-18 22: 19: 52 > Running local_init_op.
+2019-09-18 22: 19: 53 > Done running local_init_op.
+2019-09-18 22: 19: 53 > Done running local_init_op.
+2019-09-18 22: 20: 17 > Saving checkpoints for 2300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 20: 17 > Saving checkpoints for 2300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 21: 15 > loss = -8.3195305, step = 2301
+2019-09-18 22: 21: 15 > loss = -8.3195305, step = 2301
+2019-09-18 22: 22: 53 > global_step/sec: 1.01976
+2019-09-18 22: 22: 53 > global_step/sec: 1.01976
+2019-09-18 22: 22: 53 > loss = 20.17587, step = 2401 (98.063 sec)
+2019-09-18 22: 22: 53 > loss = 20.17587, step = 2401 (98.063 sec)
+2019-09-18 22: 23: 38 > global_step/sec: 2.20158
+2019-09-18 22: 23: 38 > global_step/sec: 2.20158
+2019-09-18 22: 23: 38 > loss = 13.688679, step = 2501 (45.422 sec)
+2019-09-18 22: 23: 38 > loss = 13.688679, step = 2501 (45.422 sec)
+2019-09-18 22: 24: 23 > Saving checkpoints for 2600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 24: 23 > Saving checkpoints for 2600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 24: 30 > Loss for final step: -0.025196038.
+2019-09-18 22: 24: 30 > Loss for final step: -0.025196038.
+2019-09-18 22: 25: 11 > Calling model_fn.
+2019-09-18 22: 25: 11 > Calling model_fn.
+2019-09-18 22: 25: 11 > Done calling model_fn.
+2019-09-18 22: 25: 11 > Done calling model_fn.
+2019-09-18 22: 25: 11 > Graph was finalized.
+2019-09-18 22: 25: 11 > Graph was finalized.
+2019-09-18 22: 25: 11 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2600
+2019-09-18 22: 25: 11 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2600
+2019-09-18 22: 25: 11 > Running local_init_op.
+2019-09-18 22: 25: 11 > Running local_init_op.
+2019-09-18 22: 25: 11 > Done running local_init_op.
+2019-09-18 22: 25: 11 > Done running local_init_op.
+2019-09-18 22: 25: 17 > accuracy: 0.5279652844744455, down accuracy: 0.5405679513184585, acc with interval: 0.3235294117647059
+
+2019-09-18 22: 25: 17 > accuracy: 0.5279652844744455, down accuracy: 0.5405679513184585, acc with interval: 0.3235294117647059
+
+2019-09-18 22: 25: 17 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.397534422155929,-1.393615915923854,13.549995422363281,-12.449996948242188
+2019-09-18 22: 25: 17 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.397534422155929,-1.393615915923854,13.549995422363281,-12.449996948242188
+2019-09-18 22: 25: 18 > train: 2000-01-01~2008-12-30
+2019-09-18 22: 25: 18 > train: 2000-01-01~2008-12-30
+2019-09-18 22: 25: 18 > test: 2008-12-31~2009-12-30
+2019-09-18 22: 25: 18 > test: 2008-12-31~2009-12-30
+2019-09-18 22: 25: 20 > Calling model_fn.
+2019-09-18 22: 25: 20 > Calling model_fn.
+2019-09-18 22: 25: 58 > Done calling model_fn.
+2019-09-18 22: 25: 58 > Done calling model_fn.
+2019-09-18 22: 25: 58 > Create CheckpointSaverHook.
+2019-09-18 22: 25: 58 > Create CheckpointSaverHook.
+2019-09-18 22: 25: 58 > Graph was finalized.
+2019-09-18 22: 25: 58 > Graph was finalized.
+2019-09-18 22: 25: 58 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2600
+2019-09-18 22: 25: 58 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2600
+2019-09-18 22: 26: 01 > Running local_init_op.
+2019-09-18 22: 26: 01 > Running local_init_op.
+2019-09-18 22: 26: 01 > Done running local_init_op.
+2019-09-18 22: 26: 01 > Done running local_init_op.
+2019-09-18 22: 26: 25 > Saving checkpoints for 2600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 26: 25 > Saving checkpoints for 2600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 27: 23 > loss = -0.88949084, step = 2601
+2019-09-18 22: 27: 23 > loss = -0.88949084, step = 2601
+2019-09-18 22: 29: 00 > global_step/sec: 1.02844
+2019-09-18 22: 29: 00 > global_step/sec: 1.02844
+2019-09-18 22: 29: 00 > loss = 5.608988, step = 2701 (97.234 sec)
+2019-09-18 22: 29: 00 > loss = 5.608988, step = 2701 (97.234 sec)
+2019-09-18 22: 29: 45 > global_step/sec: 2.21914
+2019-09-18 22: 29: 45 > global_step/sec: 2.21914
+2019-09-18 22: 29: 45 > loss = -0.6233782, step = 2801 (45.063 sec)
+2019-09-18 22: 29: 45 > loss = -0.6233782, step = 2801 (45.063 sec)
+2019-09-18 22: 30: 30 > Saving checkpoints for 2900 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 30: 30 > Saving checkpoints for 2900 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 30: 37 > Loss for final step: -1.4244542.
+2019-09-18 22: 30: 37 > Loss for final step: -1.4244542.
+2019-09-18 22: 31: 18 > Calling model_fn.
+2019-09-18 22: 31: 18 > Calling model_fn.
+2019-09-18 22: 31: 18 > Done calling model_fn.
+2019-09-18 22: 31: 18 > Done calling model_fn.
+2019-09-18 22: 31: 19 > Graph was finalized.
+2019-09-18 22: 31: 19 > Graph was finalized.
+2019-09-18 22: 31: 19 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2900
+2019-09-18 22: 31: 19 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2900
+2019-09-18 22: 31: 19 > Running local_init_op.
+2019-09-18 22: 31: 19 > Running local_init_op.
+2019-09-18 22: 31: 19 > Done running local_init_op.
+2019-09-18 22: 31: 19 > Done running local_init_op.
+2019-09-18 22: 31: 24 > accuracy: 0.5289079229122056, down accuracy: 0.5480682839173405, acc with interval: 0.32419700214132763
+
+2019-09-18 22: 31: 24 > accuracy: 0.5289079229122056, down accuracy: 0.5480682839173405, acc with interval: 0.32419700214132763
+
+2019-09-18 22: 31: 24 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.442307880108173,-1.435409102006392,13.54999542236328,-12.449996948242188
+2019-09-18 22: 31: 24 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.442307880108173,-1.435409102006392,13.54999542236328,-12.449996948242188
+2019-09-18 22: 31: 25 > train: 2000-01-01~2009-12-30
+2019-09-18 22: 31: 25 > train: 2000-01-01~2009-12-30
+2019-09-18 22: 31: 25 > test: 2009-12-31~2010-12-30
+2019-09-18 22: 31: 25 > test: 2009-12-31~2010-12-30
+2019-09-18 22: 31: 28 > Calling model_fn.
+2019-09-18 22: 31: 28 > Calling model_fn.
+2019-09-18 22: 32: 06 > Done calling model_fn.
+2019-09-18 22: 32: 06 > Done calling model_fn.
+2019-09-18 22: 32: 06 > Create CheckpointSaverHook.
+2019-09-18 22: 32: 06 > Create CheckpointSaverHook.
+2019-09-18 22: 32: 06 > Graph was finalized.
+2019-09-18 22: 32: 06 > Graph was finalized.
+2019-09-18 22: 32: 06 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2900
+2019-09-18 22: 32: 06 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-2900
+2019-09-18 22: 32: 08 > Running local_init_op.
+2019-09-18 22: 32: 08 > Running local_init_op.
+2019-09-18 22: 32: 09 > Done running local_init_op.
+2019-09-18 22: 32: 09 > Done running local_init_op.
+2019-09-18 22: 32: 33 > Saving checkpoints for 2900 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 32: 33 > Saving checkpoints for 2900 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 33: 32 > loss = -1.56306, step = 2901
+2019-09-18 22: 33: 32 > loss = -1.56306, step = 2901
+2019-09-18 22: 35: 11 > global_step/sec: 1.01042
+2019-09-18 22: 35: 11 > global_step/sec: 1.01042
+2019-09-18 22: 35: 11 > loss = 0.8939343, step = 3001 (98.969 sec)
+2019-09-18 22: 35: 11 > loss = 0.8939343, step = 3001 (98.969 sec)
+2019-09-18 22: 35: 56 > global_step/sec: 2.213
+2019-09-18 22: 35: 56 > global_step/sec: 2.213
+2019-09-18 22: 35: 56 > loss = -0.8721996, step = 3101 (45.187 sec)
+2019-09-18 22: 35: 56 > loss = -0.8721996, step = 3101 (45.187 sec)
+2019-09-18 22: 36: 41 > Saving checkpoints for 3200 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 36: 41 > Saving checkpoints for 3200 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 36: 48 > Loss for final step: -3.270773.
+2019-09-18 22: 36: 48 > Loss for final step: -3.270773.
+2019-09-18 22: 37: 30 > Calling model_fn.
+2019-09-18 22: 37: 30 > Calling model_fn.
+2019-09-18 22: 37: 30 > Done calling model_fn.
+2019-09-18 22: 37: 30 > Done calling model_fn.
+2019-09-18 22: 37: 30 > Graph was finalized.
+2019-09-18 22: 37: 30 > Graph was finalized.
+2019-09-18 22: 37: 30 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3200
+2019-09-18 22: 37: 30 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3200
+2019-09-18 22: 37: 30 > Running local_init_op.
+2019-09-18 22: 37: 30 > Running local_init_op.
+2019-09-18 22: 37: 30 > Done running local_init_op.
+2019-09-18 22: 37: 30 > Done running local_init_op.
+2019-09-18 22: 37: 36 > accuracy: 0.5269645608628659, down accuracy: 0.5423452768729642, acc with interval: 0.32280431432973805
+
+2019-09-18 22: 37: 36 > accuracy: 0.5269645608628659, down accuracy: 0.5423452768729642, acc with interval: 0.32280431432973805
+
+2019-09-18 22: 37: 36 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.435745810346994,-1.430496772492747,13.54999542236328,-12.449996948242188
+2019-09-18 22: 37: 36 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.435745810346994,-1.430496772492747,13.54999542236328,-12.449996948242188
+2019-09-18 22: 37: 37 > train: 2000-01-01~2010-12-30
+2019-09-18 22: 37: 37 > train: 2000-01-01~2010-12-30
+2019-09-18 22: 37: 37 > test: 2010-12-31~2011-12-30
+2019-09-18 22: 37: 37 > test: 2010-12-31~2011-12-30
+2019-09-18 22: 37: 40 > Calling model_fn.
+2019-09-18 22: 37: 40 > Calling model_fn.
+2019-09-18 22: 38: 18 > Done calling model_fn.
+2019-09-18 22: 38: 18 > Done calling model_fn.
+2019-09-18 22: 38: 18 > Create CheckpointSaverHook.
+2019-09-18 22: 38: 18 > Create CheckpointSaverHook.
+2019-09-18 22: 38: 18 > Graph was finalized.
+2019-09-18 22: 38: 18 > Graph was finalized.
+2019-09-18 22: 38: 18 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3200
+2019-09-18 22: 38: 18 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3200
+2019-09-18 22: 38: 20 > Running local_init_op.
+2019-09-18 22: 38: 20 > Running local_init_op.
+2019-09-18 22: 38: 21 > Done running local_init_op.
+2019-09-18 22: 38: 21 > Done running local_init_op.
+2019-09-18 22: 38: 45 > Saving checkpoints for 3200 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 38: 45 > Saving checkpoints for 3200 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 39: 43 > loss = -3.0741582, step = 3201
+2019-09-18 22: 39: 43 > loss = -3.0741582, step = 3201
+2019-09-18 22: 41: 21 > global_step/sec: 1.02041
+2019-09-18 22: 41: 21 > global_step/sec: 1.02041
+2019-09-18 22: 41: 21 > loss = -3.6056676, step = 3301 (98.000 sec)
+2019-09-18 22: 41: 21 > loss = -3.6056676, step = 3301 (98.000 sec)
+2019-09-18 22: 42: 06 > global_step/sec: 2.213
+2019-09-18 22: 42: 06 > global_step/sec: 2.213
+2019-09-18 22: 42: 06 > loss = -1.2538139, step = 3401 (45.188 sec)
+2019-09-18 22: 42: 06 > loss = -1.2538139, step = 3401 (45.188 sec)
+2019-09-18 22: 42: 51 > Saving checkpoints for 3500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 42: 51 > Saving checkpoints for 3500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 42: 58 > Loss for final step: -4.1476736.
+2019-09-18 22: 42: 58 > Loss for final step: -4.1476736.
+2019-09-18 22: 43: 40 > Calling model_fn.
+2019-09-18 22: 43: 40 > Calling model_fn.
+2019-09-18 22: 43: 41 > Done calling model_fn.
+2019-09-18 22: 43: 41 > Done calling model_fn.
+2019-09-18 22: 43: 41 > Graph was finalized.
+2019-09-18 22: 43: 41 > Graph was finalized.
+2019-09-18 22: 43: 41 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3500
+2019-09-18 22: 43: 41 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3500
+2019-09-18 22: 43: 41 > Running local_init_op.
+2019-09-18 22: 43: 41 > Running local_init_op.
+2019-09-18 22: 43: 41 > Done running local_init_op.
+2019-09-18 22: 43: 41 > Done running local_init_op.
+2019-09-18 22: 43: 46 > accuracy: 0.5229261463073154, down accuracy: 0.5328947368421053, acc with interval: 0.3223661183059153
+
+2019-09-18 22: 43: 46 > accuracy: 0.5229261463073154, down accuracy: 0.5328947368421053, acc with interval: 0.3223661183059153
+
+2019-09-18 22: 43: 46 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.508266603196641,-1.517938371239912,13.54999542236328,-12.449996948242188
+2019-09-18 22: 43: 46 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.508266603196641,-1.517938371239912,13.54999542236328,-12.449996948242188
+2019-09-18 22: 43: 47 > train: 2000-01-01~2011-12-30
+2019-09-18 22: 43: 47 > train: 2000-01-01~2011-12-30
+2019-09-18 22: 43: 47 > test: 2012-01-02~2012-12-31
+2019-09-18 22: 43: 47 > test: 2012-01-02~2012-12-31
+2019-09-18 22: 43: 51 > Calling model_fn.
+2019-09-18 22: 43: 51 > Calling model_fn.
+2019-09-18 22: 44: 29 > Done calling model_fn.
+2019-09-18 22: 44: 29 > Done calling model_fn.
+2019-09-18 22: 44: 29 > Create CheckpointSaverHook.
+2019-09-18 22: 44: 29 > Create CheckpointSaverHook.
+2019-09-18 22: 44: 29 > Graph was finalized.
+2019-09-18 22: 44: 29 > Graph was finalized.
+2019-09-18 22: 44: 29 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3500
+2019-09-18 22: 44: 29 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3500
+2019-09-18 22: 44: 31 > Running local_init_op.
+2019-09-18 22: 44: 31 > Running local_init_op.
+2019-09-18 22: 44: 32 > Done running local_init_op.
+2019-09-18 22: 44: 32 > Done running local_init_op.
+2019-09-18 22: 44: 56 > Saving checkpoints for 3500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 44: 56 > Saving checkpoints for 3500 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 45: 54 > loss = -7.3600903, step = 3501
+2019-09-18 22: 45: 54 > loss = -7.3600903, step = 3501
+2019-09-18 22: 47: 35 > global_step/sec: 0.994208
+2019-09-18 22: 47: 35 > global_step/sec: 0.994208
+2019-09-18 22: 47: 35 > loss = -2.8572829, step = 3601 (100.567 sec)
+2019-09-18 22: 47: 35 > loss = -2.8572829, step = 3601 (100.567 sec)
+2019-09-18 22: 48: 21 > global_step/sec: 2.19253
+2019-09-18 22: 48: 21 > global_step/sec: 2.19253
+2019-09-18 22: 48: 21 > loss = -2.230142, step = 3701 (45.609 sec)
+2019-09-18 22: 48: 21 > loss = -2.230142, step = 3701 (45.609 sec)
+2019-09-18 22: 49: 06 > Saving checkpoints for 3800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 49: 06 > Saving checkpoints for 3800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 49: 13 > Loss for final step: 11.663077.
+2019-09-18 22: 49: 13 > Loss for final step: 11.663077.
+2019-09-18 22: 49: 56 > Calling model_fn.
+2019-09-18 22: 49: 56 > Calling model_fn.
+2019-09-18 22: 49: 56 > Done calling model_fn.
+2019-09-18 22: 49: 56 > Done calling model_fn.
+2019-09-18 22: 49: 57 > Graph was finalized.
+2019-09-18 22: 49: 57 > Graph was finalized.
+2019-09-18 22: 49: 57 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3800
+2019-09-18 22: 49: 57 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3800
+2019-09-18 22: 49: 57 > Running local_init_op.
+2019-09-18 22: 49: 57 > Running local_init_op.
+2019-09-18 22: 49: 57 > Done running local_init_op.
+2019-09-18 22: 49: 57 > Done running local_init_op.
+2019-09-18 22: 50: 02 > accuracy: 0.5200513314084055, down accuracy: 0.5256410256410257, acc with interval: 0.31536734039140196
+
+2019-09-18 22: 50: 02 > accuracy: 0.5200513314084055, down accuracy: 0.5256410256410257, acc with interval: 0.31536734039140196
+
+2019-09-18 22: 50: 02 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.5007402480053065,-1.497393111366639,13.54999542236328,-12.449996948242188
+2019-09-18 22: 50: 02 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.5007402480053065,-1.497393111366639,13.54999542236328,-12.449996948242188
+2019-09-18 22: 50: 03 > train: 2000-01-01~2012-12-31
+2019-09-18 22: 50: 03 > train: 2000-01-01~2012-12-31
+2019-09-18 22: 50: 03 > test: 2013-01-01~2013-12-31
+2019-09-18 22: 50: 03 > test: 2013-01-01~2013-12-31
+2019-09-18 22: 50: 07 > Calling model_fn.
+2019-09-18 22: 50: 07 > Calling model_fn.
+2019-09-18 22: 50: 45 > Done calling model_fn.
+2019-09-18 22: 50: 45 > Done calling model_fn.
+2019-09-18 22: 50: 45 > Create CheckpointSaverHook.
+2019-09-18 22: 50: 45 > Create CheckpointSaverHook.
+2019-09-18 22: 50: 45 > Graph was finalized.
+2019-09-18 22: 50: 45 > Graph was finalized.
+2019-09-18 22: 50: 45 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3800
+2019-09-18 22: 50: 45 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-3800
+2019-09-18 22: 50: 47 > Running local_init_op.
+2019-09-18 22: 50: 47 > Running local_init_op.
+2019-09-18 22: 50: 48 > Done running local_init_op.
+2019-09-18 22: 50: 48 > Done running local_init_op.
+2019-09-18 22: 51: 12 > Saving checkpoints for 3800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 51: 12 > Saving checkpoints for 3800 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 52: 11 > loss = -4.8077283, step = 3801
+2019-09-18 22: 52: 11 > loss = -4.8077283, step = 3801
+2019-09-18 22: 53: 52 > global_step/sec: 0.99518
+2019-09-18 22: 53: 52 > global_step/sec: 0.99518
+2019-09-18 22: 53: 52 > loss = -5.0111403, step = 3901 (100.484 sec)
+2019-09-18 22: 53: 52 > loss = -5.0111403, step = 3901 (100.484 sec)
+2019-09-18 22: 54: 38 > global_step/sec: 2.19042
+2019-09-18 22: 54: 38 > global_step/sec: 2.19042
+2019-09-18 22: 54: 38 > loss = -3.0569174, step = 4001 (45.653 sec)
+2019-09-18 22: 54: 38 > loss = -3.0569174, step = 4001 (45.653 sec)
+2019-09-18 22: 55: 23 > Saving checkpoints for 4100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 55: 23 > Saving checkpoints for 4100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 55: 30 > Loss for final step: -1.5226598.
+2019-09-18 22: 55: 30 > Loss for final step: -1.5226598.
+2019-09-18 22: 56: 13 > Calling model_fn.
+2019-09-18 22: 56: 13 > Calling model_fn.
+2019-09-18 22: 56: 14 > Done calling model_fn.
+2019-09-18 22: 56: 14 > Done calling model_fn.
+2019-09-18 22: 56: 14 > Graph was finalized.
+2019-09-18 22: 56: 14 > Graph was finalized.
+2019-09-18 22: 56: 14 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4100
+2019-09-18 22: 56: 14 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4100
+2019-09-18 22: 56: 14 > Running local_init_op.
+2019-09-18 22: 56: 14 > Running local_init_op.
+2019-09-18 22: 56: 14 > Done running local_init_op.
+2019-09-18 22: 56: 14 > Done running local_init_op.
+2019-09-18 22: 56: 19 > accuracy: 0.5201302545885139, down accuracy: 0.5234278668310728, acc with interval: 0.3132030787448194
+
+2019-09-18 22: 56: 19 > accuracy: 0.5201302545885139, down accuracy: 0.5234278668310728, acc with interval: 0.3132030787448194
+
+2019-09-18 22: 56: 19 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4987762868031225,-1.4926898087931584,13.54999542236328,-12.449996948242188
+2019-09-18 22: 56: 19 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4987762868031225,-1.4926898087931584,13.54999542236328,-12.449996948242188
+2019-09-18 22: 56: 20 > train: 2000-01-01~2013-12-31
+2019-09-18 22: 56: 20 > train: 2000-01-01~2013-12-31
+2019-09-18 22: 56: 20 > test: 2014-01-01~2014-12-31
+2019-09-18 22: 56: 20 > test: 2014-01-01~2014-12-31
+2019-09-18 22: 56: 24 > Calling model_fn.
+2019-09-18 22: 56: 24 > Calling model_fn.
+2019-09-18 22: 57: 02 > Done calling model_fn.
+2019-09-18 22: 57: 02 > Done calling model_fn.
+2019-09-18 22: 57: 02 > Create CheckpointSaverHook.
+2019-09-18 22: 57: 02 > Create CheckpointSaverHook.
+2019-09-18 22: 57: 02 > Graph was finalized.
+2019-09-18 22: 57: 02 > Graph was finalized.
+2019-09-18 22: 57: 02 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4100
+2019-09-18 22: 57: 02 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4100
+2019-09-18 22: 57: 04 > Running local_init_op.
+2019-09-18 22: 57: 04 > Running local_init_op.
+2019-09-18 22: 57: 05 > Done running local_init_op.
+2019-09-18 22: 57: 05 > Done running local_init_op.
+2019-09-18 22: 57: 29 > Saving checkpoints for 4100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 57: 29 > Saving checkpoints for 4100 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 22: 58: 30 > loss = -6.599971, step = 4101
+2019-09-18 22: 58: 30 > loss = -6.599971, step = 4101
+2019-09-18 23: 00: 10 > global_step/sec: 0.999219
+2019-09-18 23: 00: 10 > global_step/sec: 0.999219
+2019-09-18 23: 00: 10 > loss = -4.578215, step = 4201 (100.078 sec)
+2019-09-18 23: 00: 10 > loss = -4.578215, step = 4201 (100.078 sec)
+2019-09-18 23: 00: 56 > global_step/sec: 2.1978
+2019-09-18 23: 00: 56 > global_step/sec: 2.1978
+2019-09-18 23: 00: 56 > loss = -2.3522258, step = 4301 (45.500 sec)
+2019-09-18 23: 00: 56 > loss = -2.3522258, step = 4301 (45.500 sec)
+2019-09-18 23: 01: 41 > Saving checkpoints for 4400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 01: 41 > Saving checkpoints for 4400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 01: 48 > Loss for final step: -4.6774006.
+2019-09-18 23: 01: 48 > Loss for final step: -4.6774006.
+2019-09-18 23: 02: 31 > Calling model_fn.
+2019-09-18 23: 02: 31 > Calling model_fn.
+2019-09-18 23: 02: 31 > Done calling model_fn.
+2019-09-18 23: 02: 31 > Done calling model_fn.
+2019-09-18 23: 02: 31 > Graph was finalized.
+2019-09-18 23: 02: 31 > Graph was finalized.
+2019-09-18 23: 02: 31 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4400
+2019-09-18 23: 02: 31 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4400
+2019-09-18 23: 02: 31 > Running local_init_op.
+2019-09-18 23: 02: 31 > Running local_init_op.
+2019-09-18 23: 02: 31 > Done running local_init_op.
+2019-09-18 23: 02: 31 > Done running local_init_op.
+2019-09-18 23: 02: 37 > accuracy: 0.5198019801980198, down accuracy: 0.5232690124858116, acc with interval: 0.31298129812981296
+
+2019-09-18 23: 02: 37 > accuracy: 0.5198019801980198, down accuracy: 0.5232690124858116, acc with interval: 0.31298129812981296
+
+2019-09-18 23: 02: 37 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4752116563585072,-1.4751146069643557,13.54999542236328,-12.449996948242188
+2019-09-18 23: 02: 37 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4752116563585072,-1.4751146069643557,13.54999542236328,-12.449996948242188
+2019-09-18 23: 02: 38 > train: 2000-01-01~2014-12-31
+2019-09-18 23: 02: 38 > train: 2000-01-01~2014-12-31
+2019-09-18 23: 02: 38 > test: 2015-01-01~2015-12-31
+2019-09-18 23: 02: 38 > test: 2015-01-01~2015-12-31
+2019-09-18 23: 02: 42 > Calling model_fn.
+2019-09-18 23: 02: 42 > Calling model_fn.
+2019-09-18 23: 03: 20 > Done calling model_fn.
+2019-09-18 23: 03: 20 > Done calling model_fn.
+2019-09-18 23: 03: 20 > Create CheckpointSaverHook.
+2019-09-18 23: 03: 20 > Create CheckpointSaverHook.
+2019-09-18 23: 03: 20 > Graph was finalized.
+2019-09-18 23: 03: 20 > Graph was finalized.
+2019-09-18 23: 03: 20 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4400
+2019-09-18 23: 03: 20 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4400
+2019-09-18 23: 03: 22 > Running local_init_op.
+2019-09-18 23: 03: 22 > Running local_init_op.
+2019-09-18 23: 03: 23 > Done running local_init_op.
+2019-09-18 23: 03: 23 > Done running local_init_op.
+2019-09-18 23: 03: 47 > Saving checkpoints for 4400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 03: 47 > Saving checkpoints for 4400 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 04: 46 > loss = -3.550195, step = 4401
+2019-09-18 23: 04: 46 > loss = -3.550195, step = 4401
+2019-09-18 23: 06: 25 > global_step/sec: 1.00661
+2019-09-18 23: 06: 25 > global_step/sec: 1.00661
+2019-09-18 23: 06: 25 > loss = -4.867692, step = 4501 (99.344 sec)
+2019-09-18 23: 06: 25 > loss = -4.867692, step = 4501 (99.344 sec)
+2019-09-18 23: 07: 11 > global_step/sec: 2.20386
+2019-09-18 23: 07: 11 > global_step/sec: 2.20386
+2019-09-18 23: 07: 11 > loss = -4.946876, step = 4601 (45.375 sec)
+2019-09-18 23: 07: 11 > loss = -4.946876, step = 4601 (45.375 sec)
+2019-09-18 23: 07: 56 > Saving checkpoints for 4700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 07: 56 > Saving checkpoints for 4700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 08: 03 > Loss for final step: -4.872271.
+2019-09-18 23: 08: 03 > Loss for final step: -4.872271.
+2019-09-18 23: 08: 47 > Calling model_fn.
+2019-09-18 23: 08: 47 > Calling model_fn.
+2019-09-18 23: 08: 48 > Done calling model_fn.
+2019-09-18 23: 08: 48 > Done calling model_fn.
+2019-09-18 23: 08: 48 > Graph was finalized.
+2019-09-18 23: 08: 48 > Graph was finalized.
+2019-09-18 23: 08: 48 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4700
+2019-09-18 23: 08: 48 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4700
+2019-09-18 23: 08: 48 > Running local_init_op.
+2019-09-18 23: 08: 48 > Running local_init_op.
+2019-09-18 23: 08: 48 > Done running local_init_op.
+2019-09-18 23: 08: 48 > Done running local_init_op.
+2019-09-18 23: 08: 53 > accuracy: 0.5259240246406571, down accuracy: 0.528101802757158, acc with interval: 0.3162217659137577
+
+2019-09-18 23: 08: 53 > accuracy: 0.5259240246406571, down accuracy: 0.528101802757158, acc with interval: 0.3162217659137577
+
+2019-09-18 23: 08: 53 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4612493929250931,-1.469464098109899,13.54999542236328,-12.449996948242188
+2019-09-18 23: 08: 53 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4612493929250931,-1.469464098109899,13.54999542236328,-12.449996948242188
+2019-09-18 23: 08: 54 > train: 2000-01-01~2015-12-31
+2019-09-18 23: 08: 54 > train: 2000-01-01~2015-12-31
+2019-09-18 23: 08: 54 > test: 2016-01-01~2016-12-30
+2019-09-18 23: 08: 54 > test: 2016-01-01~2016-12-30
+2019-09-18 23: 08: 59 > Calling model_fn.
+2019-09-18 23: 08: 59 > Calling model_fn.
+2019-09-18 23: 09: 36 > Done calling model_fn.
+2019-09-18 23: 09: 36 > Done calling model_fn.
+2019-09-18 23: 09: 36 > Create CheckpointSaverHook.
+2019-09-18 23: 09: 36 > Create CheckpointSaverHook.
+2019-09-18 23: 09: 37 > Graph was finalized.
+2019-09-18 23: 09: 37 > Graph was finalized.
+2019-09-18 23: 09: 37 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4700
+2019-09-18 23: 09: 37 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-4700
+2019-09-18 23: 09: 39 > Running local_init_op.
+2019-09-18 23: 09: 39 > Running local_init_op.
+2019-09-18 23: 09: 40 > Done running local_init_op.
+2019-09-18 23: 09: 40 > Done running local_init_op.
+2019-09-18 23: 10: 04 > Saving checkpoints for 4700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 10: 04 > Saving checkpoints for 4700 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 11: 04 > loss = -8.645583, step = 4701
+2019-09-18 23: 11: 04 > loss = -8.645583, step = 4701
+2019-09-18 23: 12: 43 > global_step/sec: 1.01186
+2019-09-18 23: 12: 43 > global_step/sec: 1.01186
+2019-09-18 23: 12: 43 > loss = -7.008003, step = 4801 (98.844 sec)
+2019-09-18 23: 12: 43 > loss = -7.008003, step = 4801 (98.844 sec)
+2019-09-18 23: 13: 29 > global_step/sec: 2.15706
+2019-09-18 23: 13: 29 > global_step/sec: 2.15706
+2019-09-18 23: 13: 29 > loss = 4.5143814, step = 4901 (46.344 sec)
+2019-09-18 23: 13: 29 > loss = 4.5143814, step = 4901 (46.344 sec)
+2019-09-18 23: 14: 14 > Saving checkpoints for 5000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 14: 14 > Saving checkpoints for 5000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 14: 22 > Loss for final step: -2.7265651.
+2019-09-18 23: 14: 22 > Loss for final step: -2.7265651.
+2019-09-18 23: 15: 06 > Calling model_fn.
+2019-09-18 23: 15: 06 > Calling model_fn.
+2019-09-18 23: 15: 06 > Done calling model_fn.
+2019-09-18 23: 15: 06 > Done calling model_fn.
+2019-09-18 23: 15: 06 > Graph was finalized.
+2019-09-18 23: 15: 06 > Graph was finalized.
+2019-09-18 23: 15: 06 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5000
+2019-09-18 23: 15: 06 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5000
+2019-09-18 23: 15: 06 > Running local_init_op.
+2019-09-18 23: 15: 06 > Running local_init_op.
+2019-09-18 23: 15: 06 > Done running local_init_op.
+2019-09-18 23: 15: 06 > Done running local_init_op.
+2019-09-18 23: 15: 12 > accuracy: 0.525150421179302, down accuracy: 0.5206982543640898, acc with interval: 0.314560770156438
+
+2019-09-18 23: 15: 12 > accuracy: 0.525150421179302, down accuracy: 0.5206982543640898, acc with interval: 0.314560770156438
+
+2019-09-18 23: 15: 12 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4376031080153318,-1.4515966153422768,13.54999542236328,-12.449996948242188
+2019-09-18 23: 15: 12 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4376031080153318,-1.4515966153422768,13.54999542236328,-12.449996948242188
+2019-09-18 23: 15: 13 > train: 2000-01-01~2016-12-30
+2019-09-18 23: 15: 13 > train: 2000-01-01~2016-12-30
+2019-09-18 23: 15: 13 > test: 2017-01-02~2018-01-01
+2019-09-18 23: 15: 13 > test: 2017-01-02~2018-01-01
+2019-09-18 23: 15: 17 > Calling model_fn.
+2019-09-18 23: 15: 17 > Calling model_fn.
+2019-09-18 23: 15: 56 > Done calling model_fn.
+2019-09-18 23: 15: 56 > Done calling model_fn.
+2019-09-18 23: 15: 56 > Create CheckpointSaverHook.
+2019-09-18 23: 15: 56 > Create CheckpointSaverHook.
+2019-09-18 23: 15: 56 > Graph was finalized.
+2019-09-18 23: 15: 56 > Graph was finalized.
+2019-09-18 23: 15: 56 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5000
+2019-09-18 23: 15: 56 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5000
+2019-09-18 23: 15: 58 > Running local_init_op.
+2019-09-18 23: 15: 58 > Running local_init_op.
+2019-09-18 23: 15: 59 > Done running local_init_op.
+2019-09-18 23: 15: 59 > Done running local_init_op.
+2019-09-18 23: 16: 23 > Saving checkpoints for 5000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 16: 23 > Saving checkpoints for 5000 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 17: 23 > loss = -8.348385, step = 5001
+2019-09-18 23: 17: 23 > loss = -8.348385, step = 5001
+2019-09-18 23: 19: 03 > global_step/sec: 1.00047
+2019-09-18 23: 19: 03 > global_step/sec: 1.00047
+2019-09-18 23: 19: 03 > loss = -4.8075967, step = 5101 (99.969 sec)
+2019-09-18 23: 19: 03 > loss = -4.8075967, step = 5101 (99.969 sec)
+2019-09-18 23: 19: 49 > global_step/sec: 2.17023
+2019-09-18 23: 19: 49 > global_step/sec: 2.17023
+2019-09-18 23: 19: 49 > loss = -0.04109721, step = 5201 (46.063 sec)
+2019-09-18 23: 19: 49 > loss = -0.04109721, step = 5201 (46.063 sec)
+2019-09-18 23: 20: 35 > Saving checkpoints for 5300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 20: 35 > Saving checkpoints for 5300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 20: 42 > Loss for final step: -2.9029386.
+2019-09-18 23: 20: 42 > Loss for final step: -2.9029386.
+2019-09-18 23: 21: 27 > Calling model_fn.
+2019-09-18 23: 21: 27 > Calling model_fn.
+2019-09-18 23: 21: 27 > Done calling model_fn.
+2019-09-18 23: 21: 27 > Done calling model_fn.
+2019-09-18 23: 21: 29 > Graph was finalized.
+2019-09-18 23: 21: 29 > Graph was finalized.
+2019-09-18 23: 21: 29 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5300
+2019-09-18 23: 21: 29 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5300
+2019-09-18 23: 21: 29 > Running local_init_op.
+2019-09-18 23: 21: 29 > Running local_init_op.
+2019-09-18 23: 21: 29 > Done running local_init_op.
+2019-09-18 23: 21: 29 > Done running local_init_op.
+2019-09-18 23: 21: 35 > accuracy: 0.5260416666666666, down accuracy: 0.5223529411764706, acc with interval: 0.31476449275362317
+
+2019-09-18 23: 21: 35 > accuracy: 0.5260416666666666, down accuracy: 0.5223529411764706, acc with interval: 0.31476449275362317
+
+2019-09-18 23: 21: 35 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4283254596317734,-1.4460821786908742,13.54999542236328,-12.449996948242188
+2019-09-18 23: 21: 35 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4283254596317734,-1.4460821786908742,13.54999542236328,-12.449996948242188
+2019-09-18 23: 21: 36 > train: 2000-01-01~2018-01-01
+2019-09-18 23: 21: 36 > train: 2000-01-01~2018-01-01
+2019-09-18 23: 21: 36 > test: 2018-01-02~2019-01-01
+2019-09-18 23: 21: 36 > test: 2018-01-02~2019-01-01
+2019-09-18 23: 21: 41 > Calling model_fn.
+2019-09-18 23: 21: 41 > Calling model_fn.
+2019-09-18 23: 22: 17 > Done calling model_fn.
+2019-09-18 23: 22: 17 > Done calling model_fn.
+2019-09-18 23: 22: 17 > Create CheckpointSaverHook.
+2019-09-18 23: 22: 17 > Create CheckpointSaverHook.
+2019-09-18 23: 22: 17 > Graph was finalized.
+2019-09-18 23: 22: 17 > Graph was finalized.
+2019-09-18 23: 22: 17 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5300
+2019-09-18 23: 22: 17 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5300
+2019-09-18 23: 22: 19 > Running local_init_op.
+2019-09-18 23: 22: 19 > Running local_init_op.
+2019-09-18 23: 22: 20 > Done running local_init_op.
+2019-09-18 23: 22: 20 > Done running local_init_op.
+2019-09-18 23: 22: 44 > Saving checkpoints for 5300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 22: 44 > Saving checkpoints for 5300 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 23: 43 > loss = -7.234434, step = 5301
+2019-09-18 23: 23: 43 > loss = -7.234434, step = 5301
+2019-09-18 23: 25: 23 > global_step/sec: 1.00376
+2019-09-18 23: 25: 23 > global_step/sec: 1.00376
+2019-09-18 23: 25: 23 > loss = -6.926041, step = 5401 (99.625 sec)
+2019-09-18 23: 25: 23 > loss = -6.926041, step = 5401 (99.625 sec)
+2019-09-18 23: 26: 09 > global_step/sec: 2.18729
+2019-09-18 23: 26: 09 > global_step/sec: 2.18729
+2019-09-18 23: 26: 09 > loss = -0.41835955, step = 5501 (45.719 sec)
+2019-09-18 23: 26: 09 > loss = -0.41835955, step = 5501 (45.719 sec)
+2019-09-18 23: 26: 54 > Saving checkpoints for 5600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 26: 54 > Saving checkpoints for 5600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 27: 01 > Loss for final step: -1.5941414.
+2019-09-18 23: 27: 01 > Loss for final step: -1.5941414.
+2019-09-18 23: 27: 46 > Calling model_fn.
+2019-09-18 23: 27: 46 > Calling model_fn.
+2019-09-18 23: 27: 46 > Done calling model_fn.
+2019-09-18 23: 27: 46 > Done calling model_fn.
+2019-09-18 23: 27: 46 > Graph was finalized.
+2019-09-18 23: 27: 46 > Graph was finalized.
+2019-09-18 23: 27: 46 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5600
+2019-09-18 23: 27: 46 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5600
+2019-09-18 23: 27: 46 > Running local_init_op.
+2019-09-18 23: 27: 46 > Running local_init_op.
+2019-09-18 23: 27: 46 > Done running local_init_op.
+2019-09-18 23: 27: 46 > Done running local_init_op.
+2019-09-18 23: 27: 52 > accuracy: 0.5238400684199273, down accuracy: 0.5175477565526433, acc with interval: 0.31131066923241396
+
+2019-09-18 23: 27: 52 > accuracy: 0.5238400684199273, down accuracy: 0.5175477565526433, acc with interval: 0.31131066923241396
+
+2019-09-18 23: 27: 52 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4446326680086101,-1.4603278199064393,13.54999542236328,-12.449996948242188
+2019-09-18 23: 27: 52 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4446326680086101,-1.4603278199064393,13.54999542236328,-12.449996948242188
+2019-09-18 23: 27: 53 > train: 2000-01-01~2019-01-01
+2019-09-18 23: 27: 53 > train: 2000-01-01~2019-01-01
+2019-09-18 23: 27: 53 > test: 2019-01-02~2019-08-29
+2019-09-18 23: 27: 53 > test: 2019-01-02~2019-08-29
+2019-09-18 23: 27: 59 > Calling model_fn.
+2019-09-18 23: 27: 59 > Calling model_fn.
+2019-09-18 23: 28: 37 > Done calling model_fn.
+2019-09-18 23: 28: 37 > Done calling model_fn.
+2019-09-18 23: 28: 37 > Create CheckpointSaverHook.
+2019-09-18 23: 28: 37 > Create CheckpointSaverHook.
+2019-09-18 23: 28: 37 > Graph was finalized.
+2019-09-18 23: 28: 37 > Graph was finalized.
+2019-09-18 23: 28: 37 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5600
+2019-09-18 23: 28: 37 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5600
+2019-09-18 23: 28: 39 > Running local_init_op.
+2019-09-18 23: 28: 39 > Running local_init_op.
+2019-09-18 23: 28: 40 > Done running local_init_op.
+2019-09-18 23: 28: 40 > Done running local_init_op.
+2019-09-18 23: 29: 05 > Saving checkpoints for 5600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 29: 05 > Saving checkpoints for 5600 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 30: 05 > loss = -8.445108, step = 5601
+2019-09-18 23: 30: 05 > loss = -8.445108, step = 5601
+2019-09-18 23: 31: 44 > global_step/sec: 1.00172
+2019-09-18 23: 31: 44 > global_step/sec: 1.00172
+2019-09-18 23: 31: 44 > loss = -4.7713175, step = 5701 (99.828 sec)
+2019-09-18 23: 31: 44 > loss = -4.7713175, step = 5701 (99.828 sec)
+2019-09-18 23: 32: 32 > global_step/sec: 2.10043
+2019-09-18 23: 32: 32 > global_step/sec: 2.10043
+2019-09-18 23: 32: 32 > loss = -1.6389478, step = 5801 (47.609 sec)
+2019-09-18 23: 32: 32 > loss = -1.6389478, step = 5801 (47.609 sec)
+2019-09-18 23: 33: 18 > Saving checkpoints for 5900 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 33: 18 > Saving checkpoints for 5900 into model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt.
+2019-09-18 23: 33: 26 > Loss for final step: -3.2829764.
+2019-09-18 23: 33: 26 > Loss for final step: -3.2829764.
+2019-09-18 23: 33: 58 > Calling model_fn.
+2019-09-18 23: 33: 58 > Calling model_fn.
+2019-09-18 23: 33: 58 > Done calling model_fn.
+2019-09-18 23: 33: 58 > Done calling model_fn.
+2019-09-18 23: 33: 58 > Graph was finalized.
+2019-09-18 23: 33: 58 > Graph was finalized.
+2019-09-18 23: 33: 58 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5900
+2019-09-18 23: 33: 58 > Restoring parameters from model_dir/v5_0_1_809/kospi200f_1_1_20_500_20_20190918213522\model.ckpt-5900
+2019-09-18 23: 33: 58 > Running local_init_op.
+2019-09-18 23: 33: 58 > Running local_init_op.
+2019-09-18 23: 33: 58 > Done running local_init_op.
+2019-09-18 23: 33: 58 > Done running local_init_op.
+2019-09-18 23: 34: 02 > accuracy: 0.5229944318416169, down accuracy: 0.5160324925181702, acc with interval: 0.3109919571045576
+
+2019-09-18 23: 34: 02 > accuracy: 0.5229944318416169, down accuracy: 0.5160324925181702, acc with interval: 0.3109919571045576
+
+2019-09-18 23: 34: 02 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4465102559760545,-1.466039816084951,13.54999542236328,-12.449996948242188
+2019-09-18 23: 34: 02 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.4465102559760545,-1.466039816084951,13.54999542236328,-12.449996948242188
+2019-09-18 23: 34: 02 > 2019 09 18 23 34 02
+2019-09-18 23: 34: 02 > 2019 09 18 23 34 02
+2019-09-18 23: 34: 02 > ====================== gradual train end #0 ===========================
+2019-09-18 23: 34: 02 > ====================== gradual train end #0 ===========================
+2019-09-18 23: 34: 02 > 2019 09 18 23 34 02
+2019-09-18 23: 34: 02 > 2019 09 18 23 34 02
+2019-09-18 23: 34: 02 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-09-18 23: 34: 02 > ======================no-ensemble train-predict end, saving the results ===========================

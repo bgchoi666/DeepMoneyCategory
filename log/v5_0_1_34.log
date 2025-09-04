@@ -1,0 +1,78 @@
+2019-10-27 15: 17: 37 > train term 1:1996-07-01~2018-12-31
+2019-10-27 15: 17: 37 > train term 2:1996-07-01~1998-12-31
+2019-10-27 15: 17: 37 > 2019 10 27 15 17 37
+2019-10-27 15: 17: 37 > ======================no-ensemble train-predict start ===========================
+2019-10-27 15: 17: 37 > Using config: {'_model_dir': 'model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001E75DC432E8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-10-27 15: 17: 37 > model created: model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737
+2019-10-27 15: 17: 37 > 2019 10 27 15 17 37
+2019-10-27 15: 17: 37 > 2019 10 27 15 17 37
+2019-10-27 15: 17: 37 > ====================== gradual train start #0 ===========================
+2019-10-27 15: 17: 37 > ====================== gradual train start #0 ===========================
+2019-10-27 15: 17: 37 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-10-27 15: 17: 37 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-10-27 15: 17: 37 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-10-27 15: 17: 37 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-10-27 15: 17: 37 > Calling model_fn.
+2019-10-27 15: 17: 37 > Calling model_fn.
+2019-10-27 15: 18: 18 > Done calling model_fn.
+2019-10-27 15: 18: 18 > Done calling model_fn.
+2019-10-27 15: 18: 18 > Create CheckpointSaverHook.
+2019-10-27 15: 18: 18 > Create CheckpointSaverHook.
+2019-10-27 15: 18: 26 > Graph was finalized.
+2019-10-27 15: 18: 26 > Graph was finalized.
+2019-10-27 15: 18: 28 > Running local_init_op.
+2019-10-27 15: 18: 28 > Running local_init_op.
+2019-10-27 15: 18: 29 > Done running local_init_op.
+2019-10-27 15: 18: 29 > Done running local_init_op.
+2019-10-27 15: 18: 30 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-10-27 15: 18: 30 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-10-27 15: 18: 52 > Saving checkpoints for 0 into model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt.
+2019-10-27 15: 18: 52 > Saving checkpoints for 0 into model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt.
+2019-10-27 15: 19: 47 > loss = 0.25382745, step = 1
+2019-10-27 15: 19: 47 > loss = 0.25382745, step = 1
+2019-10-27 15: 19: 47 > Saving checkpoints for 1 into model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt.
+2019-10-27 15: 19: 47 > Saving checkpoints for 1 into model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt.
+2019-10-27 15: 19: 54 > Loss for final step: 0.25382745.
+2019-10-27 15: 19: 54 > Loss for final step: 0.25382745.
+2019-10-27 15: 19: 54 > train: 1996-06-30~1998-12-30
+2019-10-27 15: 19: 54 > train: 1996-06-30~1998-12-30
+2019-10-27 15: 19: 54 > test: 1998-12-31~1999-12-30
+2019-10-27 15: 19: 54 > test: 1998-12-31~1999-12-30
+2019-10-27 15: 19: 54 > Calling model_fn.
+2019-10-27 15: 19: 54 > Calling model_fn.
+2019-10-27 15: 20: 32 > Done calling model_fn.
+2019-10-27 15: 20: 32 > Done calling model_fn.
+2019-10-27 15: 20: 32 > Create CheckpointSaverHook.
+2019-10-27 15: 20: 32 > Create CheckpointSaverHook.
+2019-10-27 15: 20: 32 > Graph was finalized.
+2019-10-27 15: 20: 32 > Graph was finalized.
+2019-10-27 15: 20: 32 > Restoring parameters from model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt-1
+2019-10-27 15: 20: 32 > Restoring parameters from model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt-1
+2019-10-27 15: 20: 34 > Running local_init_op.
+2019-10-27 15: 20: 34 > Running local_init_op.
+2019-10-27 15: 20: 34 > Done running local_init_op.
+2019-10-27 15: 20: 34 > Done running local_init_op.
+2019-10-27 15: 20: 58 > Saving checkpoints for 1 into model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt.
+2019-10-27 15: 20: 58 > Saving checkpoints for 1 into model_dir/v5_0_1_34/kospi200f_1day_a0.5b0.1_T_20191027151737\model.ckpt.
+2019-10-27 15: 21: 55 > loss = 0.38174596, step = 2
+2019-10-27 15: 21: 55 > loss = 0.38174596, step = 2
+2019-10-27 15: 22: 49 > Model diverged with loss = NaN.
+2019-10-27 15: 22: 49 > Model diverged with loss = NaN.

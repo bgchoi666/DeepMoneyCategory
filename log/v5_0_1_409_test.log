@@ -1,0 +1,314 @@
+2020-03-17 11: 16: 04 > train term 1:2010-01-31~2020-03-15
+2020-03-17 11: 16: 04 > train term 2:2010-01-31~2018-12-31
+2020-03-17 11: 16: 04 > 2020 03 17 11 16 04
+2020-03-17 11: 16: 04 > ======================no-ensemble train-predict start ===========================
+2020-03-17 11: 16: 04 > Using config: {'_model_dir': 'model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111604', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001F4473F0518>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2020-03-17 11: 16: 04 > model created: model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111604
+2020-03-17 11: 16: 04 > 2020 03 17 11 16 04
+2020-03-17 11: 16: 04 > 2020 03 17 11 16 04
+2020-03-17 11: 16: 04 > ====================== gradual train start #0 ===========================
+2020-03-17 11: 16: 04 > ====================== gradual train start #0 ===========================
+2020-03-17 11: 16: 11 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 11 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 11 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 11 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 11 > Calling model_fn.
+2020-03-17 11: 16: 11 > Calling model_fn.
+2020-03-17 11: 16: 51 > train term 1:2010-01-31~2020-03-15
+2020-03-17 11: 16: 51 > train term 2:2010-01-31~2018-12-31
+2020-03-17 11: 16: 51 > 2020 03 17 11 16 51
+2020-03-17 11: 16: 51 > ======================no-ensemble train-predict start ===========================
+2020-03-17 11: 16: 51 > Using config: {'_model_dir': 'model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000026BEFC1E4E0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2020-03-17 11: 16: 51 > model created: model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651
+2020-03-17 11: 16: 51 > 2020 03 17 11 16 51
+2020-03-17 11: 16: 51 > 2020 03 17 11 16 51
+2020-03-17 11: 16: 51 > ====================== gradual train start #0 ===========================
+2020-03-17 11: 16: 51 > ====================== gradual train start #0 ===========================
+2020-03-17 11: 16: 52 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 52 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 52 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 52 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 16: 52 > Calling model_fn.
+2020-03-17 11: 16: 52 > Calling model_fn.
+2020-03-17 11: 17: 33 > Done calling model_fn.
+2020-03-17 11: 17: 33 > Done calling model_fn.
+2020-03-17 11: 17: 33 > Create CheckpointSaverHook.
+2020-03-17 11: 17: 33 > Create CheckpointSaverHook.
+2020-03-17 11: 17: 41 > Graph was finalized.
+2020-03-17 11: 17: 41 > Graph was finalized.
+2020-03-17 11: 17: 44 > Running local_init_op.
+2020-03-17 11: 17: 44 > Running local_init_op.
+2020-03-17 11: 17: 44 > Done running local_init_op.
+2020-03-17 11: 17: 44 > Done running local_init_op.
+2020-03-17 11: 17: 45 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 17: 45 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-17 11: 18: 08 > Saving checkpoints for 0 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 18: 08 > Saving checkpoints for 0 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 19: 07 > loss = 9.76276, step = 1
+2020-03-17 11: 19: 07 > loss = 9.76276, step = 1
+2020-03-17 11: 19: 07 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 19: 07 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 19: 13 > Loss for final step: 9.76276.
+2020-03-17 11: 19: 13 > Loss for final step: 9.76276.
+2020-03-17 11: 19: 13 > train: 2010-01-28~2018-12-27
+2020-03-17 11: 19: 13 > train: 2010-01-28~2018-12-27
+2020-03-17 11: 19: 13 > test: 2018-12-27~2020-03-13
+2020-03-17 11: 19: 13 > test: 2018-12-27~2020-03-13
+2020-03-17 11: 19: 13 > Calling model_fn.
+2020-03-17 11: 19: 13 > Calling model_fn.
+2020-03-17 11: 19: 52 > Done calling model_fn.
+2020-03-17 11: 19: 52 > Done calling model_fn.
+2020-03-17 11: 19: 52 > Create CheckpointSaverHook.
+2020-03-17 11: 19: 52 > Create CheckpointSaverHook.
+2020-03-17 11: 19: 52 > Graph was finalized.
+2020-03-17 11: 19: 52 > Graph was finalized.
+2020-03-17 11: 19: 52 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt-1
+2020-03-17 11: 19: 52 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt-1
+2020-03-17 11: 19: 54 > Running local_init_op.
+2020-03-17 11: 19: 54 > Running local_init_op.
+2020-03-17 11: 19: 54 > Done running local_init_op.
+2020-03-17 11: 19: 54 > Done running local_init_op.
+2020-03-17 11: 20: 18 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 20: 18 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 21: 15 > loss = 8.256275, step = 2
+2020-03-17 11: 21: 15 > loss = 8.256275, step = 2
+2020-03-17 11: 22: 47 > global_step/sec: 1.08932
+2020-03-17 11: 22: 47 > global_step/sec: 1.08932
+2020-03-17 11: 22: 47 > loss = -1.3415251, step = 102 (91.800 sec)
+2020-03-17 11: 22: 47 > loss = -1.3415251, step = 102 (91.800 sec)
+2020-03-17 11: 23: 26 > global_step/sec: 2.58198
+2020-03-17 11: 23: 26 > global_step/sec: 2.58198
+2020-03-17 11: 23: 26 > loss = -2.154605, step = 202 (38.730 sec)
+2020-03-17 11: 23: 26 > loss = -2.154605, step = 202 (38.730 sec)
+2020-03-17 11: 24: 04 > global_step/sec: 2.57931
+2020-03-17 11: 24: 04 > global_step/sec: 2.57931
+2020-03-17 11: 24: 04 > loss = -2.56689, step = 302 (38.770 sec)
+2020-03-17 11: 24: 04 > loss = -2.56689, step = 302 (38.770 sec)
+2020-03-17 11: 24: 43 > global_step/sec: 2.56674
+2020-03-17 11: 24: 43 > global_step/sec: 2.56674
+2020-03-17 11: 24: 43 > loss = -2.7306843, step = 402 (38.960 sec)
+2020-03-17 11: 24: 43 > loss = -2.7306843, step = 402 (38.960 sec)
+2020-03-17 11: 25: 22 > Saving checkpoints for 501 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 25: 22 > Saving checkpoints for 501 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt.
+2020-03-17 11: 25: 28 > Loss for final step: -2.6580787.
+2020-03-17 11: 25: 28 > Loss for final step: -2.6580787.
+2020-03-17 11: 25: 51 > Calling model_fn.
+2020-03-17 11: 25: 51 > Calling model_fn.
+2020-03-17 11: 25: 52 > Done calling model_fn.
+2020-03-17 11: 25: 52 > Done calling model_fn.
+2020-03-17 11: 25: 53 > Graph was finalized.
+2020-03-17 11: 25: 53 > Graph was finalized.
+2020-03-17 11: 25: 53 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt-501
+2020-03-17 11: 25: 53 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200317111651\model.ckpt-501
+2020-03-17 11: 25: 53 > Running local_init_op.
+2020-03-17 11: 25: 53 > Running local_init_op.
+2020-03-17 11: 25: 53 > Done running local_init_op.
+2020-03-17 11: 25: 53 > Done running local_init_op.
+2020-03-17 11: 25: 58 > accuracy: 0.5371621621621622, down accuracy: 0.541095890410959, acc with interval: 0.32996632996632996
+
+2020-03-17 11: 25: 58 > accuracy: 0.5371621621621622, down accuracy: 0.541095890410959, acc with interval: 0.32996632996632996
+
+2020-03-17 11: 25: 58 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.7337499999999992,-1.9653284671532871,15.0,-12.199999999999989
+2020-03-17 11: 25: 58 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.7337499999999992,-1.9653284671532871,15.0,-12.199999999999989
+2020-03-17 11: 25: 58 > 2020 03 17 11 25 58
+2020-03-17 11: 25: 58 > 2020 03 17 11 25 58
+2020-03-17 11: 25: 58 > ====================== gradual train end #0 ===========================
+2020-03-17 11: 25: 58 > ====================== gradual train end #0 ===========================
+2020-03-17 11: 25: 58 > 2020 03 17 11 25 58
+2020-03-17 11: 25: 58 > 2020 03 17 11 25 58
+2020-03-17 11: 25: 58 > ======================no-ensemble train-predict end, saving the results ===========================
+2020-03-17 11: 25: 58 > ======================no-ensemble train-predict end, saving the results ===========================
+2020-03-18 07: 37: 43 > train term 1:2010-01-31~2020-03-15
+2020-03-18 07: 37: 43 > train term 2:2010-01-31~2018-12-31
+2020-03-18 07: 37: 43 > 2020 03 18 07 37 43
+2020-03-18 07: 37: 43 > ======================no-ensemble train-predict start ===========================
+2020-03-18 07: 37: 43 > Using config: {'_model_dir': 'model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073743', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002BCD3C504E0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2020-03-18 07: 37: 43 > model created: model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073743
+2020-03-18 07: 37: 43 > 2020 03 18 07 37 43
+2020-03-18 07: 37: 43 > 2020 03 18 07 37 43
+2020-03-18 07: 37: 43 > ====================== gradual train start #0 ===========================
+2020-03-18 07: 37: 43 > ====================== gradual train start #0 ===========================
+2020-03-18 07: 38: 07 > train term 1:2010-01-31~2020-03-15
+2020-03-18 07: 38: 07 > train term 2:2010-01-31~2018-12-31
+2020-03-18 07: 38: 07 > 2020 03 18 07 38 07
+2020-03-18 07: 38: 07 > ======================no-ensemble train-predict start ===========================
+2020-03-18 07: 38: 07 > Using config: {'_model_dir': 'model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073807', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001B3A5DDF4E0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2020-03-18 07: 38: 07 > model created: model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073807
+2020-03-18 07: 38: 07 > 2020 03 18 07 38 07
+2020-03-18 07: 38: 07 > 2020 03 18 07 38 07
+2020-03-18 07: 38: 07 > ====================== gradual train start #0 ===========================
+2020-03-18 07: 38: 07 > ====================== gradual train start #0 ===========================
+2020-03-18 07: 38: 53 > train term 1:2010-01-31~2020-03-15
+2020-03-18 07: 38: 53 > train term 2:2010-01-31~2018-12-31
+2020-03-18 07: 38: 53 > 2020 03 18 07 38 53
+2020-03-18 07: 38: 53 > ======================no-ensemble train-predict start ===========================
+2020-03-18 07: 38: 53 > Using config: {'_model_dir': 'model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002526238F470>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2020-03-18 07: 38: 53 > model created: model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853
+2020-03-18 07: 38: 53 > 2020 03 18 07 38 53
+2020-03-18 07: 38: 53 > 2020 03 18 07 38 53
+2020-03-18 07: 38: 53 > ====================== gradual train start #0 ===========================
+2020-03-18 07: 38: 53 > ====================== gradual train start #0 ===========================
+2020-03-18 07: 38: 59 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-18 07: 38: 59 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-18 07: 38: 59 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-18 07: 38: 59 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-18 07: 38: 59 > Calling model_fn.
+2020-03-18 07: 38: 59 > Calling model_fn.
+2020-03-18 07: 39: 41 > Done calling model_fn.
+2020-03-18 07: 39: 41 > Done calling model_fn.
+2020-03-18 07: 39: 41 > Create CheckpointSaverHook.
+2020-03-18 07: 39: 41 > Create CheckpointSaverHook.
+2020-03-18 07: 39: 49 > Graph was finalized.
+2020-03-18 07: 39: 49 > Graph was finalized.
+2020-03-18 07: 39: 52 > Running local_init_op.
+2020-03-18 07: 39: 52 > Running local_init_op.
+2020-03-18 07: 39: 53 > Done running local_init_op.
+2020-03-18 07: 39: 53 > Done running local_init_op.
+2020-03-18 07: 39: 53 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-18 07: 39: 53 > From C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\training\monitored_session.py:804: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2020-03-18 07: 40: 16 > Saving checkpoints for 0 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 40: 16 > Saving checkpoints for 0 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 41: 13 > loss = 4.108645, step = 1
+2020-03-18 07: 41: 13 > loss = 4.108645, step = 1
+2020-03-18 07: 41: 13 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 41: 13 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 41: 19 > Loss for final step: 4.108645.
+2020-03-18 07: 41: 19 > Loss for final step: 4.108645.
+2020-03-18 07: 41: 19 > train: 2010-01-28~2018-12-27
+2020-03-18 07: 41: 19 > train: 2010-01-28~2018-12-27
+2020-03-18 07: 41: 19 > test: 2018-12-27~2020-03-04
+2020-03-18 07: 41: 19 > test: 2018-12-27~2020-03-04
+2020-03-18 07: 41: 23 > Calling model_fn.
+2020-03-18 07: 41: 23 > Calling model_fn.
+2020-03-18 07: 42: 00 > Done calling model_fn.
+2020-03-18 07: 42: 00 > Done calling model_fn.
+2020-03-18 07: 42: 00 > Create CheckpointSaverHook.
+2020-03-18 07: 42: 00 > Create CheckpointSaverHook.
+2020-03-18 07: 42: 00 > Graph was finalized.
+2020-03-18 07: 42: 00 > Graph was finalized.
+2020-03-18 07: 42: 00 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt-1
+2020-03-18 07: 42: 00 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt-1
+2020-03-18 07: 42: 03 > Running local_init_op.
+2020-03-18 07: 42: 03 > Running local_init_op.
+2020-03-18 07: 42: 03 > Done running local_init_op.
+2020-03-18 07: 42: 03 > Done running local_init_op.
+2020-03-18 07: 42: 26 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 42: 26 > Saving checkpoints for 1 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 43: 24 > loss = 14.616374, step = 2
+2020-03-18 07: 43: 24 > loss = 14.616374, step = 2
+2020-03-18 07: 45: 07 > global_step/sec: 0.97368
+2020-03-18 07: 45: 07 > global_step/sec: 0.97368
+2020-03-18 07: 45: 07 > loss = -2.4881206, step = 102 (102.703 sec)
+2020-03-18 07: 45: 07 > loss = -2.4881206, step = 102 (102.703 sec)
+2020-03-18 07: 45: 57 > global_step/sec: 1.97044
+2020-03-18 07: 45: 57 > global_step/sec: 1.97044
+2020-03-18 07: 45: 57 > loss = -2.6440325, step = 202 (50.750 sec)
+2020-03-18 07: 45: 57 > loss = -2.6440325, step = 202 (50.750 sec)
+2020-03-18 07: 46: 48 > global_step/sec: 1.97836
+2020-03-18 07: 46: 48 > global_step/sec: 1.97836
+2020-03-18 07: 46: 48 > loss = -2.7301996, step = 302 (50.547 sec)
+2020-03-18 07: 46: 48 > loss = -2.7301996, step = 302 (50.547 sec)
+2020-03-18 07: 47: 39 > global_step/sec: 1.94766
+2020-03-18 07: 47: 39 > global_step/sec: 1.94766
+2020-03-18 07: 47: 39 > loss = -2.7802749, step = 402 (51.344 sec)
+2020-03-18 07: 47: 39 > loss = -2.7802749, step = 402 (51.344 sec)
+2020-03-18 07: 48: 29 > Saving checkpoints for 501 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 48: 29 > Saving checkpoints for 501 into model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt.
+2020-03-18 07: 48: 36 > Loss for final step: -2.9963245.
+2020-03-18 07: 48: 36 > Loss for final step: -2.9963245.
+2020-03-18 07: 49: 31 > Calling model_fn.
+2020-03-18 07: 49: 31 > Calling model_fn.
+2020-03-18 07: 49: 32 > Done calling model_fn.
+2020-03-18 07: 49: 32 > Done calling model_fn.
+2020-03-18 07: 49: 32 > Graph was finalized.
+2020-03-18 07: 49: 32 > Graph was finalized.
+2020-03-18 07: 49: 32 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt-501
+2020-03-18 07: 49: 32 > Restoring parameters from model_dir/v5_0_1_409_test/kospi200f_1day_a0.5b0.1_T_20200318073853\model.ckpt-501
+2020-03-18 07: 49: 32 > Running local_init_op.
+2020-03-18 07: 49: 32 > Running local_init_op.
+2020-03-18 07: 49: 32 > Done running local_init_op.
+2020-03-18 07: 49: 32 > Done running local_init_op.
+2020-03-18 07: 49: 39 > accuracy: 0.5578947368421052, down accuracy: 0.5755395683453237, acc with interval: 0.3951048951048951
+
+2020-03-18 07: 49: 39 > accuracy: 0.5578947368421052, down accuracy: 0.5755395683453237, acc with interval: 0.3951048951048951
+
+2020-03-18 07: 49: 39 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.6251572327044046,-1.84330708661417,8.25,-6.949999999999989
+2020-03-18 07: 49: 39 > 
+ avg_profit, avg_loss, max_profit, max_loss
+1.6251572327044046,-1.84330708661417,8.25,-6.949999999999989
+2020-03-18 07: 49: 39 > 2020 03 18 07 49 39
+2020-03-18 07: 49: 39 > 2020 03 18 07 49 39
+2020-03-18 07: 49: 39 > ====================== gradual train end #0 ===========================
+2020-03-18 07: 49: 39 > ====================== gradual train end #0 ===========================
+2020-03-18 07: 49: 39 > 2020 03 18 07 49 39
+2020-03-18 07: 49: 39 > 2020 03 18 07 49 39
+2020-03-18 07: 49: 39 > ======================no-ensemble train-predict end, saving the results ===========================
+2020-03-18 07: 49: 39 > ======================no-ensemble train-predict end, saving the results ===========================
