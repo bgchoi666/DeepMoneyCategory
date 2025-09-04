@@ -55,7 +55,7 @@ If the entry point for the 1-day and 2-day predictions is the closing price, the
 
 - Missing point: If the entry point is the closing price in the 1-2 day forecast, the test result will be better than the actual result. This is because the timing of the overseas index does not match that of other items. The overseas index is determined around 6:00 AM the following day, but the data is considered to have been entered at the closing price of the previous day's domestic market, so it is reflected in the previous day's closing price and processed during the test. In other words, it becomes future data. This is like predicting the future in advance, so the prediction result is bound to be good. Later, the test is changed to forecasting at the closing price but entering at the opening price of the following day.
 
-Deepmoney version 3 includes two major improvements:
+# Deepmoney version 3 includes two major improvements:
 
 - During testing, profit and loss calculations are made based on the closing price of the day, but entry is made at the opening price of the next day.
 
