@@ -1,0 +1,322 @@
+2019-07-01 16: 33: 30 > train term 1:2000-01-03~2008-12-31
+2019-07-01 16: 33: 30 > train term 2:2001-01-03~2001-01-03
+2019-07-01 16: 33: 30 > 2019 07 01 16 33 30
+2019-07-01 16: 33: 30 > ======================no-ensemble train-predict start ===========================
+2019-07-01 16: 33: 30 > Using config: {'_model_dir': 'model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000002403A9369E8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-07-01 16: 33: 30 > model created: model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924
+2019-07-01 16: 33: 30 > 2019 07 01 16 33 30
+2019-07-01 16: 33: 30 > 2019 07 01 16 33 30
+2019-07-01 16: 33: 30 > ====================== no gradual train start ===========================
+2019-07-01 16: 33: 30 > ====================== no gradual train start ===========================
+2019-07-01 16: 33: 36 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-07-01 16: 33: 36 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-07-01 16: 33: 37 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 33: 37 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 33: 37 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 33: 37 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 33: 37 > Calling model_fn.
+2019-07-01 16: 33: 37 > Calling model_fn.
+2019-07-01 16: 33: 38 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:141: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-07-01 16: 33: 38 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:141: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-07-01 16: 33: 38 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:180: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-07-01 16: 33: 38 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:180: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-07-01 16: 33: 51 > Done calling model_fn.
+2019-07-01 16: 33: 51 > Done calling model_fn.
+2019-07-01 16: 33: 51 > Create CheckpointSaverHook.
+2019-07-01 16: 33: 51 > Create CheckpointSaverHook.
+2019-07-01 16: 33: 53 > Graph was finalized.
+2019-07-01 16: 33: 53 > Graph was finalized.
+2019-07-01 16: 33: 53 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-07-01 16: 33: 53 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-07-01 16: 33: 53 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-500
+2019-07-01 16: 33: 53 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-500
+2019-07-01 16: 33: 54 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-07-01 16: 33: 54 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-07-01 16: 33: 54 > Running local_init_op.
+2019-07-01 16: 33: 54 > Running local_init_op.
+2019-07-01 16: 33: 54 > Done running local_init_op.
+2019-07-01 16: 33: 54 > Done running local_init_op.
+2019-07-01 16: 33: 54 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 33: 54 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 34: 05 > Saving checkpoints for 500 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 34: 05 > Saving checkpoints for 500 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 34: 12 > loss = -5.3100004, step = 501
+2019-07-01 16: 34: 12 > loss = -5.3100004, step = 501
+2019-07-01 16: 35: 15 > global_step/sec: 1.56949
+2019-07-01 16: 35: 15 > global_step/sec: 1.56949
+2019-07-01 16: 35: 15 > loss = -11.215002, step = 601 (63.715 sec)
+2019-07-01 16: 35: 15 > loss = -11.215002, step = 601 (63.715 sec)
+2019-07-01 16: 36: 15 > global_step/sec: 1.67467
+2019-07-01 16: 36: 15 > global_step/sec: 1.67467
+2019-07-01 16: 36: 15 > loss = -1.3150017, step = 701 (59.760 sec)
+2019-07-01 16: 36: 15 > loss = -1.3150017, step = 701 (59.760 sec)
+2019-07-01 16: 37: 16 > global_step/sec: 1.64625
+2019-07-01 16: 37: 16 > global_step/sec: 1.64625
+2019-07-01 16: 37: 16 > loss = -1.7274957, step = 801 (60.697 sec)
+2019-07-01 16: 37: 16 > loss = -1.7274957, step = 801 (60.697 sec)
+2019-07-01 16: 38: 16 > global_step/sec: 1.66567
+2019-07-01 16: 38: 16 > global_step/sec: 1.66567
+2019-07-01 16: 38: 16 > loss = -1.8325008, step = 901 (60.083 sec)
+2019-07-01 16: 38: 16 > loss = -1.8325008, step = 901 (60.083 sec)
+2019-07-01 16: 39: 17 > Saving checkpoints for 1000 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 39: 17 > Saving checkpoints for 1000 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 39: 18 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2019-07-01 16: 39: 18 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2019-07-01 16: 39: 19 > Loss for final step: -1.4499981.
+2019-07-01 16: 39: 19 > Loss for final step: -1.4499981.
+2019-07-01 16: 39: 20 > 2019 07 01 16 39 20
+2019-07-01 16: 39: 20 > 2019 07 01 16 39 20
+2019-07-01 16: 39: 20 > ====================== no gradual train end ===========================
+2019-07-01 16: 39: 20 > ====================== no gradual train end ===========================
+2019-07-01 16: 43: 57 > Calling model_fn.
+2019-07-01 16: 43: 57 > Calling model_fn.
+2019-07-01 16: 43: 58 > Done calling model_fn.
+2019-07-01 16: 43: 58 > Done calling model_fn.
+2019-07-01 16: 43: 58 > Graph was finalized.
+2019-07-01 16: 43: 58 > Graph was finalized.
+2019-07-01 16: 43: 58 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-1000
+2019-07-01 16: 43: 58 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-1000
+2019-07-01 16: 43: 58 > Running local_init_op.
+2019-07-01 16: 43: 58 > Running local_init_op.
+2019-07-01 16: 43: 58 > Done running local_init_op.
+2019-07-01 16: 43: 58 > Done running local_init_op.
+2019-07-01 16: 44: 44 > 2019 07 01 16 44 44
+2019-07-01 16: 44: 44 > 2019 07 01 16 44 44
+2019-07-01 16: 44: 44 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-07-01 16: 44: 44 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-07-01 16: 47: 00 > train term 1:2000-01-03~2008-12-31
+2019-07-01 16: 47: 00 > train term 2:2001-01-03~2001-01-03
+2019-07-01 16: 47: 00 > 2019 07 01 16 47 00
+2019-07-01 16: 47: 00 > ======================no-ensemble train-predict start ===========================
+2019-07-01 16: 47: 00 > Using config: {'_model_dir': 'model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001211892E978>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-07-01 16: 47: 00 > model created: model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924
+2019-07-01 16: 47: 00 > 2019 07 01 16 47 00
+2019-07-01 16: 47: 00 > 2019 07 01 16 47 00
+2019-07-01 16: 47: 00 > ====================== no gradual train start ===========================
+2019-07-01 16: 47: 00 > ====================== no gradual train start ===========================
+2019-07-01 16: 47: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-07-01 16: 47: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-07-01 16: 47: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 47: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 47: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 47: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 47: 07 > Calling model_fn.
+2019-07-01 16: 47: 07 > Calling model_fn.
+2019-07-01 16: 47: 08 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:141: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-07-01 16: 47: 08 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:141: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-07-01 16: 47: 09 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:180: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-07-01 16: 47: 09 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:180: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-07-01 16: 47: 23 > Done calling model_fn.
+2019-07-01 16: 47: 23 > Done calling model_fn.
+2019-07-01 16: 47: 23 > Create CheckpointSaverHook.
+2019-07-01 16: 47: 23 > Create CheckpointSaverHook.
+2019-07-01 16: 47: 25 > Graph was finalized.
+2019-07-01 16: 47: 25 > Graph was finalized.
+2019-07-01 16: 47: 25 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-07-01 16: 47: 25 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-07-01 16: 47: 25 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-1000
+2019-07-01 16: 47: 25 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-1000
+2019-07-01 16: 47: 25 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-07-01 16: 47: 25 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-07-01 16: 47: 25 > Running local_init_op.
+2019-07-01 16: 47: 25 > Running local_init_op.
+2019-07-01 16: 47: 25 > Done running local_init_op.
+2019-07-01 16: 47: 25 > Done running local_init_op.
+2019-07-01 16: 47: 25 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 47: 25 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 48: 17 > train term 1:2000-01-03~2008-12-31
+2019-07-01 16: 48: 17 > train term 2:2001-01-03~2001-01-03
+2019-07-01 16: 48: 17 > 2019 07 01 16 48 17
+2019-07-01 16: 48: 17 > ======================no-ensemble train-predict start ===========================
+2019-07-01 16: 48: 17 > Using config: {'_model_dir': 'model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000021B8ED9F978>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-07-01 16: 48: 17 > model created: model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924
+2019-07-01 16: 48: 17 > 2019 07 01 16 48 17
+2019-07-01 16: 48: 17 > 2019 07 01 16 48 17
+2019-07-01 16: 48: 17 > ====================== no gradual train start ===========================
+2019-07-01 16: 48: 17 > ====================== no gradual train start ===========================
+2019-07-01 16: 48: 23 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-07-01 16: 48: 23 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-07-01 16: 48: 23 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 48: 23 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 48: 23 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 48: 23 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 48: 23 > Calling model_fn.
+2019-07-01 16: 48: 23 > Calling model_fn.
+2019-07-01 16: 48: 25 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:141: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-07-01 16: 48: 25 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:141: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-07-01 16: 48: 25 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:180: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-07-01 16: 48: 25 > From C:/Users/Admin/Desktop/DeepMoney_v4.0\model_v4_0_1.py:180: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-07-01 16: 48: 38 > Done calling model_fn.
+2019-07-01 16: 48: 38 > Done calling model_fn.
+2019-07-01 16: 48: 38 > Create CheckpointSaverHook.
+2019-07-01 16: 48: 38 > Create CheckpointSaverHook.
+2019-07-01 16: 48: 40 > Graph was finalized.
+2019-07-01 16: 48: 40 > Graph was finalized.
+2019-07-01 16: 48: 40 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-07-01 16: 48: 40 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-07-01 16: 48: 40 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-500
+2019-07-01 16: 48: 40 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-500
+2019-07-01 16: 48: 41 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-07-01 16: 48: 41 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-07-01 16: 48: 41 > Running local_init_op.
+2019-07-01 16: 48: 41 > Running local_init_op.
+2019-07-01 16: 48: 41 > Done running local_init_op.
+2019-07-01 16: 48: 41 > Done running local_init_op.
+2019-07-01 16: 48: 41 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 48: 41 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-07-01 16: 48: 52 > Saving checkpoints for 500 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 48: 52 > Saving checkpoints for 500 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 48: 59 > loss = -5.3100004, step = 501
+2019-07-01 16: 48: 59 > loss = -5.3100004, step = 501
+2019-07-01 16: 50: 07 > global_step/sec: 1.47225
+2019-07-01 16: 50: 07 > global_step/sec: 1.47225
+2019-07-01 16: 50: 07 > loss = -11.215002, step = 601 (67.923 sec)
+2019-07-01 16: 50: 07 > loss = -11.215002, step = 601 (67.923 sec)
+2019-07-01 16: 51: 10 > Saving checkpoints for 700 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 51: 10 > Saving checkpoints for 700 into model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt.
+2019-07-01 16: 51: 11 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2019-07-01 16: 51: 11 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2019-07-01 16: 51: 12 > Loss for final step: -1.4974998.
+2019-07-01 16: 51: 12 > Loss for final step: -1.4974998.
+2019-07-01 16: 51: 12 > 2019 07 01 16 51 12
+2019-07-01 16: 51: 12 > 2019 07 01 16 51 12
+2019-07-01 16: 51: 12 > ====================== no gradual train end ===========================
+2019-07-01 16: 51: 12 > ====================== no gradual train end ===========================
+2019-07-01 16: 55: 50 > Calling model_fn.
+2019-07-01 16: 55: 50 > Calling model_fn.
+2019-07-01 16: 55: 51 > Done calling model_fn.
+2019-07-01 16: 55: 51 > Done calling model_fn.
+2019-07-01 16: 55: 51 > Graph was finalized.
+2019-07-01 16: 55: 51 > Graph was finalized.
+2019-07-01 16: 55: 51 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-700
+2019-07-01 16: 55: 51 > Restoring parameters from model_dir/20norm_1days_v4_0_1/kospi200f_1_1_20_500_20_20190701152924\model.ckpt-700
+2019-07-01 16: 55: 51 > Running local_init_op.
+2019-07-01 16: 55: 51 > Running local_init_op.
+2019-07-01 16: 55: 51 > Done running local_init_op.
+2019-07-01 16: 55: 51 > Done running local_init_op.
+2019-07-01 16: 56: 37 > 2019 07 01 16 56 37
+2019-07-01 16: 56: 37 > 2019 07 01 16 56 37
+2019-07-01 16: 56: 37 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-07-01 16: 56: 37 > ======================no-ensemble train-predict end, saving the results ===========================
