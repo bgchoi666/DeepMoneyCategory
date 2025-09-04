@@ -10,8 +10,13 @@ import pandas as pd
 import tensorflow as tf
 import logging
 
+gpu_options = tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=0.1)
+config = tf.compat.v1.ConfigProto(gpu_options=gpu_options)
+#config.gpu_options.allow_growth = True
+tf.compat.v1.enable_eager_execution(config=config)
+
 # version_name
-ver = "v7"
+ver = "v8"
 market = "kospi200f"
 
 #data file directorty
@@ -40,14 +45,13 @@ test_start = "2019-01-01"
 test_end = "2019-11-19"
 
 remove_columns = []
-target_column = '종가(포인트)'
+target_column = '종가'
 
 conversion = 'diff'
 shuffle = True
 
 SHUFFLE_BUF = 10000
 BATCH_SIZE = 100
-
 
 def read_datafile(file_path):
   dataframe = pd.read_csv(file_path, encoding='euc-kr')

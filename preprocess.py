@@ -12,94 +12,95 @@ import os
 import tensorflow as tf
 import numpy as np
 import pandas as pd
-import math
 import util
-import datetime
+import sys
 
 # training test dates are converted to the indices
 def date_to_index(df,date):
 
   # start : the predicted date,  start_index : the date to try to predict
-  index = df[df['date'] <= date].index.max()
+  index = df.loc[df['date'] <= date].index.max()
 
   return index
 
 # dataframe으로부터 LSTM의 input으로 들어가는 dataset을 만들어 반환
-def get_train_test_data(raw_df, target_column,remove_columns, train_start, train_end, test_start, test_end, predict_term, num_steps, step_interval):
+def get_train_test_data(raw_df, target_column, remove_columns, train_start, train_end, test_start, test_end, future_day, num_steps, step_interval):
 
-      train_start_index = date_to_index(raw_df, train_start)
-      train_end_index = date_to_index(raw_df, train_end)
+    train_start_index = date_to_index(raw_df, train_start)
+    train_end_index = date_to_index(raw_df, train_end)
 
-      test_start_index = date_to_index(raw_df, test_start) # the starting date of predicted dates (y values)
-      test_end_index = date_to_index(raw_df, test_end)
+    test_start_index = date_to_index(raw_df, test_start)  # the starting date of predicted dates (y values)
+    test_end_index = date_to_index(raw_df, test_end)
 
-      # check date error
-      if math.isnan(train_start_index):
+    # check date error
+    if train_start_index == np.nan:
         print('============== illegal train start date ==============')
         exit(1)
-      if math.isnan(train_end_index):
+    if train_end_index == np.nan:
         print('============== illegal train end date ==============')
         exit(1)
-      if math.isnan(test_start_index):
+    if test_start_index == np.nan:
         print('============== illegal test start date ==============')
         exit(1)
-      if math.isnan(test_end_index):
+    if test_end_index == np.nan:
         print('============== illegal test end date ==============')
         exit(1)
-      #if test_start_index - predict_term <= train_end_index:
-      #  print('============== train end, test start inconsistency error ==============')
-      #  exit(1)
+    #if test_start_index - future_day <= train_end_index:
+    #    print('============== train end, test start inconsistency error ==============')
+    #    exit(1)
 
-      # 날짜 column 등 제거
-      df = raw_df.drop(remove_columns, axis=1, inplace=False)
-      df = pd.concat([df, raw_df[target_column]], axis=1)
+    
+    # 날짜 column 제거, target column 맨 뒤로
+    df = raw_df.drop(remove_columns, axis=1, inplace=False)
+    df = pd.concat([df, raw_df[target_column]], axis=1)
+    
+    #ceate train data
+    train_data = df.values[train_start_index : train_end_index  + 1, :]
+    
+    # create test data
+    test_data = df.values[test_start_index - future_day - step_interval * (num_steps-1): test_end_index + 1, :]
 
-      # create train data
-      train_data = df.values[train_start_index : train_end_index  + 1, :]
+    #df = pd.concat([raw_df['date'], df], axis=1).reset_index(drop=False)
+    return train_data, test_data
 
-      # create test data
-      test_data = df.values[test_start_index - predict_term - step_interval * (num_steps-1): test_end_index + 1, :]
-
-      return train_data, test_data
-
-def get_train_dataset(raw_df, target_column, train_start, train_end, predict_term, num_steps, step_interval):
+def get_train_dataset(raw_df, target_column, remove_columns, train_start, train_end, predict_term, num_steps, step_interval):
 
     train_start_index = date_to_index(raw_df, train_start)
     train_end_index = date_to_index(raw_df, train_end)
 
     # check date error
-    if math.isnan(train_start_index):
+    if train_start_index == np.nan:
         print('============== illegal train start date ==============')
         exit(1)
-    if math.isnan(train_end_index):
+    if train_end_index == np.nan:
         print('============== illegal train end date ==============')
         exit(1)
 
-    # 날짜 컬럼 제거, target column 맨 뒤로
-    df = raw_df.drop(['date', target_column], axis=1, inplace=False)
-    df = pd.concat([df, raw_df[target_column]], axis=1)
-
+    # 날짜 column 제거, target column 맨 뒤로
+    df = raw_df.drop(remove_columns, axis=1, inplace=False)
+    df = pd.concat([df, raw_df[target_column]], axis=1)        
+        
     # create train data
     train_data = df.values[train_start_index: train_end_index + 1, :]
 
     return train_data
 
-def get_test_dataset(raw_df, target_column, test_start, test_end, predict_term, num_steps, step_interval):
+def get_test_dataset(raw_df, target_column, remove_columns, test_start, test_end, predict_term, num_steps, step_interval):
 
     test_start_index = date_to_index(raw_df, test_start)  # the starting date of predicted dates (y values)
     test_end_index = date_to_index(raw_df, test_end)
 
-    if math.isnan(test_start_index):
+    if test_start_index == np.nan:
         print('============== illegal test start date ==============')
         exit(1)
-    if math.isnan(test_end_index):
+    if test_end_index == np.nan:
         print('============== illegal test end date ==============')
         exit(1)
 
-    # 날짜 column 제거
-    df = raw_df.drop(['date', target_column], axis=1, inplace=False)
+    # 날짜 column 제거, target column 맨 뒤로
+    df = raw_df.drop(remove_columns, axis=1, inplace=False)
     df = pd.concat([df, raw_df[target_column]], axis=1)
-
+        
     # create test data
     test_data = df.values[test_start_index - predict_term - step_interval * (num_steps - 1): test_end_index + 1, :]
 
@@ -175,27 +176,13 @@ def get_test_dates_prices(df, test_start, test_end, train_start, train_end, n_st
   train_start_index = date_to_index(df, train_start) + (n_steps - 1) * time_interval + predict_term
   train_end_index = date_to_index(df, train_end)
 
-  #days = int(predict_term / 5) * 7 + predict_term % 5
-  #test_future_dates = []
-
-  test_dates = list(df.loc[test_start_index : test_end_index, 'date'])
-  #for i in range(len(test_dates)):
-  #  test_future_dates.append((datetime.datetime.strptime(test_dates[i], "%Y-%m-%d") + datetime.timedelta(days=days)).strptime("%Y-%m-%d"))
+  test_dates = df.loc[test_start_index : test_end_index, 'date']
   train_dates = df.loc[train_start_index: train_end_index, 'date']
+  #test_base_prices = list(map(float, df.loc[test_start_index - predict_term : test_end_index - predict_term, target_column]))
   test_base_prices = list(map(float, df.loc[test_start_index - predict_term: test_end_index - predict_term, target_column]))
   train_base_prices = list(map(float, df.loc[train_start_index - predict_term: train_end_index - predict_term, target_column]))
 
   return test_dates, test_base_prices, train_dates, train_base_prices
-
-# 예측을 시도하는 날짜, 종가, 예측의 target이 되는 날짜, 종가 list 반환
-def get_test_only_dates_prices(df, test_start, test_end, n_steps, time_interval, predict_term, target_column):
-  test_start_index = date_to_index(df, test_start)
-  test_end_index = date_to_index(df, test_end)
-
-  test_dates = df.loc[test_start_index : test_end_index, 'date']
-  test_base_prices = list(map(float, df.loc[test_start_index - predict_term: test_end_index - predict_term, target_column]))
-
-  return test_dates, test_base_prices
 
 # 주어진 컬럼 제거 + 절반 이상 nan인 컬럼 제거, 나머지 nan 0으로 대체
 def remove_columns(df, columns, thresh=50):
@@ -221,7 +208,7 @@ def normalization(df, window_size, target_column):
 
   df = df.fillna(method='ffill') # 비어 있는 값 이전 값으로 채움
   not_input_columns = [target_column, 'date']
-  input_df = df.drop(not_input_columns, axis=1) # target column 분리
+  input_df = df.drop(not_input_columns, axis=1) # target colimn 분리
   idf = (input_df - input_df.rolling(window_size).mean()) / input_df.rolling(window_size).std() #window moving normalize
 
   # nan, infitiy 0으로 대체
@@ -242,21 +229,25 @@ def normalization(df, window_size, target_column):
 # target conversion - 'rate' : (y(t+predict_term) - y(t)) / y(t)
 # target conversion - 'diff' : y(t+predict_term) - y(t)
 #  target conversion - 'logdiff' : log(y(t+predict_term) - y(t))
-def target_conversion(df, target_name, predict_term, type='diff'):
+def target_conversion(df, target_name, predict_term, type='as_is'):
+    conv_df = df.copy()
     if type == 'rate':
         for i in range(len(df[target_name]) - predict_term):
-            df.loc[i, target_name] = (df.loc[i + predict_term, target_name] - df.loc[i, target_name])\
-                                 / df.loc[i, target_name]*100
+            conv_df.loc[i, target_name] = (df[i + predict_term, target_name] - df[i, target_name]) / df[i, target_name]
     elif type == 'diff':
         for i in range(len(df[target_name]) - predict_term):
-            df.loc[i, target_name] = df.loc[i + predict_term, target_name] - df.loc[i, target_name]
+            conv_df.loc[i, target_name] = df.loc[i + predict_term, target_name] - df.loc[i, target_name]
     elif type == 'logdiff':
         for i in range(len(df[target_name]) - predict_term):
-            df.loc[i, target_name] = np.log(df.loc[i + predict_term, target_name] - df.loc[i, target_name])
+            conv_df.loc[i, target_name] = np.log(df.loc[i + predict_term, target_name] - df.loc[i, target_name])
+    elif type == 'sign':
+        for i in range(len(df[target_name]) - predict_term):
+            conv_df.loc[i, target_name] = np.sign(df.loc[i + predict_term, target_name] - df.loc[i, target_name])
+    elif type == 'as_is':
+        return conv_df
     else:
         print('target conversion error')
-        exit(0)
+        sys.exit(0)
     for i in range(len(df[target_name]) - predict_term, len(df[target_name])):
-        df.loc[i, target_name] = 0.0
-    return df
-
+        conv_df.loc[i, target_name] = 0.0
+    return conv_df
