@@ -18,12 +18,13 @@ import tensorflow as tf
 from tensorflow import keras
 import math
 import os
+import operator
 
 class EarlyStopping():
     def __init__(self, patience=0, verbose=0):
         self._step = 0
         self._loss = float('inf')
-        self.patience = patience
+        self.patience  = patience
         self.verbose = verbose
 
     def validate(self, loss):
@@ -84,6 +85,27 @@ def next_random_batch(X_data, y_data, batch_size):
     idx = np.random.choice(len(y_data), batch_size, replace=False)
     return X_data[idx], y_data[idx]
 
+# random하게 1 batch를 future_day 간격으로 뽑아 반환
+def next_random_interval_batch(X_data, y_data, batch_size, future_day):
+    idx = np.random.choice(len(y_data) - (batch_size-1)*future_day, replace=False)
+    sel_idx = []
+    for i in range(idx, idx + batch_size*future_day, future_day):
+        sel_idx.append(i)
+    return X_data[sel_idx], y_data[sel_idx]
+
+# random하게 1 batch를 serial하게 뽑아 반환
+def next_random_serial_batch(X_data, y_data, batch_size):
+    idx = np.random.choice(len(y_data) - batch_size + 1, replace=False)
+    sel_idx = []
+    for i in range(idx, idx + batch_size):
+        sel_idx.append(i)
+    return X_data[sel_idx], y_data[sel_idx]
+
+# random하게 1 batch를 뽑아 반환
+def next_random_batch2(X_data, y_data, base_y, batch_size):
+    idx = np.random.choice(len(y_data), batch_size, replace=False)
+    return X_data[idx], y_data[idx], base_y[idx]
+
 # suffle, batch_size 설정하여 반환 : (input, target) 같이
 def get_batches(data_x, data_y, SHUFFLE_BUF=1000, BATCH_SIZE=100):
     return tf.data.Dataset.from_tensor_slices((data_x, data_y)).shuffle(SHUFFLE_BUF).batch(BATCH_SIZE)
@@ -102,9 +124,11 @@ def back_to_price(pred_values, base_prices, conversion_type='rate'):
     if conversion_type == 'rate':
         restored_price = (pred_values/100+1)*base_prices
     elif conversion_type == 'diff':
-        restored_price = pred_values + base_prices
+        restored_price = list(map(operator.add, pred_values, base_prices))
     elif conversion_type == 'logdiff':
-        restored_price = np.exp(pred_values) + base_prices
+        restored_price = list(map(operator.add, np.exp(pred_values), base_prices))
+    elif conversion_type == 'sign':
+        restored_price = list(map(operator.add, pred_values, base_prices))
     return list(restored_price)
 
 class Evaluate(object):
@@ -152,93 +176,91 @@ class Evaluate(object):
         return self.confus_mat, self.accu, self.precision_fall,self.recall_fall, self.precision_rise, self.recall_rise
     
 class GenerateResult():
-    def __init__(self,train_predict, train_output, test_predict, test_output, n_timestep, future_day, transfer_day):
-        self.train_pred = train_predict
-        self.train_output = train_output
-        self.test_pred = test_predict
+    def __init__(self, test_predict1, test_predict2, test_output, test_dates, n_timestep, future_day, trans_day):
+        self.test_pred1 = test_predict1
+        self.test_pred2 = test_predict2
         self.test_output = test_output
 
         self.n_timestep = n_timestep
         self.future_day = future_day
+        self.trans_day = trans_day
+        
+        self.test_dates = test_dates
 
-        self.dates = transfer_day
 
-    def extract_last_output(self):
-        self.train_pred = np.reshape(self.train_pred[:, -1, -1], (-1))
-        self.train_output = np.reshape(self.train_output[:, -1, -1], (-1))
-        self.test_pred = np.reshape(self.test_pred[:, -1, -1], (-1))
-        self.test_output = np.reshape(self.test_output[:, -1, -1], (-1))
-
-    def convert_price(self, train_base_prices, test_base_prices, conversion_type='diff'):
+    def convert_price(self, test_base_prices, conversion_type='rate'):
         # 예측값 복원
-        self.train_predict_price = back_to_price(self.train_pred, train_base_prices, conversion_type )
-        self.test_predict_price = back_to_price(self.test_pred, test_base_prices, conversion_type)
+        self.test_predict_price = back_to_price(self.test_pred1, test_base_prices, conversion_type)
         # 실재값 복원
-        self.train_output_price = back_to_price(self.train_output, train_base_prices, conversion_type )
         self.test_output_price = back_to_price(self.test_output, test_base_prices, conversion_type)
 
-    def table(self):
-        self.result_table = pd.DataFrame({"date":self.dates, "real":self.test_output.reshape(-1), "prediction": self.test_pred.reshape(-1),
-                                       "real_price":self.test_output_price, "pred_price":self.test_predict_price}).reset_index(drop=True)
+    def table(self, open, high, low, profits1, profits2):
+        self.result_table = pd.DataFrame({"date":self.test_dates, "real":self.test_output.reshape(-1), 
+                                           "prediction1": self.test_pred1.reshape(-1), "prediction2": self.test_pred2.reshape(-1), 
+                                           "real_price":self.test_output_price, "pred_price":self.test_predict_price,
+                                           "open_price":open, "high_price":high, "low_price":low,
+                                           "손익":profits1, "손익2":profits2,
+                                         }).reset_index(drop=True)
         
         return self.result_table
 
     
     def evaluation(self): #평가 지표 생성
-        self.train_eval = Evaluate(self.train_pred, self.train_output)
-        self.test_eval = Evaluate(self.test_pred, self.test_output)
+        self.test_eval = Evaluate(self.test_pred1, self.test_output)
         
-        self.train_MSE = self.train_eval.MSE()
         self.test_MSE = self.test_eval.MSE()
         
-        self.train_MAPE = self.train_eval.MAPE(self.train_predict_price, self.train_output_price)
         self.test_MAPE = self.test_eval.MAPE(self.test_predict_price, self.test_output_price)
         
-        self.train_eval.compute_rise_fall()
         self.test_eval.compute_rise_fall()
-        
-        self.train_confus_mat, self.train_accu, self.train_precision_fall,self.train_recall_fall, self.train_precision_rise, self.train_recall_rise = self.train_eval.precision_recall()
         
         self.test_confus_mat, self.test_accu, self.test_precision_fall,self.test_recall_fall, self.test_precision_rise, self.test_recall_rise = self.test_eval.precision_recall()
         
 
     
-    def save_result(self,model_name,item_name,n_units,target_type,window_size,time_interval, transfer_day):
+    def save_result(self,model_name,item_name,n_units,target_type,batch_size,n_timestep,time_interval,epochs,alpha,comment):
         
-        self.info = model_name+'_'+item_name+'_'+str(self.n_timestep)+'_'+str(time_interval)+'_'+str(self.future_day)+\
-                    '_'+str(n_units)+'_'+target_type+'_'+str(self.test_accu)
+        self.info = model_name+'_'+item_name+'_'+str(n_timestep)+'_'+str(time_interval)+'_'+str(self.future_day)+\
+                    '_'+str(self.test_accu)
+        
         
         print('info :',self.info)
         file_name = self.info+'.xlsx'
         
-        file_dir = 'result_excel/'+model_name
-        if not os.path.isdir(file_dir): os.mkdir(file_dir)
-        self.file_path = file_dir+'/'+file_name
+        self.file_path = 'result_excel/'+ model_name + '/' + file_name
         self.result_table.to_excel(self.file_path)
         
         
         wb = load_workbook(self.file_path, data_only=True)
         sheet1 = wb.active
         
-        sheet1.cell(1,7,'실험환경')
-        sheet1.cell(2,7,'Model')
-        sheet1.cell(3,7,'Item')
-        sheet1.cell(4,7,'Target')
-        sheet1.cell(5,7,'Timestep')
-        sheet1.cell(6,7,'Interval')
-        sheet1.cell(7,7,'Window size')
-        sheet1.cell(8,7,'Prediction day')
-        sheet1.cell(9,7,'transfer day')
+        sheet1.cell(1,13,'실험환경')
+        sheet1.cell(2,13,'Model')
+        sheet1.cell(3,13,'Item')
+        sheet1.cell(4,13,'Target')
+        sheet1.cell(5,13,'Timestep')
+        sheet1.cell(6,13,'Interval')
+        sheet1.cell(7,13,'batch size')
+        sheet1.cell(8,13,'Prediction day')
+        sheet1.cell(9,13,'Transfer day')
+        sheet1.cell(10,13,'epochs')
+        sheet1.cell(11,13,'alpha')
+        sheet1.cell(12,13,'commnent')
         
-        sheet1.cell(2,8, model_name)
-        sheet1.cell(3,8, item_name)
-        sheet1.cell(4,8, target_type)
-        sheet1.cell(5,8, self.n_timestep)
-        sheet1.cell(6,8, time_interval)
-        sheet1.cell(7,8, window_size)
-        sheet1.cell(8,8, self.future_day)
-        sheet1.cell(9,8, transfer_day)
         
+        sheet1.cell(2,14, model_name)
+        sheet1.cell(3,14, item_name)
+        sheet1.cell(4,14, target_type)
+        sheet1.cell(5,14, self.n_timestep)
+        sheet1.cell(6,14, time_interval)
+        sheet1.cell(7,14, batch_size)
+        sheet1.cell(8,14, self.future_day)
+        sheet1.cell(9,14, self.trans_day)
+        sheet1.cell(10,14, epochs)
+        sheet1.cell(11,14, alpha)
+        sheet1.cell(12,14, comment)
+        
+        """
         sheet1.cell(1,10, '실험결과')
         sheet1.cell(2,10, 'Training Set')
         sheet1.cell(2,11, 'TRUE')
@@ -247,12 +269,6 @@ class GenerateResult():
         sheet1.cell(3,12, '1')
         sheet1.cell(4,10, '0')
         sheet1.cell(5,10, '1')
-        
-        
-        sheet1.cell(4,11,self.train_confus_mat[0][0])
-        sheet1.cell(4,12,self.train_confus_mat[0][1])
-        sheet1.cell(5,11,self.train_confus_mat[1][0])
-        sheet1.cell(5,12,self.train_confus_mat[1][1])
         
         
         sheet1.cell(7,10, 'Test Set')
@@ -270,18 +286,7 @@ class GenerateResult():
         sheet1.cell(10,12,self.test_confus_mat[1][1])
         
 
-
-        sheet1.cell(4,13,'Rise')
-        sheet1.cell(5,13,'Fall')
-        sheet1.cell(3,14,'Precision')
-        sheet1.cell(3,15,'Recall')
-        
-        sheet1.cell(4,14,self.train_precision_rise)
-        sheet1.cell(4,15,self.train_recall_rise)
-        
-        sheet1.cell(5,14,self.train_precision_fall)
-        sheet1.cell(5,15,self.train_recall_fall)
-        
+     
         
         sheet1.cell(9,13,'Rise')
         sheet1.cell(10,13,'Fall')
@@ -301,21 +306,18 @@ class GenerateResult():
         sheet1.cell(4,17,'MAPE')
         sheet1.cell(5,17,'MSE')
         sheet1.cell(6,17,'Accuracy')
-        
-        
-        print('MAPE:',self.train_MAPE)
-        sheet1.cell(4,18,self.train_MAPE)
+        """        
+       
         sheet1.cell(4,19,self.test_MAPE)
         
-        sheet1.cell(5,18,self.train_MSE)
         sheet1.cell(5,19,self.test_MSE)
         
-        sheet1.cell(6,18,self.train_accu)
         sheet1.cell(6,19,self.test_accu)
         
         
         wb.save(self.file_path)
         return 'Succeded. Save'
+
     
     def save_visualization(self):
         print('MSE :', self.test_MSE,', Accuracy :',self.test_accu)
@@ -330,7 +332,7 @@ class GenerateResult():
         ax[1].set_ylabel("price")
 
         ax[0].plot(self.test_output,label="true")
-        ax[0].plot(self.test_pred,label="prediction")
+        ax[0].plot(self.test_pred1,label="prediction")
         ax[0].legend(loc='upper right')
         
         #ax[1].plot(self.test_output_price.reset_index(drop=True),label="true")
@@ -350,9 +352,9 @@ class GenerateResult():
         keras.utils.plot_model(model, 'model_architecture/'+model_name+'_model_with_shape_info.png', show_shapes=True)
     
     def save_model(self,model):
-        file_path = 'models/'+self.info
-        if not os.path.isdir(file_path): os.mkdir(file_path)
-        tf.saved_model.save(model, file_path)
+        model_path = 'models/'+self.info
+        if not os.path.isdir(model_path): os.mkdir(model_path)
+        tf.saved_model.save(model, model_path)
 
 
 def predict_batch_test2(model, test_input,test_target,batch_size):
@@ -392,25 +394,6 @@ def predict_batch_test(model, test_input,batch_size):
     #print("Numpy Converting...")
     #print("[Success] Numpy conversion")
     return pred
-
-
-def predict_CNN_batch_test(model, test_input, batch_size):
-    int(model.output.shape[1])
-    int(model.output.shape[2])
-    pred = np.zeros((test_input.shape[0], test_input.shape[1], int(model.output.shape[2]), 1), dtype=np.float32)
-
-    # pred = list()
-    for i in range(int(len(test_input) / batch_size)):
-        result = model(test_input[i * batch_size:(i + 1) * batch_size], training=False)
-        pred[i * batch_size:(i + 1) * batch_size] = result
-        # print("[Succeess] batch :",(i+1)*batch_size)
-    if len(test_input) % batch_size != 0:
-        result = model(test_input[(i + 1) * batch_size:], training=False)
-        pred[(i + 1) * batch_size:] = result
-    # print("Numpy Converting...")
-    # print("[Success] Numpy conversion")
-    return pred
-
 
 # 전체 batch들을 epoch수 만틈 반복
 def train(model, train_dataset, test_dataset, epochs, num_batches):
