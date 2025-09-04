@@ -1,0 +1,761 @@
+2019-05-02 13: 51: 20 > train term 1:2000-01-03~2015-12-31
+2019-05-02 13: 51: 20 > train term 2:2000-01-03~2017-12-31
+2019-05-02 13: 51: 20 > 2019 05 02 13 51 20
+2019-05-02 13: 51: 20 > ======================no-ensemble train-predict start ===========================
+2019-05-02 13: 51: 20 > Using config: {'_model_dir': 'model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000019CA3284940>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-05-02 13: 51: 37 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-02 13: 51: 37 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 13: 51: 37 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 13: 51: 37 > Calling model_fn.
+2019-05-02 13: 51: 48 > From C:/Users/Admin/Desktop/DeepMoney_v2.1.1\model.py:143: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-05-02 13: 51: 48 > From C:/Users/Admin/Desktop/DeepMoney_v2.1.1\model.py:209: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-05-02 13: 51: 48 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\ops\losses\losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-02 13: 52: 04 > Done calling model_fn.
+2019-05-02 13: 52: 04 > Create CheckpointSaverHook.
+2019-05-02 13: 52: 07 > Graph was finalized.
+2019-05-02 13: 52: 08 > Running local_init_op.
+2019-05-02 13: 52: 08 > Done running local_init_op.
+2019-05-02 13: 52: 09 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 13: 52: 23 > Saving checkpoints for 0 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 13: 52: 33 > loss = 9.194941, step = 1
+2019-05-02 13: 55: 00 > global_step/sec: 0.682036
+2019-05-02 13: 55: 00 > loss = 1.6011499, step = 101 (146.667 sec)
+2019-05-02 13: 57: 31 > global_step/sec: 0.660293
+2019-05-02 13: 57: 31 > loss = 0.25801194, step = 201 (151.370 sec)
+2019-05-02 14: 00: 03 > global_step/sec: 0.659409
+2019-05-02 14: 00: 03 > loss = 0.24048217, step = 301 (151.651 sec)
+2019-05-02 14: 02: 25 > global_step/sec: 0.701318
+2019-05-02 14: 02: 25 > loss = 0.052249577, step = 401 (142.573 sec)
+2019-05-02 14: 04: 47 > global_step/sec: 0.707676
+2019-05-02 14: 04: 47 > loss = 0.08376944, step = 501 (141.370 sec)
+2019-05-02 14: 07: 05 > global_step/sec: 0.725649
+2019-05-02 14: 07: 05 > loss = 0.03894107, step = 601 (137.745 sec)
+2019-05-02 14: 09: 23 > global_step/sec: 0.723762
+2019-05-02 14: 09: 23 > loss = 0.1085271, step = 701 (138.167 sec)
+2019-05-02 14: 11: 44 > global_step/sec: 0.707364
+2019-05-02 14: 11: 44 > loss = 0.023062112, step = 801 (141.667 sec)
+2019-05-02 14: 12: 26 > Saving checkpoints for 831 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 14: 12: 27 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2019-05-02 14: 14: 09 > global_step/sec: 0.691094
+2019-05-02 14: 14: 09 > loss = 0.041989807, step = 901 (144.401 sec)
+2019-05-02 14: 16: 29 > Saving checkpoints for 1000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 14: 16: 35 > Loss for final step: 0.02266262.
+2019-05-02 14: 16: 37 > Calling model_fn.
+2019-05-02 14: 16: 39 > Done calling model_fn.
+2019-05-02 14: 16: 39 > Starting evaluation at 2019-05-02T05:16:39Z
+2019-05-02 14: 16: 39 > Graph was finalized.
+2019-05-02 14: 16: 39 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-02 14: 16: 39 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-1000
+2019-05-02 14: 16: 40 > Running local_init_op.
+2019-05-02 14: 16: 40 > Done running local_init_op.
+2019-05-02 14: 17: 03 > Finished evaluation at 2019-05-02-05:17:03
+2019-05-02 14: 17: 03 > Saving dict for global step 1000: accuracy = 0.5389922, global_step = 1000, loss = 7.2364826, rmse = 2.690071
+2019-05-02 14: 17: 03 > Saving 'checkpoint_path' summary for global step 1000: model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-1000
+2019-05-02 14: 18: 09 > Calling model_fn.
+2019-05-02 14: 18: 09 > Done calling model_fn.
+2019-05-02 14: 18: 10 > Graph was finalized.
+2019-05-02 14: 18: 10 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-1000
+2019-05-02 14: 18: 10 > Running local_init_op.
+2019-05-02 14: 18: 10 > Done running local_init_op.
+2019-05-02 14: 18: 37 > Calling model_fn.
+2019-05-02 14: 18: 55 > Done calling model_fn.
+2019-05-02 14: 18: 55 > Create CheckpointSaverHook.
+2019-05-02 14: 18: 55 > Graph was finalized.
+2019-05-02 14: 18: 55 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-1000
+2019-05-02 14: 18: 55 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-05-02 14: 18: 56 > Running local_init_op.
+2019-05-02 14: 18: 56 > Done running local_init_op.
+2019-05-02 14: 19: 10 > Saving checkpoints for 1000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 14: 19: 19 > loss = 7.3885446, step = 1001
+2019-05-02 14: 21: 42 > global_step/sec: 0.700703
+2019-05-02 14: 21: 42 > loss = 0.0054600383, step = 1101 (142.792 sec)
+2019-05-02 14: 24: 04 > global_step/sec: 0.702241
+2019-05-02 14: 24: 04 > loss = 0.0008883548, step = 1201 (142.370 sec)
+2019-05-02 14: 26: 31 > global_step/sec: 0.680802
+2019-05-02 14: 26: 31 > loss = 0.0005268118, step = 1301 (146.870 sec)
+2019-05-02 14: 28: 51 > global_step/sec: 0.714311
+2019-05-02 14: 28: 51 > loss = 0.0012337324, step = 1401 (139.995 sec)
+2019-05-02 14: 31: 10 > global_step/sec: 0.719369
+2019-05-02 14: 31: 10 > loss = 0.000520665, step = 1501 (139.011 sec)
+2019-05-02 14: 33: 30 > global_step/sec: 0.71447
+2019-05-02 14: 33: 30 > loss = 0.0002703337, step = 1601 (139.964 sec)
+2019-05-02 14: 35: 49 > global_step/sec: 0.719207
+2019-05-02 14: 35: 49 > loss = 0.00047730483, step = 1701 (139.026 sec)
+2019-05-02 14: 38: 07 > global_step/sec: 0.724335
+2019-05-02 14: 38: 07 > loss = 0.00013035645, step = 1801 (138.058 sec)
+2019-05-02 14: 39: 14 > Saving checkpoints for 1849 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 14: 40: 29 > global_step/sec: 0.703863
+2019-05-02 14: 40: 29 > loss = 0.00022037241, step = 1901 (142.104 sec)
+2019-05-02 14: 42: 47 > Saving checkpoints for 2000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 14: 42: 50 > Loss for final step: 0.0001549941.
+2019-05-02 14: 42: 51 > Calling model_fn.
+2019-05-02 14: 42: 52 > Done calling model_fn.
+2019-05-02 14: 42: 52 > Starting evaluation at 2019-05-02T05:42:52Z
+2019-05-02 14: 42: 53 > Graph was finalized.
+2019-05-02 14: 42: 53 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-2000
+2019-05-02 14: 42: 53 > Running local_init_op.
+2019-05-02 14: 42: 53 > Done running local_init_op.
+2019-05-02 14: 43: 15 > Finished evaluation at 2019-05-02-05:43:15
+2019-05-02 14: 43: 15 > Saving dict for global step 2000: accuracy = 0.54401547, global_step = 2000, loss = 7.978377, rmse = 2.8246024
+2019-05-02 14: 43: 15 > Saving 'checkpoint_path' summary for global step 2000: model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-2000
+2019-05-02 14: 44: 14 > Calling model_fn.
+2019-05-02 14: 44: 14 > Done calling model_fn.
+2019-05-02 14: 44: 15 > Graph was finalized.
+2019-05-02 14: 44: 15 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-2000
+2019-05-02 14: 44: 15 > Running local_init_op.
+2019-05-02 14: 44: 15 > Done running local_init_op.
+2019-05-02 14: 44: 41 > Calling model_fn.
+2019-05-02 14: 44: 58 > Done calling model_fn.
+2019-05-02 14: 44: 58 > Create CheckpointSaverHook.
+2019-05-02 14: 44: 58 > Graph was finalized.
+2019-05-02 14: 44: 58 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-2000
+2019-05-02 14: 44: 59 > Running local_init_op.
+2019-05-02 14: 44: 59 > Done running local_init_op.
+2019-05-02 14: 45: 14 > Saving checkpoints for 2000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 14: 45: 23 > loss = 8.470099, step = 2001
+2019-05-02 14: 47: 56 > global_step/sec: 0.653084
+2019-05-02 14: 47: 56 > loss = 0.012378372, step = 2101 (153.151 sec)
+2019-05-02 14: 50: 21 > global_step/sec: 0.68613
+2019-05-02 14: 50: 21 > loss = 0.0009924744, step = 2201 (145.761 sec)
+2019-05-02 14: 52: 42 > global_step/sec: 0.710268
+2019-05-02 14: 52: 42 > loss = 0.008657444, step = 2301 (140.776 sec)
+2019-05-02 14: 55: 02 > global_step/sec: 0.716229
+2019-05-02 14: 55: 02 > loss = 0.0005113728, step = 2401 (139.667 sec)
+2019-05-02 14: 57: 20 > global_step/sec: 0.724417
+2019-05-02 14: 57: 20 > loss = 0.00022535436, step = 2501 (137.995 sec)
+2019-05-02 14: 59: 38 > global_step/sec: 0.723353
+2019-05-02 14: 59: 38 > loss = 0.00038316808, step = 2601 (138.245 sec)
+2019-05-02 15: 01: 56 > global_step/sec: 0.722944
+2019-05-02 15: 01: 57 > loss = 0.00018021218, step = 2701 (138.339 sec)
+2019-05-02 15: 04: 15 > global_step/sec: 0.724417
+2019-05-02 15: 04: 15 > loss = 0.00012845549, step = 2801 (138.026 sec)
+2019-05-02 15: 05: 16 > Saving checkpoints for 2846 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 06: 32 > global_step/sec: 0.728623
+2019-05-02 15: 06: 32 > loss = 0.00012479033, step = 2901 (137.245 sec)
+2019-05-02 15: 08: 41 > Saving checkpoints for 3000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 08: 44 > Loss for final step: 0.00015177169.
+2019-05-02 15: 08: 45 > Calling model_fn.
+2019-05-02 15: 08: 47 > Done calling model_fn.
+2019-05-02 15: 08: 47 > Starting evaluation at 2019-05-02T06:08:47Z
+2019-05-02 15: 08: 47 > Graph was finalized.
+2019-05-02 15: 08: 47 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-3000
+2019-05-02 15: 08: 47 > Running local_init_op.
+2019-05-02 15: 08: 47 > Done running local_init_op.
+2019-05-02 15: 09: 08 > Finished evaluation at 2019-05-02-06:09:08
+2019-05-02 15: 09: 08 > Saving dict for global step 3000: accuracy = 0.54490423, global_step = 3000, loss = 7.184048, rmse = 2.6803074
+2019-05-02 15: 09: 08 > Saving 'checkpoint_path' summary for global step 3000: model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-3000
+2019-05-02 15: 10: 05 > Calling model_fn.
+2019-05-02 15: 10: 06 > Done calling model_fn.
+2019-05-02 15: 10: 06 > Graph was finalized.
+2019-05-02 15: 10: 06 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-3000
+2019-05-02 15: 10: 06 > Running local_init_op.
+2019-05-02 15: 10: 06 > Done running local_init_op.
+2019-05-02 15: 10: 31 > Calling model_fn.
+2019-05-02 15: 10: 47 > Done calling model_fn.
+2019-05-02 15: 10: 47 > Create CheckpointSaverHook.
+2019-05-02 15: 10: 48 > Graph was finalized.
+2019-05-02 15: 10: 48 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-3000
+2019-05-02 15: 10: 48 > Running local_init_op.
+2019-05-02 15: 10: 48 > Done running local_init_op.
+2019-05-02 15: 11: 03 > Saving checkpoints for 3000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 11: 11 > loss = 7.0976644, step = 3001
+2019-05-02 15: 13: 25 > global_step/sec: 0.74283
+2019-05-02 15: 13: 25 > loss = 0.003024344, step = 3101 (134.652 sec)
+2019-05-02 15: 15: 37 > global_step/sec: 0.761569
+2019-05-02 15: 15: 37 > loss = 0.0005168605, step = 3201 (131.324 sec)
+2019-05-02 15: 17: 47 > global_step/sec: 0.767873
+2019-05-02 15: 17: 47 > loss = 0.00027707662, step = 3301 (130.230 sec)
+2019-05-02 15: 19: 58 > global_step/sec: 0.761388
+2019-05-02 15: 19: 58 > loss = 0.00023458162, step = 3401 (131.324 sec)
+2019-05-02 15: 22: 09 > global_step/sec: 0.765119
+2019-05-02 15: 22: 09 > loss = 0.00013730522, step = 3501 (130.699 sec)
+2019-05-02 15: 24: 19 > global_step/sec: 0.766678
+2019-05-02 15: 24: 19 > loss = 0.00012807027, step = 3601 (130.433 sec)
+2019-05-02 15: 26: 31 > global_step/sec: 0.761569
+2019-05-02 15: 26: 31 > loss = 0.00010804565, step = 3701 (131.308 sec)
+2019-05-02 15: 28: 41 > global_step/sec: 0.766769
+2019-05-02 15: 28: 41 > loss = 6.77453e-05, step = 3801 (130.417 sec)
+2019-05-02 15: 30: 53 > global_step/sec: 0.760754
+2019-05-02 15: 30: 53 > loss = 9.651556e-05, step = 3901 (131.449 sec)
+2019-05-02 15: 31: 06 > Saving checkpoints for 3911 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 33: 04 > Saving checkpoints for 4000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 33: 07 > Loss for final step: 7.146624e-05.
+2019-05-02 15: 33: 08 > Calling model_fn.
+2019-05-02 15: 33: 09 > Done calling model_fn.
+2019-05-02 15: 33: 09 > Starting evaluation at 2019-05-02T06:33:09Z
+2019-05-02 15: 33: 09 > Graph was finalized.
+2019-05-02 15: 33: 09 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-4000
+2019-05-02 15: 33: 10 > Running local_init_op.
+2019-05-02 15: 33: 10 > Done running local_init_op.
+2019-05-02 15: 33: 31 > Finished evaluation at 2019-05-02-06:33:31
+2019-05-02 15: 33: 31 > Saving dict for global step 4000: accuracy = 0.5200772, global_step = 4000, loss = 9.017171, rmse = 3.0028605
+2019-05-02 15: 33: 31 > Saving 'checkpoint_path' summary for global step 4000: model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-4000
+2019-05-02 15: 34: 29 > Calling model_fn.
+2019-05-02 15: 34: 30 > Done calling model_fn.
+2019-05-02 15: 34: 30 > Graph was finalized.
+2019-05-02 15: 34: 30 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-4000
+2019-05-02 15: 34: 30 > Running local_init_op.
+2019-05-02 15: 34: 30 > Done running local_init_op.
+2019-05-02 15: 34: 55 > Calling model_fn.
+2019-05-02 15: 35: 11 > Done calling model_fn.
+2019-05-02 15: 35: 11 > Create CheckpointSaverHook.
+2019-05-02 15: 35: 11 > Graph was finalized.
+2019-05-02 15: 35: 11 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-4000
+2019-05-02 15: 35: 12 > Running local_init_op.
+2019-05-02 15: 35: 12 > Done running local_init_op.
+2019-05-02 15: 35: 27 > Saving checkpoints for 4000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 35: 35 > loss = 7.330929, step = 4001
+2019-05-02 15: 37: 49 > global_step/sec: 0.745252
+2019-05-02 15: 37: 49 > loss = 0.0052908026, step = 4101 (134.230 sec)
+2019-05-02 15: 39: 59 > global_step/sec: 0.76935
+2019-05-02 15: 39: 59 > loss = 0.0020986754, step = 4201 (129.980 sec)
+2019-05-02 15: 42: 10 > global_step/sec: 0.762113
+2019-05-02 15: 42: 10 > loss = 0.000919037, step = 4301 (131.199 sec)
+2019-05-02 15: 44: 20 > global_step/sec: 0.76898
+2019-05-02 15: 44: 20 > loss = 0.00026850717, step = 4401 (130.042 sec)
+2019-05-02 15: 46: 31 > global_step/sec: 0.76284
+2019-05-02 15: 46: 31 > loss = 0.0014211067, step = 4501 (131.089 sec)
+2019-05-02 15: 48: 41 > global_step/sec: 0.769628
+2019-05-02 15: 48: 41 > loss = 0.00015632197, step = 4601 (129.933 sec)
+2019-05-02 15: 50: 52 > global_step/sec: 0.761932
+2019-05-02 15: 50: 52 > loss = 0.00010367143, step = 4701 (131.245 sec)
+2019-05-02 15: 53: 02 > global_step/sec: 0.768242
+2019-05-02 15: 53: 02 > loss = 8.718863e-05, step = 4801 (130.167 sec)
+2019-05-02 15: 55: 13 > global_step/sec: 0.768888
+2019-05-02 15: 55: 13 > loss = 9.159533e-05, step = 4901 (130.058 sec)
+2019-05-02 15: 55: 29 > Saving checkpoints for 4914 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 57: 25 > Saving checkpoints for 5000 into model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt.
+2019-05-02 15: 57: 27 > Loss for final step: 9.0588466e-05.
+2019-05-02 15: 57: 29 > Calling model_fn.
+2019-05-02 15: 57: 30 > Done calling model_fn.
+2019-05-02 15: 57: 30 > Starting evaluation at 2019-05-02T06:57:30Z
+2019-05-02 15: 57: 30 > Graph was finalized.
+2019-05-02 15: 57: 30 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-5000
+2019-05-02 15: 57: 30 > Running local_init_op.
+2019-05-02 15: 57: 30 > Done running local_init_op.
+2019-05-02 15: 57: 55 > Finished evaluation at 2019-05-02-06:57:55
+2019-05-02 15: 57: 55 > Saving dict for global step 5000: accuracy = 0.5021782, global_step = 5000, loss = 15.273038, rmse = 3.9080741
+2019-05-02 15: 57: 55 > Saving 'checkpoint_path' summary for global step 5000: model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-5000
+2019-05-02 15: 59: 01 > Calling model_fn.
+2019-05-02 15: 59: 02 > Done calling model_fn.
+2019-05-02 15: 59: 02 > Graph was finalized.
+2019-05-02 15: 59: 02 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_1_50_basic_500_20_2layers940\model.ckpt-5000
+2019-05-02 15: 59: 02 > Running local_init_op.
+2019-05-02 15: 59: 02 > Done running local_init_op.
+2019-05-02 15: 59: 27 > 2019 05 02 15 59 27
+2019-05-02 15: 59: 27 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-05-02 18: 01: 25 > train term 1:2000-01-03~2015-12-31
+2019-05-02 18: 01: 25 > train term 2:2000-01-03~2017-12-31
+2019-05-02 18: 01: 25 > 2019 05 02 18 01 25
+2019-05-02 18: 01: 25 > ======================no-ensemble train-predict start ===========================
+2019-05-02 18: 01: 25 > Using config: {'_model_dir': 'model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000021BEB365940>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-05-02 18: 01: 38 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-02 18: 01: 38 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 18: 01: 38 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 18: 01: 38 > Calling model_fn.
+2019-05-02 18: 02: 04 > From C:/Users/Admin/Desktop/DeepMoney_v2.1.1\model.py:143: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-05-02 18: 02: 06 > From C:/Users/Admin/Desktop/DeepMoney_v2.1.1\model.py:209: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-05-02 18: 02: 06 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\ops\losses\losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-02 18: 02: 16 > Done calling model_fn.
+2019-05-02 18: 02: 16 > Create CheckpointSaverHook.
+2019-05-02 18: 02: 18 > Graph was finalized.
+2019-05-02 18: 02: 22 > Running local_init_op.
+2019-05-02 18: 02: 22 > Done running local_init_op.
+2019-05-02 18: 02: 22 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 18: 02: 31 > Saving checkpoints for 0 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 18: 02: 40 > loss = 6.652997, step = 1
+2019-05-02 18: 04: 05 > global_step/sec: 1.175
+2019-05-02 18: 04: 05 > loss = 7.279413, step = 101 (85.153 sec)
+2019-05-02 18: 05: 31 > global_step/sec: 1.16325
+2019-05-02 18: 05: 31 > loss = 0.1080859, step = 201 (85.950 sec)
+2019-05-02 18: 06: 56 > global_step/sec: 1.17543
+2019-05-02 18: 06: 56 > loss = 0.23485303, step = 301 (85.044 sec)
+2019-05-02 18: 08: 21 > global_step/sec: 1.17285
+2019-05-02 18: 08: 21 > loss = 0.060621846, step = 401 (85.325 sec)
+2019-05-02 18: 09: 46 > global_step/sec: 1.18085
+2019-05-02 18: 09: 46 > loss = 0.17067447, step = 501 (84.622 sec)
+2019-05-02 18: 11: 10 > global_step/sec: 1.18129
+2019-05-02 18: 11: 11 > loss = 0.054521516, step = 601 (84.700 sec)
+2019-05-02 18: 12: 29 > global_step/sec: 1.26938
+2019-05-02 18: 12: 29 > loss = 0.028342342, step = 701 (78.732 sec)
+2019-05-02 18: 13: 47 > global_step/sec: 1.28907
+2019-05-02 18: 13: 47 > loss = 0.027040487, step = 801 (77.607 sec)
+2019-05-02 18: 15: 04 > global_step/sec: 1.28751
+2019-05-02 18: 15: 04 > loss = 0.042525023, step = 901 (77.638 sec)
+2019-05-02 18: 16: 22 > Saving checkpoints for 1000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 18: 16: 23 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2019-05-02 18: 16: 25 > Loss for final step: 0.099670954.
+2019-05-02 18: 16: 26 > Calling model_fn.
+2019-05-02 18: 16: 27 > Done calling model_fn.
+2019-05-02 18: 16: 27 > Starting evaluation at 2019-05-02T09:16:27Z
+2019-05-02 18: 16: 27 > Graph was finalized.
+2019-05-02 18: 16: 27 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-02 18: 16: 27 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-1000
+2019-05-02 18: 16: 28 > Running local_init_op.
+2019-05-02 18: 16: 28 > Done running local_init_op.
+2019-05-02 18: 16: 40 > Finished evaluation at 2019-05-02-09:16:41
+2019-05-02 18: 16: 40 > Saving dict for global step 1000: accuracy = 0.5667959, global_step = 1000, loss = 7.2471304, rmse = 2.6920497
+2019-05-02 18: 16: 41 > Saving 'checkpoint_path' summary for global step 1000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-1000
+2019-05-02 18: 17: 38 > Calling model_fn.
+2019-05-02 18: 17: 38 > Done calling model_fn.
+2019-05-02 18: 17: 39 > Graph was finalized.
+2019-05-02 18: 17: 39 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-1000
+2019-05-02 18: 17: 39 > Running local_init_op.
+2019-05-02 18: 17: 39 > Done running local_init_op.
+2019-05-02 18: 17: 56 > Calling model_fn.
+2019-05-02 18: 18: 05 > Done calling model_fn.
+2019-05-02 18: 18: 05 > Create CheckpointSaverHook.
+2019-05-02 18: 18: 06 > Graph was finalized.
+2019-05-02 18: 18: 06 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-1000
+2019-05-02 18: 18: 06 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-05-02 18: 18: 06 > Running local_init_op.
+2019-05-02 18: 18: 06 > Done running local_init_op.
+2019-05-02 18: 18: 15 > Saving checkpoints for 1000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 18: 18: 20 > loss = 7.4540577, step = 1001
+2019-05-02 18: 19: 39 > global_step/sec: 1.25964
+2019-05-02 18: 19: 40 > loss = 0.006028457, step = 1101 (79.403 sec)
+2019-05-02 18: 20: 58 > global_step/sec: 1.26687
+2019-05-02 18: 20: 58 > loss = 0.004178734, step = 1201 (78.903 sec)
+2019-05-02 18: 22: 16 > global_step/sec: 1.2857
+2019-05-02 18: 22: 16 > loss = 0.003281667, step = 1301 (77.825 sec)
+2019-05-02 18: 23: 34 > global_step/sec: 1.29011
+2019-05-02 18: 23: 34 > loss = 0.0005686562, step = 1401 (77.466 sec)
+2019-05-02 18: 24: 51 > global_step/sec: 1.29167
+2019-05-02 18: 24: 51 > loss = 0.0039180233, step = 1501 (77.466 sec)
+2019-05-02 18: 26: 10 > global_step/sec: 1.27469
+2019-05-02 18: 26: 10 > loss = 0.0007418103, step = 1601 (78.404 sec)
+2019-05-02 18: 27: 27 > global_step/sec: 1.29011
+2019-05-02 18: 27: 27 > loss = 0.00045099968, step = 1701 (77.544 sec)
+2019-05-02 18: 28: 44 > global_step/sec: 1.29245
+2019-05-02 18: 28: 44 > loss = 0.00017294247, step = 1801 (77.341 sec)
+2019-05-02 18: 30: 02 > global_step/sec: 1.29089
+2019-05-02 18: 30: 02 > loss = 0.00021069482, step = 1901 (77.513 sec)
+2019-05-02 18: 31: 20 > Saving checkpoints for 2000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 18: 31: 22 > Loss for final step: 0.0014353759.
+2019-05-02 18: 31: 23 > Calling model_fn.
+2019-05-02 18: 31: 24 > Done calling model_fn.
+2019-05-02 18: 31: 24 > Starting evaluation at 2019-05-02T09:31:24Z
+2019-05-02 18: 31: 24 > Graph was finalized.
+2019-05-02 18: 31: 24 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-2000
+2019-05-02 18: 31: 24 > Running local_init_op.
+2019-05-02 18: 31: 24 > Done running local_init_op.
+2019-05-02 18: 31: 37 > Finished evaluation at 2019-05-02-09:31:37
+2019-05-02 18: 31: 37 > Saving dict for global step 2000: accuracy = 0.5692407, global_step = 2000, loss = 7.3482265, rmse = 2.7107613
+2019-05-02 18: 31: 37 > Saving 'checkpoint_path' summary for global step 2000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-2000
+2019-05-02 18: 32: 31 > Calling model_fn.
+2019-05-02 18: 32: 32 > Done calling model_fn.
+2019-05-02 18: 32: 32 > Graph was finalized.
+2019-05-02 18: 32: 32 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-2000
+2019-05-02 18: 32: 32 > Running local_init_op.
+2019-05-02 18: 32: 32 > Done running local_init_op.
+2019-05-02 18: 32: 48 > Calling model_fn.
+2019-05-02 18: 32: 58 > Done calling model_fn.
+2019-05-02 18: 32: 58 > Create CheckpointSaverHook.
+2019-05-02 18: 32: 58 > Graph was finalized.
+2019-05-02 18: 32: 58 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-2000
+2019-05-02 18: 32: 59 > Running local_init_op.
+2019-05-02 18: 32: 59 > Done running local_init_op.
+2019-05-02 18: 33: 08 > Saving checkpoints for 2000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 18: 33: 13 > loss = 7.294191, step = 2001
+2019-05-02 18: 34: 33 > global_step/sec: 1.25029
+2019-05-02 18: 34: 33 > loss = 0.0028807286, step = 2101 (79.966 sec)
+2019-05-02 18: 35: 51 > global_step/sec: 1.28777
+2019-05-02 18: 35: 51 > loss = 0.000828003, step = 2201 (77.685 sec)
+2019-05-02 18: 37: 09 > global_step/sec: 1.26913
+2019-05-02 18: 37: 09 > loss = 0.00054317137, step = 2301 (78.763 sec)
+2019-05-02 18: 38: 27 > global_step/sec: 1.29193
+2019-05-02 18: 38: 27 > loss = 0.00055316766, step = 2401 (77.435 sec)
+2019-05-02 18: 39: 44 > global_step/sec: 1.28959
+2019-05-02 18: 39: 44 > loss = 0.0003098193, step = 2501 (77.513 sec)
+2019-05-02 18: 41: 02 > global_step/sec: 1.28959
+2019-05-02 18: 41: 02 > loss = 0.00066156447, step = 2601 (77.575 sec)
+2019-05-02 18: 42: 21 > global_step/sec: 1.27165
+2019-05-02 18: 42: 21 > loss = 0.00030095765, step = 2701 (78.607 sec)
+2019-05-02 18: 43: 38 > global_step/sec: 1.28829
+2019-05-02 18: 43: 38 > loss = 0.00029234146, step = 2801 (77.654 sec)
+2019-05-02 18: 44: 56 > global_step/sec: 1.28855
+2019-05-02 18: 44: 56 > loss = 0.000358347, step = 2901 (77.575 sec)
+2019-05-02 18: 46: 12 > Saving checkpoints for 3000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 18: 46: 15 > Loss for final step: 0.00015459338.
+2019-05-02 18: 46: 15 > Calling model_fn.
+2019-05-02 18: 46: 16 > Done calling model_fn.
+2019-05-02 18: 46: 16 > Starting evaluation at 2019-05-02T09:46:16Z
+2019-05-02 18: 46: 16 > Graph was finalized.
+2019-05-02 18: 46: 16 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-3000
+2019-05-02 18: 46: 16 > Running local_init_op.
+2019-05-02 18: 46: 16 > Done running local_init_op.
+2019-05-02 18: 46: 29 > Finished evaluation at 2019-05-02-09:46:29
+2019-05-02 18: 46: 29 > Saving dict for global step 3000: accuracy = 0.5810983, global_step = 3000, loss = 6.946322, rmse = 2.6355872
+2019-05-02 18: 46: 29 > Saving 'checkpoint_path' summary for global step 3000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-3000
+2019-05-02 18: 47: 25 > Calling model_fn.
+2019-05-02 18: 47: 25 > Done calling model_fn.
+2019-05-02 18: 47: 25 > Graph was finalized.
+2019-05-02 18: 47: 25 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-3000
+2019-05-02 18: 47: 25 > Running local_init_op.
+2019-05-02 18: 47: 25 > Done running local_init_op.
+2019-05-02 18: 47: 42 > Calling model_fn.
+2019-05-02 18: 47: 52 > Done calling model_fn.
+2019-05-02 18: 47: 52 > Create CheckpointSaverHook.
+2019-05-02 18: 47: 52 > Graph was finalized.
+2019-05-02 18: 47: 52 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-3000
+2019-05-02 18: 47: 53 > Running local_init_op.
+2019-05-02 18: 47: 53 > Done running local_init_op.
+2019-05-02 18: 48: 01 > Saving checkpoints for 3000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 18: 48: 06 > loss = 6.0918784, step = 3001
+2019-05-02 18: 49: 26 > global_step/sec: 1.25421
+2019-05-02 18: 49: 26 > loss = 0.0017059422, step = 3101 (79.763 sec)
+2019-05-02 18: 50: 44 > global_step/sec: 1.28881
+2019-05-02 18: 50: 44 > loss = 0.00052649505, step = 3201 (77.560 sec)
+2019-05-02 18: 52: 02 > global_step/sec: 1.26888
+2019-05-02 18: 52: 03 > loss = 0.00031267805, step = 3301 (78.857 sec)
+2019-05-02 18: 53: 20 > global_step/sec: 1.2857
+2019-05-02 18: 53: 20 > loss = 0.00017512465, step = 3401 (77.732 sec)
+2019-05-02 18: 54: 38 > global_step/sec: 1.28622
+2019-05-02 18: 54: 38 > loss = 0.00010094668, step = 3501 (77.794 sec)
+2019-05-02 18: 55: 56 > global_step/sec: 1.28441
+2019-05-02 18: 55: 56 > loss = 0.00011514341, step = 3601 (77.810 sec)
+2019-05-02 18: 57: 14 > global_step/sec: 1.2719
+2019-05-02 18: 57: 14 > loss = 8.397497e-05, step = 3701 (78.653 sec)
+2019-05-02 18: 58: 32 > global_step/sec: 1.28803
+2019-05-02 18: 58: 32 > loss = 5.597493e-05, step = 3801 (77.607 sec)
+2019-05-02 18: 59: 50 > global_step/sec: 1.28648
+2019-05-02 18: 59: 50 > loss = 8.345975e-05, step = 3901 (77.779 sec)
+2019-05-02 19: 01: 07 > Saving checkpoints for 4000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 19: 01: 09 > Loss for final step: 4.6009085e-05.
+2019-05-02 19: 01: 10 > Calling model_fn.
+2019-05-02 19: 01: 11 > Done calling model_fn.
+2019-05-02 19: 01: 11 > Starting evaluation at 2019-05-02T10:01:11Z
+2019-05-02 19: 01: 11 > Graph was finalized.
+2019-05-02 19: 01: 11 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-4000
+2019-05-02 19: 01: 11 > Running local_init_op.
+2019-05-02 19: 01: 11 > Done running local_init_op.
+2019-05-02 19: 01: 24 > Finished evaluation at 2019-05-02-10:01:24
+2019-05-02 19: 01: 24 > Saving dict for global step 4000: accuracy = 0.55830115, global_step = 4000, loss = 8.511002, rmse = 2.917362
+2019-05-02 19: 01: 24 > Saving 'checkpoint_path' summary for global step 4000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-4000
+2019-05-02 19: 02: 21 > Calling model_fn.
+2019-05-02 19: 02: 22 > Done calling model_fn.
+2019-05-02 19: 02: 22 > Graph was finalized.
+2019-05-02 19: 02: 22 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-4000
+2019-05-02 19: 02: 22 > Running local_init_op.
+2019-05-02 19: 02: 22 > Done running local_init_op.
+2019-05-02 19: 02: 38 > Calling model_fn.
+2019-05-02 19: 02: 48 > Done calling model_fn.
+2019-05-02 19: 02: 48 > Create CheckpointSaverHook.
+2019-05-02 19: 02: 48 > Graph was finalized.
+2019-05-02 19: 02: 48 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-4000
+2019-05-02 19: 02: 49 > Running local_init_op.
+2019-05-02 19: 02: 49 > Done running local_init_op.
+2019-05-02 19: 02: 58 > Saving checkpoints for 4000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 19: 03: 03 > loss = 8.771706, step = 4001
+2019-05-02 19: 04: 23 > global_step/sec: 1.25323
+2019-05-02 19: 04: 23 > loss = 0.004692991, step = 4101 (79.794 sec)
+2019-05-02 19: 05: 40 > global_step/sec: 1.28803
+2019-05-02 19: 05: 40 > loss = 0.0010212904, step = 4201 (77.669 sec)
+2019-05-02 19: 06: 58 > global_step/sec: 1.2857
+2019-05-02 19: 06: 58 > loss = 0.0003205314, step = 4301 (77.747 sec)
+2019-05-02 19: 08: 17 > global_step/sec: 1.2714
+2019-05-02 19: 08: 17 > loss = 0.00014688214, step = 4401 (78.685 sec)
+2019-05-02 19: 09: 34 > global_step/sec: 1.28803
+2019-05-02 19: 09: 34 > loss = 0.00014199236, step = 4501 (77.607 sec)
+2019-05-02 19: 10: 52 > global_step/sec: 1.28881
+2019-05-02 19: 10: 52 > loss = 9.0831876e-05, step = 4601 (77.638 sec)
+2019-05-02 19: 12: 10 > global_step/sec: 1.28751
+2019-05-02 19: 12: 10 > loss = 6.5294975e-05, step = 4701 (77.622 sec)
+2019-05-02 19: 13: 28 > global_step/sec: 1.27266
+2019-05-02 19: 13: 28 > loss = 5.7731097e-05, step = 4801 (78.607 sec)
+2019-05-02 19: 14: 46 > global_step/sec: 1.28674
+2019-05-02 19: 14: 46 > loss = 6.186892e-05, step = 4901 (77.685 sec)
+2019-05-02 19: 16: 03 > Saving checkpoints for 5000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt.
+2019-05-02 19: 16: 05 > Loss for final step: 5.4025408e-05.
+2019-05-02 19: 16: 06 > Calling model_fn.
+2019-05-02 19: 16: 06 > Done calling model_fn.
+2019-05-02 19: 16: 07 > Starting evaluation at 2019-05-02T10:16:07Z
+2019-05-02 19: 16: 07 > Graph was finalized.
+2019-05-02 19: 16: 07 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-5000
+2019-05-02 19: 16: 07 > Running local_init_op.
+2019-05-02 19: 16: 07 > Done running local_init_op.
+2019-05-02 19: 16: 22 > Finished evaluation at 2019-05-02-10:16:22
+2019-05-02 19: 16: 22 > Saving dict for global step 5000: accuracy = 0.5015401, global_step = 5000, loss = 14.4479475, rmse = 3.8010454
+2019-05-02 19: 16: 22 > Saving 'checkpoint_path' summary for global step 5000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-5000
+2019-05-02 19: 17: 28 > Calling model_fn.
+2019-05-02 19: 17: 28 > Done calling model_fn.
+2019-05-02 19: 17: 28 > Graph was finalized.
+2019-05-02 19: 17: 28 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers87\model.ckpt-5000
+2019-05-02 19: 17: 28 > Running local_init_op.
+2019-05-02 19: 17: 28 > Done running local_init_op.
+2019-05-02 19: 17: 44 > 2019 05 02 19 17 44
+2019-05-02 19: 17: 44 > ======================no-ensemble train-predict end, saving the results ===========================
+2019-05-02 23: 23: 55 > train term 1:2000-01-03~2015-12-31
+2019-05-02 23: 23: 55 > train term 2:2000-01-03~2017-12-31
+2019-05-02 23: 23: 55 > 2019 05 02 23 23 55
+2019-05-02 23: 23: 55 > ======================no-ensemble train-predict start ===========================
+2019-05-02 23: 23: 55 > Using config: {'_model_dir': 'model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 1200, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001DAEA9148D0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+2019-05-02 23: 24: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-02 23: 24: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_queue_runner.py:62: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 23: 24: 07 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow_estimator\python\estimator\inputs\queues\feeding_functions.py:500: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 23: 24: 07 > Calling model_fn.
+2019-05-02 23: 24: 08 > From C:/Users/Admin/Desktop/DeepMoney_v2.1.1\model.py:143: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+2019-05-02 23: 24: 09 > From C:/Users/Admin/Desktop/DeepMoney_v2.1.1\model.py:209: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2019-05-02 23: 24: 09 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\ops\losses\losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-02 23: 24: 18 > Done calling model_fn.
+2019-05-02 23: 24: 18 > Create CheckpointSaverHook.
+2019-05-02 23: 24: 20 > Graph was finalized.
+2019-05-02 23: 24: 20 > Running local_init_op.
+2019-05-02 23: 24: 20 > Done running local_init_op.
+2019-05-02 23: 24: 21 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\monitored_session.py:809: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2019-05-02 23: 24: 29 > Saving checkpoints for 0 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-02 23: 24: 35 > loss = 5.679071, step = 1
+2019-05-02 23: 25: 56 > global_step/sec: 1.22375
+2019-05-02 23: 25: 56 > loss = 1.252177, step = 101 (81.716 sec)
+2019-05-02 23: 27: 15 > global_step/sec: 1.27774
+2019-05-02 23: 27: 15 > loss = 0.24958827, step = 201 (78.310 sec)
+2019-05-02 23: 28: 33 > global_step/sec: 1.26963
+2019-05-02 23: 28: 33 > loss = 0.21383213, step = 301 (78.716 sec)
+2019-05-02 23: 29: 51 > global_step/sec: 1.27953
+2019-05-02 23: 29: 51 > loss = 0.06133798, step = 401 (78.200 sec)
+2019-05-02 23: 31: 11 > global_step/sec: 1.24931
+2019-05-02 23: 31: 11 > loss = 0.037552495, step = 501 (80.013 sec)
+2019-05-02 23: 32: 30 > global_step/sec: 1.27089
+2019-05-02 23: 32: 30 > loss = 0.39293253, step = 601 (78.700 sec)
+2019-05-02 23: 33: 49 > global_step/sec: 1.27014
+2019-05-02 23: 33: 49 > loss = 0.024609486, step = 701 (78.700 sec)
+2019-05-02 23: 35: 08 > global_step/sec: 1.2714
+2019-05-02 23: 35: 08 > loss = 0.1121153, step = 801 (78.685 sec)
+2019-05-02 23: 36: 27 > global_step/sec: 1.25939
+2019-05-02 23: 36: 27 > loss = 0.015767757, step = 901 (79.372 sec)
+2019-05-02 23: 37: 45 > Saving checkpoints for 1000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-02 23: 37: 46 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2019-05-02 23: 37: 47 > Loss for final step: 0.042771142.
+2019-05-02 23: 37: 48 > Calling model_fn.
+2019-05-02 23: 37: 49 > Done calling model_fn.
+2019-05-02 23: 37: 49 > Starting evaluation at 2019-05-02T14:37:49Z
+2019-05-02 23: 37: 49 > Graph was finalized.
+2019-05-02 23: 37: 49 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-02 23: 37: 49 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-1000
+2019-05-02 23: 37: 49 > Running local_init_op.
+2019-05-02 23: 37: 49 > Done running local_init_op.
+2019-05-02 23: 37: 53 > Finished evaluation at 2019-05-02-14:37:53
+2019-05-02 23: 37: 53 > Saving dict for global step 1000: accuracy = 0.6928962, global_step = 1000, loss = 7.633145, rmse = 2.7628145
+2019-05-02 23: 37: 53 > Saving 'checkpoint_path' summary for global step 1000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-1000
+2019-05-02 23: 38: 09 > Calling model_fn.
+2019-05-02 23: 38: 09 > Done calling model_fn.
+2019-05-02 23: 38: 10 > Graph was finalized.
+2019-05-02 23: 38: 10 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-1000
+2019-05-02 23: 38: 10 > Running local_init_op.
+2019-05-02 23: 38: 10 > Done running local_init_op.
+2019-05-02 23: 38: 17 > Calling model_fn.
+2019-05-02 23: 38: 27 > Done calling model_fn.
+2019-05-02 23: 38: 27 > Create CheckpointSaverHook.
+2019-05-02 23: 38: 27 > Graph was finalized.
+2019-05-02 23: 38: 27 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-1000
+2019-05-02 23: 38: 28 > From C:\Anaconda3\envs\tensorflow1.13\lib\site-packages\tensorflow\python\training\saver.py:1070: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2019-05-02 23: 38: 28 > Running local_init_op.
+2019-05-02 23: 38: 28 > Done running local_init_op.
+2019-05-02 23: 38: 37 > Saving checkpoints for 1000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-02 23: 38: 42 > loss = 8.2863035, step = 1001
+2019-05-02 23: 40: 03 > global_step/sec: 1.24204
+2019-05-02 23: 40: 03 > loss = 0.007867215, step = 1101 (80.560 sec)
+2019-05-02 23: 41: 22 > global_step/sec: 1.2584
+2019-05-02 23: 41: 22 > loss = 0.004988071, step = 1201 (79.419 sec)
+2019-05-02 23: 42: 39 > global_step/sec: 1.29115
+2019-05-02 23: 42: 39 > loss = 0.004881771, step = 1301 (77.482 sec)
+2019-05-02 23: 43: 57 > global_step/sec: 1.2935
+2019-05-02 23: 43: 57 > loss = 0.0009819041, step = 1401 (77.279 sec)
+2019-05-02 23: 45: 14 > global_step/sec: 1.29167
+2019-05-02 23: 45: 14 > loss = 0.0022942803, step = 1501 (77.450 sec)
+2019-05-02 23: 46: 36 > global_step/sec: 1.22282
+2019-05-02 23: 46: 36 > loss = 0.0008214407, step = 1601 (81.747 sec)
+2019-05-02 23: 47: 54 > global_step/sec: 1.27749
+2019-05-02 23: 47: 54 > loss = 0.0009102874, step = 1701 (78.325 sec)
+2019-05-02 23: 49: 12 > global_step/sec: 1.278
+2019-05-02 23: 49: 12 > loss = 0.00094822695, step = 1801 (78.200 sec)
+2019-05-02 23: 50: 31 > global_step/sec: 1.27877
+2019-05-02 23: 50: 31 > loss = 0.0005673909, step = 1901 (78.247 sec)
+2019-05-02 23: 51: 50 > Saving checkpoints for 2000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-02 23: 51: 53 > Loss for final step: 0.00038451547.
+2019-05-02 23: 51: 53 > Calling model_fn.
+2019-05-02 23: 51: 54 > Done calling model_fn.
+2019-05-02 23: 51: 54 > Starting evaluation at 2019-05-02T14:51:54Z
+2019-05-02 23: 51: 54 > Graph was finalized.
+2019-05-02 23: 51: 54 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-2000
+2019-05-02 23: 51: 54 > Running local_init_op.
+2019-05-02 23: 51: 54 > Done running local_init_op.
+2019-05-02 23: 51: 58 > Finished evaluation at 2019-05-02-14:51:58
+2019-05-02 23: 51: 58 > Saving dict for global step 2000: accuracy = 0.7114583, global_step = 2000, loss = 5.45934, rmse = 2.3365233
+2019-05-02 23: 51: 58 > Saving 'checkpoint_path' summary for global step 2000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-2000
+2019-05-02 23: 52: 13 > Calling model_fn.
+2019-05-02 23: 52: 13 > Done calling model_fn.
+2019-05-02 23: 52: 13 > Graph was finalized.
+2019-05-02 23: 52: 13 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-2000
+2019-05-02 23: 52: 13 > Running local_init_op.
+2019-05-02 23: 52: 13 > Done running local_init_op.
+2019-05-02 23: 52: 21 > Calling model_fn.
+2019-05-02 23: 52: 31 > Done calling model_fn.
+2019-05-02 23: 52: 31 > Create CheckpointSaverHook.
+2019-05-02 23: 52: 31 > Graph was finalized.
+2019-05-02 23: 52: 31 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-2000
+2019-05-02 23: 52: 32 > Running local_init_op.
+2019-05-02 23: 52: 32 > Done running local_init_op.
+2019-05-02 23: 52: 41 > Saving checkpoints for 2000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-02 23: 52: 46 > loss = 8.218165, step = 2001
+2019-05-02 23: 54: 07 > global_step/sec: 1.23604
+2019-05-02 23: 54: 07 > loss = 0.009161332, step = 2101 (80.888 sec)
+2019-05-02 23: 55: 25 > global_step/sec: 1.27571
+2019-05-02 23: 55: 25 > loss = 0.0015063038, step = 2201 (78.435 sec)
+2019-05-02 23: 56: 45 > global_step/sec: 1.2584
+2019-05-02 23: 56: 45 > loss = 0.0011758368, step = 2301 (79.419 sec)
+2019-05-02 23: 58: 03 > global_step/sec: 1.27089
+2019-05-02 23: 58: 03 > loss = 0.00081872963, step = 2401 (78.732 sec)
+2019-05-02 23: 59: 21 > global_step/sec: 1.28674
+2019-05-02 23: 59: 21 > loss = 0.0007598082, step = 2501 (77.669 sec)
+2019-05-03 00: 00: 39 > global_step/sec: 1.28261
+2019-05-03 00: 00: 39 > loss = 0.0002907726, step = 2601 (78.029 sec)
+2019-05-03 00: 01: 58 > global_step/sec: 1.26512
+2019-05-03 00: 01: 58 > loss = 0.00024611782, step = 2701 (78.982 sec)
+2019-05-03 00: 03: 16 > global_step/sec: 1.28622
+2019-05-03 00: 03: 16 > loss = 0.00021415927, step = 2801 (77.779 sec)
+2019-05-03 00: 04: 33 > global_step/sec: 1.28596
+2019-05-03 00: 04: 33 > loss = 0.00019571578, step = 2901 (77.732 sec)
+2019-05-03 00: 05: 51 > Saving checkpoints for 3000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-03 00: 05: 54 > Loss for final step: 0.00015736553.
+2019-05-03 00: 05: 54 > Calling model_fn.
+2019-05-03 00: 05: 55 > Done calling model_fn.
+2019-05-03 00: 05: 55 > Starting evaluation at 2019-05-02T15:05:55Z
+2019-05-03 00: 05: 55 > Graph was finalized.
+2019-05-03 00: 05: 55 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-3000
+2019-05-03 00: 05: 55 > Running local_init_op.
+2019-05-03 00: 05: 55 > Done running local_init_op.
+2019-05-03 00: 05: 58 > Finished evaluation at 2019-05-02-15:05:58
+2019-05-03 00: 05: 58 > Saving dict for global step 3000: accuracy = 0.63968253, global_step = 3000, loss = 13.858942, rmse = 3.72276
+2019-05-03 00: 05: 58 > Saving 'checkpoint_path' summary for global step 3000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-3000
+2019-05-03 00: 06: 13 > Calling model_fn.
+2019-05-03 00: 06: 14 > Done calling model_fn.
+2019-05-03 00: 06: 14 > Graph was finalized.
+2019-05-03 00: 06: 14 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-3000
+2019-05-03 00: 06: 14 > Running local_init_op.
+2019-05-03 00: 06: 14 > Done running local_init_op.
+2019-05-03 00: 06: 21 > Calling model_fn.
+2019-05-03 00: 06: 31 > Done calling model_fn.
+2019-05-03 00: 06: 31 > Create CheckpointSaverHook.
+2019-05-03 00: 06: 31 > Graph was finalized.
+2019-05-03 00: 06: 31 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-3000
+2019-05-03 00: 06: 32 > Running local_init_op.
+2019-05-03 00: 06: 32 > Done running local_init_op.
+2019-05-03 00: 06: 41 > Saving checkpoints for 3000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-03 00: 06: 47 > loss = 16.725195, step = 3001
+2019-05-03 00: 08: 09 > global_step/sec: 1.20713
+2019-05-03 00: 08: 10 > loss = 0.005907304, step = 3101 (82.888 sec)
+2019-05-03 00: 09: 28 > global_step/sec: 1.27393
+2019-05-03 00: 09: 28 > loss = 0.008319934, step = 3201 (78.450 sec)
+2019-05-03 00: 10: 47 > global_step/sec: 1.27241
+2019-05-03 00: 10: 47 > loss = 0.002745894, step = 3301 (78.622 sec)
+2019-05-03 00: 12: 06 > global_step/sec: 1.25766
+2019-05-03 00: 12: 06 > loss = 0.00055796216, step = 3401 (79.482 sec)
+2019-05-03 00: 13: 25 > global_step/sec: 1.26587
+2019-05-03 00: 13: 25 > loss = 0.00026331953, step = 3501 (79.044 sec)
+2019-05-03 00: 14: 44 > global_step/sec: 1.26787
+2019-05-03 00: 14: 44 > loss = 0.00052070897, step = 3601 (78.825 sec)
+2019-05-03 00: 16: 03 > global_step/sec: 1.27089
+2019-05-03 00: 16: 03 > loss = 0.00018657238, step = 3701 (78.716 sec)
+2019-05-03 00: 17: 22 > global_step/sec: 1.25766
+2019-05-03 00: 17: 22 > loss = 0.00042645304, step = 3801 (79.482 sec)
+2019-05-03 00: 18: 41 > global_step/sec: 1.27317
+2019-05-03 00: 18: 41 > loss = 0.0005042536, step = 3901 (78.575 sec)
+2019-05-03 00: 19: 58 > Saving checkpoints for 4000 into model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt.
+2019-05-03 00: 20: 01 > Loss for final step: 0.00015120812.
+2019-05-03 00: 20: 01 > Calling model_fn.
+2019-05-03 00: 20: 02 > Done calling model_fn.
+2019-05-03 00: 20: 02 > Starting evaluation at 2019-05-02T15:20:02Z
+2019-05-03 00: 20: 02 > Graph was finalized.
+2019-05-03 00: 20: 02 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-4000
+2019-05-03 00: 20: 02 > Running local_init_op.
+2019-05-03 00: 20: 02 > Done running local_init_op.
+2019-05-03 00: 20: 06 > Finished evaluation at 2019-05-02-15:20:06
+2019-05-03 00: 20: 06 > Saving dict for global step 4000: accuracy = 0.70102566, global_step = 4000, loss = 8.571578, rmse = 2.9277256
+2019-05-03 00: 20: 06 > Saving 'checkpoint_path' summary for global step 4000: model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-4000
+2019-05-03 00: 20: 22 > Calling model_fn.
+2019-05-03 00: 20: 22 > Done calling model_fn.
+2019-05-03 00: 20: 23 > Graph was finalized.
+2019-05-03 00: 20: 23 > Restoring parameters from model_dir/20norm_2days/kospi200f_2_2_30_basic_500_20_2layers777\model.ckpt-4000
+2019-05-03 00: 20: 23 > Running local_init_op.
+2019-05-03 00: 20: 23 > Done running local_init_op.
+2019-05-03 00: 20: 26 > 2019 05 03 00 20 26
+2019-05-03 00: 20: 26 > ======================no-ensemble train-predict end, saving the results ===========================
